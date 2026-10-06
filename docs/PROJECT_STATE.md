@@ -486,6 +486,26 @@ them byte for byte only where the computation is deterministic, which the guards
 
 ---
 
+## k. Public code release (GitHub, 2026-10-06)
+
+- **Repository:** https://github.com/sulaymonovyusufbek/keystroke_liveness_detection (public, branch `main`).
+  - `README.md` was rewritten as the replication guide for all phases.
+  - The original Phase 1 guide is kept as `docs/README_PHASE1.md`.
+- **Published:** all source code, scripts, tests, configs, `docs/`, and the result reports, tables and figures under
+  `outputs/` (`.md` / `.csv` / `.json` / `.png`).
+- **Not published** (`.gitignore`): `data/` (the Aalto corpus; non-commercial licence), `backups/`, all parquet /
+  joblib / `.pt` / `.npz` files (corpus-derived keystroke sequences, model weights, per-session scores) and logs.
+- **Fresh clone:** `pytest` gives 135 passed, 6 skipped. The skipped tests need the unpublished score files. The
+  freeze guards fail until the pipeline has been rerun, because they hash the unpublished outputs.
+- `tests/test_phase4.py` skip conditions were changed for this: they now check for the binary files the tests read.
+  The test logic is unchanged.
+- **Expected manifest mismatches:** `README.md`, `.gitignore`, `CLAUDE.md` and `tests/test_phase4.py` now differ
+  from `docs/MANIFEST_SHA256.txt`. These are not frozen protocol files.
+- **Pushing:** a GitHub personal access token with "Contents: read and write" on this repository is needed. It is
+  used only per push and never stored.
+
+---
+
 ## j. Backup
 
 _Filled in after the archive was built (this section is the only part of the file written after

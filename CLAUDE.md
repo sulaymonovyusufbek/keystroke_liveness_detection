@@ -8,13 +8,16 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **Phases 1, 2, 3a, 3b and 3c are COMPLETE and FROZEN.** Never modify a frozen file: sources, configs, specs/pre-registration, freeze records or anything under `outputs/*/`. The frozen source/config files are read-only (`docs/environment/readonly_files.txt`); never `chmod` them back to writable to edit them.
 - **Run the guards and `pytest` before any work.** Commands are in `docs/PROJECT_STATE.md` §h. If a guard fails, stop and tell the user.
 - **Ask before any protocol change.** New work = a new phase with its own spec (and pre-registration by hash for anything that touches the test split).
-- **No git.** Pre-registration and freezes are SHA-256 records in `docs/`.
+- **Pre-registration and freezes are SHA-256 records in `docs/`, not git.** Since 2026-10-06 the project is also a git
+  repository published at https://github.com/sulaymonovyusufbek/keystroke_liveness_detection (branch `main`). It contains
+  code, docs and small reports only (see `.gitignore`). Commit or push only when the user asks. Pushing needs a token
+  from the user; never store it in the git config or the remote URL.
 - **The user prefers plain-language explanations and complete files** (whole files, not fragments to paste).
 
 ## Project state
 
 Phases 1, 2, 3a, 3b and 3c are implemented, run (quick + full) and frozen; see `docs/PROJECT_STATE.md`. The paragraph below is the original Phase 1–3a description.
-Phases 1, 2 and 3a are implemented and run (quick + full). Phase 1 = `scripts/01…07,99` + `config.yaml` (`docs/PHASE1_SPEC.md`); Phase 2 = attackers/detectors, `scripts/10…13` + `config_phase2.yaml` (`docs/PHASE2_SPEC.md`); Phase 3a = diagnostics, `scripts/20…21` + `config_phase3a.yaml` (`docs/PHASE3A_SPEC.md`). The specs are authoritative; do not change protocol decisions without asking. `README.md` only covers Phase 1.
+Phases 1, 2 and 3a are implemented and run (quick + full). Phase 1 = `scripts/01…07,99` + `config.yaml` (`docs/PHASE1_SPEC.md`); Phase 2 = attackers/detectors, `scripts/10…13` + `config_phase2.yaml` (`docs/PHASE2_SPEC.md`); Phase 3a = diagnostics, `scripts/20…21` + `config_phase3a.yaml` (`docs/PHASE3A_SPEC.md`). The specs are authoritative; do not change protocol decisions without asking. `README.md` is the public replication guide for all phases (the original Phase 1 guide is `docs/README_PHASE1.md`). Phase 4 (revision analyses) is in `docs/PHASE4_SPEC.md` / `docs/PHASE4_RESULTS.md`.
 
 ## Commands
 
