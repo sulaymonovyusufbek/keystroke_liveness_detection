@@ -52,9 +52,9 @@ All of them are described in `outputs/full/phase2/ATTACKS.md`.
 | all result reports, tables, figures and small JSON files under `outputs/` | encoded keystroke sequences (`outputs/*/phase3b/interim/*.npz`, raw corpus timings) |
 | | model weights (`*.pt`, `*.joblib`), per-session score files (`*.npz`), logs |
 
-Because the bulky files are not published, the **freeze guards** (which hash every output file) and the few tests
-that read saved scores **skip or fail on a fresh clone until you have rerun the pipeline**. The unit tests on
-synthetic data run everywhere.
+Because the bulky files are not published, the **freeze guards** (which hash every output file) fail on a fresh clone
+until you have rerun the pipeline. On a fresh clone `pytest` gives 135 passed, 6 skipped: the 6 tests that read
+saved scores or model weights skip until those files exist.
 
 ---
 

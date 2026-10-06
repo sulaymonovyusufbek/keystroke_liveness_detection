@@ -21,9 +21,20 @@ from kl.phase4_d6 import N_BINS, N_MIN, SD_FLOOR, D6DataError, D6Model, Steps, a
 
 ROOT = Path(__file__).resolve().parents[1]
 FULL = ROOT / "outputs" / "full"
-MODE_DIR = FULL if (FULL / "phase3b" / "e4_open_set.csv").exists() else ROOT / "outputs" / "quick"
-needs_outputs = pytest.mark.skipif(not (MODE_DIR / "phase3b" / "e4_open_set.csv").exists(), reason="no Phase 3b outputs")
-needs_full = pytest.mark.skipif(not (FULL / "phase3b" / "e4_open_set.csv").exists(), reason="no full-mode outputs")
+# Saved scores, sequences and model weights are not in the public repository (only the CSV / JSON reports are), so the
+# skip conditions check for the binary files these tests actually read, not for the reports.
+_NEEDED = ("phase3b/e4_open_set.csv", "phase3b/scores/D4_seed42.npz", "phase3b/interim/human_test.npz",
+           "phase3b/interim/human_train_all.npz", "results/split_manifest.json")
+_NEEDED_FULL = _NEEDED + ("model/model.joblib", "phase2/bots_A1_test.parquet")
+
+
+def _has(base: Path, files) -> bool:
+    return all((base / f).exists() for f in files)
+
+
+MODE_DIR = FULL if _has(FULL, _NEEDED) else ROOT / "outputs" / "quick"
+needs_outputs = pytest.mark.skipif(not _has(MODE_DIR, _NEEDED), reason="no saved Phase 3b scores / sequences")
+needs_full = pytest.mark.skipif(not _has(FULL, _NEEDED_FULL), reason="no full-mode saved scores / model")
 SEEDS = [42, 43, 44]
 
 
