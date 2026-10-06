@@ -1,0 +1,52 @@
+detector,seed,set,max_abs_diff_vs_phase3b
+D4-primary,42,S1 (test humans),0.0
+D4-primary,42,S2 (A1),0.0
+D4-primary,42,S2 (A2),0.0
+D4-primary,42,S2 (A3),0.0
+D4-primary,42,S2 (A4),0.0
+D4-primary,42,S2 (A5a),0.0
+D4-primary,42,S2 (A5b),0.0
+D4-primary,43,S1 (test humans),0.0
+D4-primary,43,S2 (A1),0.0
+D4-primary,43,S2 (A2),0.0
+D4-primary,43,S2 (A3),0.0
+D4-primary,43,S2 (A4),0.0
+D4-primary,43,S2 (A5a),0.0
+D4-primary,43,S2 (A5b),0.0
+D4-primary,44,S1 (test humans),0.0
+D4-primary,44,S2 (A1),0.0
+D4-primary,44,S2 (A2),0.0
+D4-primary,44,S2 (A3),0.0
+D4-primary,44,S2 (A4),0.0
+D4-primary,44,S2 (A5a),0.0
+D4-primary,44,S2 (A5b),0.0
+D5<-A1,42,S1 (test humans),0.0
+D5<-A1,42,S2 (A1),0.0
+D5<-A2,42,S1 (test humans),0.0
+D5<-A2,42,S2 (A2),0.0
+D5<-A3,42,S1 (test humans),0.0
+D5<-A3,42,S2 (A3),0.0
+D5<-A4,42,S1 (test humans),0.0
+D5<-A4,42,S2 (A4),0.0
+D5<-A5b,42,S1 (test humans),0.0
+D5<-A5b,42,S2 (A5b),0.0
+D5<-A1,43,S1 (test humans),0.0
+D5<-A1,43,S2 (A1),0.0
+D5<-A2,43,S1 (test humans),0.0
+D5<-A2,43,S2 (A2),0.0
+D5<-A3,43,S1 (test humans),0.0
+D5<-A3,43,S2 (A3),0.0
+D5<-A4,43,S1 (test humans),0.0
+D5<-A4,43,S2 (A4),0.0
+D5<-A5b,43,S1 (test humans),0.0
+D5<-A5b,43,S2 (A5b),0.0
+D5<-A1,44,S1 (test humans),0.0
+D5<-A1,44,S2 (A1),0.0
+D5<-A2,44,S1 (test humans),0.0
+D5<-A2,44,S2 (A2),0.0
+D5<-A3,44,S1 (test humans),0.0
+D5<-A3,44,S2 (A3),0.0
+D5<-A4,44,S1 (test humans),0.0
+D5<-A4,44,S2 (A4),0.0
+D5<-A5b,44,S1 (test humans),0.0
+D5<-A5b,44,S2 (A5b),0.0

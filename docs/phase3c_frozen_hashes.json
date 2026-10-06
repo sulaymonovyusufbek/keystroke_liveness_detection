@@ -1,0 +1,51 @@
+{
+  "description": "Phase 3c freeze record (written at the project handover): SHA-256 of the Phase 3c sources/spec/tests and of every outputs/<mode>/phase3c file. No code verifies it automatically; verify with the command in docs/PROJECT_STATE.md (section h).",
+  "recorded_at": "2026-09-26T13:54:47",
+  "source_files": {
+    "src/kl/phase3c/__init__.py": "1c9bd250de216d1040a5764ac9a3303301a12d3b375109631470d72770745e3e",
+    "src/kl/phase3c/guard.py": "1e1c72c97ce01b0071b0f9f1e2e36df90e4b11c52f63b8d27656cf02933e7e9e",
+    "src/kl/phase3c/realism.py": "14a61e0b5f4d4f4b7e66d0be612a5db97acf7f8adcf3fae77059370749f6f680",
+    "src/kl/phase3c/swap.py": "9d2e148571fe7c268f6411c0864e718cbf489c1653ea48d2bbf18518f67dcb56",
+    "scripts/40_run_phase3c.py": "c3e124c8b2d6ed5203055d128329cc8e92f988aeb2ffc89c5af7d57fd1eda44f",
+    "scripts/41_report_phase3c.py": "3c26e88f8ae9dcd985d0e13a31e610ce656973eebe19058c9dacef42660fec93",
+    "docs/PHASE3C_SPEC.md": "eb6fe348244d065151fdd6fbdd4f7474be3d6aee73df8cf530545d54890de99b",
+    "tests/test_phase3c.py": "4fb7e7735fe0e0d10becc7b7279666d109de7264e2443fe9f86d18e6f9e006fe"
+  },
+  "modes": {
+    "full": {
+      "output_files": {
+        "outputs/full/phase3c/DIAGNOSTICS_PHASE3C.md": "6c10fb18140248312e243ccf47e94eb63d119bedccd00c00cf847a4d0da19d2e",
+        "outputs/full/phase3c/identical_keys_per_seed.csv": "1a6248ba68642525febd20714c5cd2203a18b531254058952becce92aa6534e2",
+        "outputs/full/phase3c/letters_only_per_seed.csv": "f92466338d49c12e601ca50c0a501f075a5245d8682eaf68ea3e9020dd7efc35",
+        "outputs/full/phase3c/phase3c_meta.json": "1f2f853612c14e81e9abedfcc33d8951a4f7f488ee9d8c4bf0f410c7e87dadbf",
+        "outputs/full/phase3c/realism_enriched_bigrams.csv": "1a33e1c0e9bb4c4e4f221e37b8d85c31d793752c68ee209bca44095e0d784965",
+        "outputs/full/phase3c/realism_enriched_keys.csv": "28a244476150239fb6b19328cc6ce2a43eddade0c49154d60131c247195c76cc",
+        "outputs/full/phase3c/realism_jsd.csv": "eed2b37e16f1507b8f787c3e360e8d0754f0e76290c27d849f6f8174b98e1e1c",
+        "outputs/full/phase3c/realism_other_keys.csv": "eee39c2f424bba6db29e166ae7c833746938210e00e38af42b8cd32ed431f6ea",
+        "outputs/full/phase3c/realism_summary.csv": "d71ac883a3d59656c928df11070a939bdc9b2b35a400b61d1fd4dfb68ebfa5bb",
+        "outputs/full/phase3c/reproduction_check.csv": "aa4d9230fffb7165ff1ac786c00d6729075d058708fbd6c160356132a3f3d493",
+        "outputs/full/phase3c/swap_length_mismatch.csv": "fb51bf59cbd228b0aae3efbdfe9bfee428eabaebf388b891579178bef915d5d0",
+        "outputs/full/phase3c/swap_per_seed.csv": "7f9b053c3276f27bc81e01ac81d6a9ed594f540b2f98ce2d6d4897b9789387ab",
+        "outputs/full/phase3c/swap_shares_per_seed.csv": "9da5c6073f33c6face87b8c047f610667c431d6eac8e1ca4ecf356fe4aa9a8cb",
+        "outputs/full/phase3c/verdict.md": "0e052147b667b0b106b359a5030f39dabc823b0e320034dda2817b4d0aec6e34"
+      }
+    },
+    "quick": {
+      "output_files": {
+        "outputs/quick/phase3c/DIAGNOSTICS_PHASE3C.md": "1555edd2695f606aa032f12aac3ed1e74a020d405183ee72af8737bf7b406f15",
+        "outputs/quick/phase3c/identical_keys_per_seed.csv": "b4438b41b986b75977d071d7b18c07197c821eec2351cc7ba1a3d99c3851cdb8",
+        "outputs/quick/phase3c/letters_only_per_seed.csv": "de402bacb27f9c2fa453f3ace3188434b9b19e1ae9b100ebc52434b92a258595",
+        "outputs/quick/phase3c/phase3c_meta.json": "c55cd0a29d2e147202c1f0df051f0efba60994f6976154b373f176acf66209cc",
+        "outputs/quick/phase3c/realism_enriched_bigrams.csv": "c367a6275b6197c95fc87180b857ce9ef730c7b3d692ca6c6a672f3c43d6eb10",
+        "outputs/quick/phase3c/realism_enriched_keys.csv": "3a42ec8429f389bc0869cd435c7b6b6a252791a1bfa21c8450c9eb3ad309cb0f",
+        "outputs/quick/phase3c/realism_jsd.csv": "aa534cc85f3a2d03a6b24c1f0edd1934e431090a787a41b6160ee39f82b58956",
+        "outputs/quick/phase3c/realism_other_keys.csv": "faa6cef9f13d435d701019be0190df9a17b62b98a16e3f4e0bfd22fa59593d69",
+        "outputs/quick/phase3c/realism_summary.csv": "840cd5b673eca5e7f93f61905aee7b4b6aff31e2ba93cca6c102f0e93bdab20a",
+        "outputs/quick/phase3c/reproduction_check.csv": "aa4d9230fffb7165ff1ac786c00d6729075d058708fbd6c160356132a3f3d493",
+        "outputs/quick/phase3c/swap_length_mismatch.csv": "c45c5e13d439ffc93494d51cc665aa5e6fc8d9780e38092a99eacb1bd9cab64c",
+        "outputs/quick/phase3c/swap_per_seed.csv": "25514b39943eb11d3cc917ba247a19174cf90c4d14365af31c1f85d4fad87fd0",
+        "outputs/quick/phase3c/swap_shares_per_seed.csv": "3c5459b07cc9bb0db15242b98ac5e390f4f721cc968b3cf1e08dea5e1f4c4f30"
+      }
+    }
+  }
+}

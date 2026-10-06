@@ -1,0 +1,47 @@
+{
+  "n_train_sessions": 173392,
+  "n_train_users": 11996,
+  "n_train_steps": 8380407,
+  "n_train_press_steps": 8207015,
+  "vocab_size": 86,
+  "max_len": 94,
+  "edges_h": [
+    2.772588722239781,
+    6.853299093186078
+  ],
+  "edges_p": [
+    3.1780538303479458,
+    7.777373602657861
+  ],
+  "context_usage_train": {
+    "hold_key": 0.9999831750414986,
+    "hold_global": 1.6824958501418847e-05,
+    "press_pair": 0.9977855529690149,
+    "press_next_key": 0.002199825393276362,
+    "press_global": 1.4621637708716264e-05
+  },
+  "context_usage_val": {
+    "hold_key": 0.9999813623010964,
+    "hold_global": 1.8637698903673204e-05,
+    "press_pair": 0.9977606353959171,
+    "press_next_key": 0.0022217971327934917,
+    "press_global": 1.7567471289384075e-05
+  },
+  "n_hold_contexts_used": 80,
+  "n_pair_contexts_used": 1141,
+  "n_next_key_contexts_used": 80,
+  "variants": {
+    "gauss": {
+      "tau5": -2.133148344300202,
+      "tau10": -1.7913312625232876
+    },
+    "hist": {
+      "tau5": -1.9680241745852491,
+      "tau10": -1.6914837666395006
+    },
+    "gauss-speed": {
+      "tau5": -2.875334008836707,
+      "tau10": -2.725467142705604
+    }
+  }
+}

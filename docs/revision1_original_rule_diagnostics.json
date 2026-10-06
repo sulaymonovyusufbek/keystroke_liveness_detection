@@ -1,0 +1,30 @@
+{
+  "_note": "Diagnostics of the ORIGINAL selection rule (Tax & Duin uniform box, StandardScaler, 22 features incl. flight_cv) from the initial --quick run of 2026-09-24, archived before Revision 1 was implemented. Source: outputs/quick/results/{grid_results.csv,selection.json,features_report} of that run.",
+  "run": "quick-mode run (seed 42, 2000 users)",
+  "n_features": 22,
+  "n_uniform_points": 100000,
+  "grid_size": 35,
+  "n_configs_zero_uniform_acceptance_tau5": 34,
+  "max_uniform_acceptance_tau5": 2e-05,
+  "n_configs_tied_within_tolerance": 35,
+  "chosen": {
+    "nu": 0.01,
+    "gamma": "0.001"
+  },
+  "flight_cv_train_max": 71315118.69,
+  "flight_cv_train_median": 1.632,
+  "revision1_selected_config_quick": {
+    "_note": "Attack-free diagnostics of the config selected by the Revision 1 rule (product-of-marginals criterion alone) in the quick-mode run of 2026-09-24; archived before Revision 2.",
+    "nu": 0.01,
+    "gamma": "0.3",
+    "ref_accept_tau5": 0.00266,
+    "val_fnr_native": 0.1145496535796766,
+    "n_support_vectors": 1952,
+    "n_support_vectors_range_other_nu0.01_configs_gamma_le_0.03": [
+      173,
+      236
+    ],
+    "posthoc_a1_rank_by_auc_seen_before_revision2": 20,
+    "posthoc_a1_auc": 0.9255793325566646
+  }
+}

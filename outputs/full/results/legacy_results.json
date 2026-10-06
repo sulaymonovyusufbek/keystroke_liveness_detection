@@ -1,0 +1,15 @@
+{
+  "n_human_sessions": 5000,
+  "n_bot_sessions": 5000,
+  "best": {
+    "nu": 0.1,
+    "gamma": "0.1",
+    "gamma_effective": 0.1,
+    "f1_bot_positive": 0.9374154915974503,
+    "f1_human_positive": 0.9328218950860461,
+    "FNR_humans_rejected": 0.1002,
+    "FPR_bots_accepted": 0.02939999999999998,
+    "auc": 0.95776888,
+    "n_support_vectors": 553
+  }
+}

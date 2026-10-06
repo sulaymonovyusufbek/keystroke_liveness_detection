@@ -1,0 +1,60 @@
+{
+  "description": "Phase 3a freeze record (Phase 3b): SHA-256 of the Phase 3a sources/config and of every Phase 3a output file per run mode. Verified by kl.phase3b.guard.",
+  "recorded_at": "2026-09-25",
+  "source_files": {
+    "src/kl/phase3a/__init__.py": "e2d91241adc5e1ea8aabd83195d345fceb17928c785f78819dfead2aa928ff4c",
+    "src/kl/phase3a/analyses.py": "565c1edcfc99742c8cc02b25fec48a4dec8f0c8774d6492697a1ed102b2e4446",
+    "src/kl/phase3a/guard.py": "d6ddc5670e4abe976f96495ece646f4aac17140ede3ce23fbd879fba3109e1ef",
+    "src/kl/phase3a/plots.py": "5d8fc321974337ad6440211c160fbe6d6549ae9193f4cbe12ba685654fa8d777",
+    "src/kl/phase3a/report.py": "41c4f480afadeeb1ce4b013ee3f38b573bcdaaeb7bbf4ab98a2f7c582422e425",
+    "scripts/20_run_diagnostics.py": "59cf1c9a111e32301b881f98d66c3a598ee4da40aed46ca6ba20a79042e1cc0f",
+    "scripts/21_report_diagnostics.py": "0faeddcc52f5569239bcb9fb2699f835a28d93c35584d704b9249962ccefea0c",
+    "config_phase3a.yaml": "1c5568e69fc5ede3e77bbf5c57090f758555b5d39fecbd13277e36c736f9b342"
+  },
+  "modes": {
+    "full": {
+      "output_files": {
+        "outputs/full/phase3a/DIAGNOSTICS.md": "03be02c6e239cb7a24aa41064b4231039e625b9063cdc2f495fa8e9b19b5676a",
+        "outputs/full/phase3a/ablation_heatmap_apcer_tau10.png": "d0614ef1692812eb2644128213b50501f684f745e9336f5ddbf42678bae5a41b",
+        "outputs/full/phase3a/ablation_heatmap_auc.png": "47a825c0f932509f145a92c00e4d1dbc7b0151ecea5bfd9b41fb8c81a687e8b5",
+        "outputs/full/phase3a/ablation_table.csv": "55f79d4256ed18d412ef0bf19fa23a30cafa78d88695206e40f11932e38eedaf",
+        "outputs/full/phase3a/centrality_ecdf.png": "db0569746442c1b75dc12f9074643298051d73c20942d34be9908f52ee517e42",
+        "outputs/full/phase3a/centrality_ecdf_classical.png": "23a489ae6e5511f670dd8576b7f22ca37ac7e3551d46920c6de596e23556cd98",
+        "outputs/full/phase3a/centrality_hist.png": "5cc7b9710b777fe62f6e2614106056a0d3baa85ca6d31fa7f9e6320be7631a08",
+        "outputs/full/phase3a/centrality_hist_classical.png": "114e767ec8de9ff02cf10bd85234526feac92d3769ba3d6d0ed000a42eebb880",
+        "outputs/full/phase3a/centrality_summary.csv": "6cb203047cc0fe8205ac667aca354ba1ac3a5e38e9e8f6c4da5cc9a53af374a1",
+        "outputs/full/phase3a/diagnostics_results.json": "f2c21ab7ad9da93bc3ac173383c1726c254b60e85d7b2fc7ef90893f02da3fcf",
+        "outputs/full/phase3a/importance_heatmap.png": "33a7bcea4c9194e2e644b5c601d37d7f3d11ea816477257eea6dbb975a9d7cd4",
+        "outputs/full/phase3a/permutation_importance.csv": "2a6275b471115a6cd6eb628cb1854d1a43db569c53eb815d351ba3bd47dc159b",
+        "outputs/full/phase3a/top10_features_per_attacker.csv": "81b53b1d293d99859f6b7fdd3ff47c9ae85c5abf68e65b63095e097263908113",
+        "outputs/full/phase3a/user_consistency.png": "1ed284955d57f60fe2edf5938b444af4117d5a58d33e72f504c98236a1ebec74",
+        "outputs/full/phase3a/user_consistency_per_unit.csv": "f5f47ce7bc7598f54b377200b6a35db009ba21f5d56eab9a73d6e867318d25e6",
+        "outputs/full/phase3a/user_consistency_summary.csv": "ad719b02aa77bd0303255719a2d5291e4216a8a677fea580b0f6fe5997585b3d",
+        "outputs/full/phase3a/variance_ratio.csv": "e4f0ebd4c6936bcb3cea51812bfc720c04adbd2a4f9acf47302591ccc678fa34",
+        "outputs/full/phase3a/variance_ratio_heatmap.png": "4cba56f083616be4d90eacfed60e581c107797fb2397f25c28324a099b189463"
+      }
+    },
+    "quick": {
+      "output_files": {
+        "outputs/quick/phase3a/DIAGNOSTICS.md": "713fd5cf6f2c79c3ec8131afface1ff7189bd7e144d3089e0949a6d9caad1422",
+        "outputs/quick/phase3a/ablation_heatmap_apcer_tau10.png": "a53dab2d837c8ed307f61ac3f2c51f0cf270cd13cb024b757780eff80e1707a1",
+        "outputs/quick/phase3a/ablation_heatmap_auc.png": "0c10d9c414a3c350965d026733fb5829ce0529ad7e312b0bc1879308c7a7520e",
+        "outputs/quick/phase3a/ablation_table.csv": "97bef325aaab759c7b745a705fad201f3f9b9fd7e961a1bc4ef6e0d1454a9a54",
+        "outputs/quick/phase3a/centrality_ecdf.png": "9323ec0aabf40d6dd452eafc56c7f106619b407d948d3e45822deb4d6f6d8f20",
+        "outputs/quick/phase3a/centrality_ecdf_classical.png": "7a1a5eec917cd7406d8a79ddd8346ea1a514e03c30dace0ae293f0c984055312",
+        "outputs/quick/phase3a/centrality_hist.png": "264e16edec21a80495a75b889f559e4847bcd8edff89543c4d9d6ab7b239957c",
+        "outputs/quick/phase3a/centrality_hist_classical.png": "baef172f2748b15caae3882201c1528d4c35ba1128515face5eda36860e5bdcf",
+        "outputs/quick/phase3a/centrality_summary.csv": "bc8d037a1a7106260e2b2b775c9e26b7302318216816cc35ba14fc84cdb2b7d9",
+        "outputs/quick/phase3a/diagnostics_results.json": "0e9178cc3d0e6143ae7672449daa79b157348e2f7754d127ecd66317631ba73c",
+        "outputs/quick/phase3a/importance_heatmap.png": "86747e2c00e9e30ddb576466af28c72059aa42aff320cdb599e9ff15e05a1544",
+        "outputs/quick/phase3a/permutation_importance.csv": "e470a8540bb27c84693fd470bc6ad9e45aa6d30e1cd2bea746d414d970b2494b",
+        "outputs/quick/phase3a/top10_features_per_attacker.csv": "aba22364e42962457bf9110a43ab7685a1840c9358857f4af27082aa268a4274",
+        "outputs/quick/phase3a/user_consistency.png": "c9ec702ff1cdf7c468bc835b9f348ff707fa3642c4e2d35497d3a1ebf4ecde78",
+        "outputs/quick/phase3a/user_consistency_per_unit.csv": "df7869303a60c6fde9fb3a98fe5372fcb628bb7325df9a8e4fc60447c257be0e",
+        "outputs/quick/phase3a/user_consistency_summary.csv": "3da190ac1721ce4fc39bb008e76855026dc08028644933275eabd928bfbdf605",
+        "outputs/quick/phase3a/variance_ratio.csv": "81f24df1e8b1d666c4624b3634318095847c7eaf9abf1ccc5f61ab7fa492de6c",
+        "outputs/quick/phase3a/variance_ratio_heatmap.png": "335017c1fa005a32073cbe274370da54d07ed7b45927c68d6bd8d3ce5e79d827"
+      }
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "n_human_sessions": 4344,
+  "n_bot_sessions": 4344,
+  "bot_sessions_dropped_nonfinite": 0,
+  "auc": 0.9330750655420232,
+  "convention": "FNR = humans rejected, FPR = bots accepted; accept iff score >= tau",
+  "tau5": {
+    "tau": -1.0866804863951072,
+    "rows": [
+      "human",
+      "bot"
+    ],
+    "cols": [
+      "accepted (judged human)",
+      "rejected (judged bot)"
+    ],
+    "matrix": [
+      [
+        4126,
+        218
+      ],
+      [
+        2343,
+        2001
+      ]
+    ],
+    "FNR_humans_rejected": 0.0501841620626151,
+    "FPR_bots_accepted": 0.539364640883978
+  },
+  "tau10": {
+    "tau": -0.30323899873389204,
+    "rows": [
+      "human",
+      "bot"
+    ],
+    "cols": [
+      "accepted (judged human)",
+      "rejected (judged bot)"
+    ],
+    "matrix": [
+      [
+        3916,
+        428
+      ],
+      [
+        770,
+        3574
+      ]
+    ],
+    "FNR_humans_rejected": 0.09852670349907919,
+    "FPR_bots_accepted": 0.17725598526703498
+  },
+  "notes": [
+    "0 of 180,943 sentence characters (0.000%) have no keycode mapping and were emitted with keycode 229."
+  ],
+  "bot_feature_medians": {
+    "hold_mean": 126.03935185185185,
+    "hold_std": 56.561438872995154,
+    "hold_cv": 0.4482056255353423,
+    "pp_mean": 353.63039215686274,
+    "pp_std": 109.3715089397028,
+    "pp_cv": 0.3096090705913214,
+    "rr_mean": 346.98304843304845,
+    "rr_std": 131.09301768360837,
+    "rr_cv": 0.3795061602022429,
+    "flight_mean": 226.29893617021276,
+    "flight_std": 126.66784655385177,
+    "flight_median": 233.5,
+    "flight_iqr": 151.5,
+    "pause_count": 0.0,
+    "pause_rate": 0.0,
+    "rollover_rate": 0.03571428571428571,
+    "corrections_count": 0.0,
+    "correction_rate": 0.0,
+    "lev_norm": 0.0,
+    "shift_overlap_count": 0.0,
+    "n_keys": 42.0,
+    "total_duration_ms": 14560.5,
+    "wpm": 33.41287086082273
+  },
+  "human_feature_medians": {
+    "hold_mean": 111.83333333333333,
+    "hold_std": 39.68784824398887,
+    "hold_cv": 0.3540315430171178,
+    "pp_mean": 204.58506944444446,
+    "pp_std": 141.12342668892816,
+    "pp_cv": 0.6755326064324124,
+    "rr_mean": 200.63525498891352,
+    "rr_std": 150.71549488058199,
+    "rr_cv": 0.7377332844165877,
+    "flight_mean": 89.05588639486945,
+    "flight_std": 146.80661824932514,
+    "flight_median": 57.75,
+    "flight_iqr": 113.0,
+    "pause_count": 1.0,
+    "pause_rate": 0.027777777777777776,
+    "rollover_rate": 0.20689655172413793,
+    "corrections_count": 1.0,
+    "correction_rate": 0.03125,
+    "lev_norm": 0.0,
+    "shift_overlap_count": 0.0,
+    "n_keys": 47.0,
+    "total_duration_ms": 9462.0,
+    "wpm": 51.36226073688066
+  },
+  "grid_sensitivity": {
+    "note": "post-hoc; not used for selection",
+    "n_configs": 35,
+    "refit_matches_frozen": true,
+    "selected": {
+      "nu": 0.1,
+      "gamma": "0.3",
+      "gamma_effective": 0.3,
+      "rank_by_auc": 17,
+      "rank_by_fpr_tau5": 14,
+      "rank_by_fpr_tau10": 17,
+      "fpr_tau5": 0.539364640883978,
+      "fpr_tau10": 0.17725598526703498,
+      "auc": 0.9330750655420232,
+      "test_fnr_tau5": 0.0501841620626151,
+      "test_fnr_tau10": 0.09852670349907919,
+      "tau5": -1.0866804863951072,
+      "tau10": -0.30323899873389204,
+      "ref_accept_tau5": 0.00558
+    },
+    "auc_min": 0.8050154485855471,
+    "auc_median": 0.9272235004188585,
+    "auc_max": 0.9874062125867816,
+    "fpr_tau5_min": 0.02923572744014733,
+    "fpr_tau5_median": 0.6151012891344383,
+    "fpr_tau5_max": 1.0,
+    "best_by_auc": {
+      "nu": 0.01,
+      "gamma": "0.03",
+      "auc": 0.9874062125867816
+    }
+  }
+}

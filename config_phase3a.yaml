@@ -1,0 +1,24 @@
+# Phase 3a (diagnostics only). Phases 1 and 2 are frozen; nothing here changes a feature, detector, attacker or threshold.
+# Seed, n_jobs, bootstrap reps / CI level come from config.yaml; attackers / D3 hyper-parameters from config_phase2.yaml.
+
+centrality:
+  supplementary_classical_covariance: true   # also report distances with the classical covariance (the MCD can be rank-deficient)
+
+ablation:                                    # refit the One-Class SVM with the FROZEN nu / gamma (read from the frozen model)
+  subsets:
+    TIMING_only: [TIMING]
+    TIMING_RHYTHM: [TIMING, RHYTHM]
+    all_minus_BEHAVIOUR: [TIMING, RHYTHM, GLOBAL]
+    BEHAVIOUR_only: [BEHAVIOUR]
+
+importance:                                  # permutation importance of the single-attacker D3 models on a held-out TEST sample
+  attackers: [A1, A2, A3, A4, A5b]
+  n_per_class: 5000                          # test humans + the same number of test bots of that attacker (seeded sample)
+  n_repeats: 10
+  top_k: 10
+
+consistency:                                 # per-user session-to-session consistency (A2 / A3) + a shuffled-human control
+  attackers: [A2, A3]
+  min_user_sessions: 10                      # real users need at least this many clean test sessions
+  pseudo_user_sessions: 15
+  features: [pp_mean, hold_mean]

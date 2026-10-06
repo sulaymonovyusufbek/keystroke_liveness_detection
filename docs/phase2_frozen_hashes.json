@@ -1,0 +1,70 @@
+{
+  "_note": "Phase 2 freeze record, written at the start of Phase 3a (2026-09-24). Phase 3a reads these outputs and must never modify or regenerate them.",
+  "source_files": {
+    "config_phase2.yaml": "3ff50504c26dcade3559b754bada4190112694fcdeef58c6703ae143f1e808a5",
+    "scripts/10_fit_attackers.py": "a16e3f3a1a75c6b6232e4254638b83f8aa5bfd14dfe06be3847d9298d0c9860f",
+    "scripts/11_generate_bots.py": "2752bd8fbda69247666d4f6d18c89e00d84147252124c9240ad31f999c6c61cb",
+    "scripts/12_run_experiments.py": "6c318e682055e4cb9a872427a2bf92480311fd876730e02f3ec48e712f3ae407",
+    "scripts/13_report_phase2.py": "32d0471bd517abf23daadc281af3691e6fb039a18cf522eb50e5cb0c6c55a092",
+    "src/kl/attacks/__init__.py": "7f94240c5141133251a2d67f8426df68cca9876c12f427e64994a447a440f7ea",
+    "src/kl/attacks/a1_gaussian.py": "a5bc911a513ccc68f5bc4a42a2fa9425ab10e3158639d5ee3223611570ac716c",
+    "src/kl/attacks/a2_digraph.py": "6d5859ee21178c1a40cad60e034709194af44c587e78fd3158060ab455d41709",
+    "src/kl/attacks/a3_temporal.py": "474fead16be880c5813c342373e619c9a5c594441ef5d94fddf149d06a816bd4",
+    "src/kl/attacks/a4_imitator.py": "803a7806ffa109ce7371fc8ff9a35bf84b2201c296a9ecdacabce4339989c371",
+    "src/kl/attacks/a5_replay.py": "e23cfba2bb335a2644d9cffb500df9700fad604231bc2dc7c6409218a0313287",
+    "src/kl/attacks/base.py": "d42ec99a01beb09426b4900067c8ff79ae9be5cf4ef7ba6dd3d9b400ad6fe003",
+    "src/kl/attacks/common.py": "67fae1657cd0b6b56837eb41751134f03f38593b912335b88f4bb2cd7839cc65",
+    "src/kl/attacks/pool.py": "bbf0fbd43b7c976c3683ef19f5ea823aa59c0ef10852675a6c90a6b6fc53cea7",
+    "src/kl/phase2/__init__.py": "76a61bf7cbb50b91d80d0951656ac8e093a0770d284918ac500e8a5bfefc9650",
+    "src/kl/phase2/config.py": "2a3e11765293384a1718664a0b1bd24aa9da778939000487033f8f8e8afe8f6f",
+    "src/kl/phase2/detectors.py": "98f4ba20d8c6d93f00b24e76a0112f1a442e9a5ead35bf626d4157f9dab3ab71",
+    "src/kl/phase2/evaluation.py": "efe7a795e67b717948ed4d2ed32aee6a1d35a80fd2873e601d1f1e31ace18ce7",
+    "src/kl/phase2/generate.py": "177f593024aedac5ba734cbe74e87f61ec94d81574ba77454b5536a9275dab56",
+    "src/kl/phase2/guard.py": "3442cf08623d448bf8767358cf0799c11df96fe07f3240097665f92fd4ed9186",
+    "src/kl/phase2/report.py": "d5058d6903d297ba4e6d5a17aff4c650641bbb26b8fa177808aaeba0ea1bfc0d"
+  },
+  "modes": {
+    "full": {
+      "output_files": {
+        "outputs/full/phase2/attack_matrix.csv": "b1f91724be29b06398189b6d91dd4fe1f6e9f81f781340ef37eacaf27c9c013a",
+        "outputs/full/phase2/bots_A1_test.parquet": "de5f9713bd28060186720523d9b9c08907fbc586dfcaa7819672da6a3969badd",
+        "outputs/full/phase2/bots_A1_train.parquet": "735fb65201e8dc81212c41eae94f841af8281df12e7c62fb5815eb3a449ed399",
+        "outputs/full/phase2/bots_A2_test.parquet": "4c2cc307c5fc4b17ba74a08ad1fa42fcc2caa66e7e2755fab6ca8c86409cb87d",
+        "outputs/full/phase2/bots_A2_train.parquet": "96504e5d38a491e6abd924c5d377a2966f1631c0c566e68e4a100b9df96c11af",
+        "outputs/full/phase2/bots_A3_test.parquet": "79db3565109823fef697b41a0b892feffb050ea7d4683a78f665cbb945cd0852",
+        "outputs/full/phase2/bots_A3_train.parquet": "dbc14cd0b15b410f794a8b83f4fcabb70f2569f4d9017e3fa413764fb1205798",
+        "outputs/full/phase2/bots_A4_test.parquet": "2333d5831fd66cffee572363bc450aea4eea2b83fa8b9a2956fb14ad6fbed939",
+        "outputs/full/phase2/bots_A4_train.parquet": "cc002e350cd19c292de7e77cee4522b3bcc392f24e19a8255877ab8814355f6c",
+        "outputs/full/phase2/bots_A5a_test.parquet": "c48f3a6ed75447276e87d51c3cc512d077256b17d6263cfa272427ca4ab9f946",
+        "outputs/full/phase2/bots_A5a_train.parquet": "c5c31b7852643587b15c78a4fb3829faa3d43d0d62f3003f110b7700c28ed332",
+        "outputs/full/phase2/bots_A5b_test.parquet": "15a62126baaa29abd267217f4d5444f6c9df3228d5ea11b442040f761f8a18a5",
+        "outputs/full/phase2/bots_A5b_train.parquet": "aa7e3ac5a07a1089a1e540b20c9315833cd340b3072574266b70bfc8adba5ec3",
+        "outputs/full/phase2/loao_table.csv": "1e97853ede3fdb806869936663dfd66b1133b19a5be10db7e0fe34eae7e9cb54",
+        "outputs/full/phase2/open_set_table.csv": "46c4afa71deec0f2d0669db3af9571e56f571666b65c3ed9be76062ce7fa8b60",
+        "outputs/full/phase2/pool.joblib": "464d5c2fadc42c7b66cdda57540a2b3bea2fb4ca44d2c74715aa79d47d76cac1",
+        "outputs/full/phase2/realism_report.csv": "c790d188a31b778dd2533db0afe28454c7ffc294305799fcafb0d4542c43de2a"
+      }
+    },
+    "quick": {
+      "output_files": {
+        "outputs/quick/phase2/attack_matrix.csv": "ed6501fdb8dd693cb7b0a18c9b83b830bb58c38614e74def270bc1d2c0d13653",
+        "outputs/quick/phase2/bots_A1_test.parquet": "2ac39562393f5017bbee218b0f5ba8b270fa6217de3496e9d47356c3d809c72b",
+        "outputs/quick/phase2/bots_A1_train.parquet": "ba7aa465e10e0509fb79b3b8a8def44b53dfde2712b5fc9472efe5167b46176b",
+        "outputs/quick/phase2/bots_A2_test.parquet": "ec64afac5d4e8551d959ebcd626defc086cb1be2a67515f911015648a13fb5cd",
+        "outputs/quick/phase2/bots_A2_train.parquet": "1ef0847ed3f2fb7a17a04bc424da3f50d6a553d6925d56bbe2576b2cc01f7c9f",
+        "outputs/quick/phase2/bots_A3_test.parquet": "bfad5b2806d12564afba723831956b76eca708ed0a17408bddf21a44e39c8d74",
+        "outputs/quick/phase2/bots_A3_train.parquet": "1b300674b93f67ba1677adf5be2140fa1ca5d23c1dd49b998aeefc35d8811e59",
+        "outputs/quick/phase2/bots_A4_test.parquet": "ad5c9a4aea4e14a537ad56ddaabec31d28ba1deb5d29e49787aca4276e059e09",
+        "outputs/quick/phase2/bots_A4_train.parquet": "60030d4da41d052bf28ac2cdd016778a744c04166bc3b08c4f011c5fc58dd14d",
+        "outputs/quick/phase2/bots_A5a_test.parquet": "8dac3fd84159eec7d0ad056674292e3d8ab261b2f0b738558b24fff7fafebc46",
+        "outputs/quick/phase2/bots_A5a_train.parquet": "7b932e804620f1be373ea8d6e1f91c5d484d8183324bb5b6f09ab84108e8f5e4",
+        "outputs/quick/phase2/bots_A5b_test.parquet": "11373871accf01cd5f38524be6562170f018847461d8c7c86654a83ba9b54068",
+        "outputs/quick/phase2/bots_A5b_train.parquet": "5518d6cdb684d7d19ddd65a285e3c645612730181edad09b7cf71f9b234cba9a",
+        "outputs/quick/phase2/loao_table.csv": "eab5f1d7ed936a1473b6e86ffe7a0b43554fc86060434794758eda7329e5f9f6",
+        "outputs/quick/phase2/open_set_table.csv": "27b70f2dc88f888249a7218c2f4f32c21bd765100920c672f0521283d14d95b3",
+        "outputs/quick/phase2/pool.joblib": "13561e387594f39e1192222f67c3f8cee99e7552497642e8dd997c6a6ffdd496",
+        "outputs/quick/phase2/realism_report.csv": "6b33a4251e4e8c6c1a8bda22b08001525ddebf318ea562be52695f94b24bd528"
+      }
+    }
+  }
+}

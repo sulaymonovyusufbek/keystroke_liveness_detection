@@ -1,0 +1,153 @@
+{
+  "D1": {
+    "thresholds": {
+      "tau5": -1.3421915185274018,
+      "tau10": -0.3523635190803258
+    },
+    "description": "frozen Phase 1 One-Class SVM (RBF)"
+  },
+  "D2": {
+    "thresholds": {
+      "tau5": -0.539098314606842,
+      "tau10": -0.5112541383837872
+    },
+    "description": "Isolation Forest (n_estimators=300, max_samples=256, random_state=42)"
+  },
+  "D3": {
+    "D3<-A1": {
+      "trained_on": [
+        "A1"
+      ],
+      "n_train_humans": 20000,
+      "n_train_bots": 20000,
+      "thresholds": {
+        "tau5": 1.0,
+        "tau10": 1.0
+      },
+      "description": "Random Forest (n_estimators=300, class_weight=balanced, random_state=42)"
+    },
+    "D3<-A2": {
+      "trained_on": [
+        "A2"
+      ],
+      "n_train_humans": 20000,
+      "n_train_bots": 20000,
+      "thresholds": {
+        "tau5": 0.6233333333333333,
+        "tau10": 0.8566666666666667
+      },
+      "description": "Random Forest (n_estimators=300, class_weight=balanced, random_state=42)"
+    },
+    "D3<-A3": {
+      "trained_on": [
+        "A3"
+      ],
+      "n_train_humans": 20000,
+      "n_train_bots": 20000,
+      "thresholds": {
+        "tau5": 0.35333333333333333,
+        "tau10": 0.6966666666666667
+      },
+      "description": "Random Forest (n_estimators=300, class_weight=balanced, random_state=42)"
+    },
+    "D3<-A4": {
+      "trained_on": [
+        "A4"
+      ],
+      "n_train_humans": 20000,
+      "n_train_bots": 20000,
+      "thresholds": {
+        "tau5": 0.25,
+        "tau10": 0.36
+      },
+      "description": "Random Forest (n_estimators=300, class_weight=balanced, random_state=42)"
+    },
+    "D3<-A5b": {
+      "trained_on": [
+        "A5b"
+      ],
+      "n_train_humans": 20000,
+      "n_train_bots": 20000,
+      "thresholds": {
+        "tau5": 0.17666666666666667,
+        "tau10": 0.25
+      },
+      "description": "Random Forest (n_estimators=300, class_weight=balanced, random_state=42)"
+    },
+    "D3<-all-but-A1": {
+      "trained_on": [
+        "A2",
+        "A3",
+        "A4",
+        "A5b"
+      ],
+      "n_train_humans": 20000,
+      "n_train_bots": 80000,
+      "thresholds": {
+        "tau5": 0.14666666666666667,
+        "tau10": 0.24
+      },
+      "description": "Random Forest (n_estimators=300, class_weight=balanced, random_state=42)"
+    },
+    "D3<-all-but-A2": {
+      "trained_on": [
+        "A1",
+        "A3",
+        "A4",
+        "A5b"
+      ],
+      "n_train_humans": 20000,
+      "n_train_bots": 80000,
+      "thresholds": {
+        "tau5": 0.17,
+        "tau10": 0.25666666666666665
+      },
+      "description": "Random Forest (n_estimators=300, class_weight=balanced, random_state=42)"
+    },
+    "D3<-all-but-A3": {
+      "trained_on": [
+        "A1",
+        "A2",
+        "A4",
+        "A5b"
+      ],
+      "n_train_humans": 20000,
+      "n_train_bots": 80000,
+      "thresholds": {
+        "tau5": 0.18666666666666668,
+        "tau10": 0.27666666666666667
+      },
+      "description": "Random Forest (n_estimators=300, class_weight=balanced, random_state=42)"
+    },
+    "D3<-all-but-A4": {
+      "trained_on": [
+        "A1",
+        "A2",
+        "A3",
+        "A5b"
+      ],
+      "n_train_humans": 20000,
+      "n_train_bots": 80000,
+      "thresholds": {
+        "tau5": 0.16666666666666666,
+        "tau10": 0.27
+      },
+      "description": "Random Forest (n_estimators=300, class_weight=balanced, random_state=42)"
+    },
+    "D3<-all-but-A5b": {
+      "trained_on": [
+        "A1",
+        "A2",
+        "A3",
+        "A4"
+      ],
+      "n_train_humans": 20000,
+      "n_train_bots": 80000,
+      "thresholds": {
+        "tau5": 0.23,
+        "tau10": 0.37666666666666665
+      },
+      "description": "Random Forest (n_estimators=300, class_weight=balanced, random_state=42)"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "thresholds": {
+    "tau5": -1.0866804863951072,
+    "tau10": -0.30323899873389204
+  },
+  "feature_names": [
+    "hold_mean",
+    "hold_std",
+    "hold_cv",
+    "pp_mean",
+    "pp_std",
+    "pp_cv",
+    "rr_mean",
+    "rr_std",
+    "rr_cv",
+    "flight_mean",
+    "flight_std",
+    "flight_median",
+    "flight_iqr",
+    "pause_count",
+    "pause_rate",
+    "rollover_rate",
+    "corrections_count",
+    "correction_rate",
+    "lev_norm",
+    "shift_overlap_count",
+    "n_keys",
+    "total_duration_ms",
+    "wpm"
+  ],
+  "params": {
+    "nu": 0.1,
+    "gamma": "0.3",
+    "gamma_effective": 0.3
+  },
+  "config_hash": "107e859345c78e77"
+}

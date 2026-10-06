@@ -1,0 +1,36 @@
+# Phase 3b (sequence-level detectors D4 / D5). PRE-REGISTERED: see docs/PHASE3B_PREREGISTRATION.md.
+# This file's SHA-256 is recorded in docs/phase3b_prereg_hash.txt and verified at the start and end of every step.
+# Seed-independent settings (bootstrap reps, CI level, the bootstrap seed, n_jobs, feature constants, A1 parameters)
+# are read from config.yaml; attackers from config_phase2.yaml + outputs/<mode>/phase2/pool.joblib (all frozen).
+
+sequences:
+  min_key_count: 20              # keycodes with fewer occurrences among TRAIN-user human keystrokes -> UNK
+  max_len_percentile: 99         # max_len = ceil(99th percentile of TRAIN-user human session length)
+  val_bot_attackers: [A1, A2, A3, A4, A5b]   # val bots are generated ONLY for D5 early stopping (A5a never trains)
+
+model:
+  embedding_dim: 32
+  hidden: 128
+  num_layers: 2
+  dropout: 0.1
+  mixture_components: 5          # D4: K diagonal bivariate Gaussians over (h_i, p_i)
+  sigma_floor: 0.01              # D4: sigma = softplus(raw) + sigma_floor (standardised units; numerical floor)
+
+training:
+  seeds: [42, 43, 44]
+  lr: 0.001
+  batch_size: 256
+  max_epochs: 30
+  patience: 3
+  grad_clip_norm: 1.0
+  eval_batch_size: 1024          # inference only (no effect on training)
+
+d4_variants:                     # name -> (training humans, key conditioning)
+  D4:        {train_set: train_all, use_keys: true}    # scored twice: D4-primary and D4-typicality
+  D4-20k:    {train_set: train_20k, use_keys: true}    # data-size control (primary score)
+  D4-nokey:  {train_set: train_all, use_keys: false}   # timing-only control (primary score)
+
+experiments:
+  test_attackers: [A1, A2, A3, A4, A5a, A5b]
+  e5_train_attackers: [A1, A2, A3, A4, A5b]
+  e6_heldout_attackers: [A1, A2, A3, A4, A5b]

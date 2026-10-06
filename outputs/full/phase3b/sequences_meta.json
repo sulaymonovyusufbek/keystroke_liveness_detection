@@ -1,0 +1,108 @@
+{
+  "seed": 42,
+  "config_hash": "8b2fc2193f74312e",
+  "human_sets": {
+    "train_all": {
+      "n_sessions": 173392,
+      "n_users": 11996,
+      "n_keystrokes": 8397739
+    },
+    "val": {
+      "n_sessions": 43291,
+      "n_users": 3000,
+      "n_keystrokes": 2096601
+    },
+    "test": {
+      "n_sessions": 43248,
+      "n_users": 2999,
+      "n_keystrokes": 2093742
+    },
+    "train_20k": {
+      "n_sessions": 20000,
+      "n_users": 9923,
+      "n_keystrokes": 968892
+    }
+  },
+  "human_feature_checks": {
+    "train_20k": {
+      "n_keys": 0.0,
+      "hold_mean": 0.0,
+      "pp_mean": 0.0
+    },
+    "val": {
+      "n_keys": 0.0,
+      "hold_mean": 0.0,
+      "pp_mean": 0.0
+    },
+    "test": {
+      "n_keys": 0.0,
+      "hold_mean": 0.0,
+      "pp_mean": 0.0
+    }
+  },
+  "encoder": {
+    "mu_h": 4.6577141549240775,
+    "sd_h": 0.4063760851877383,
+    "mu_p": 5.1935984371145505,
+    "sd_p": 0.6799934103149949,
+    "max_len": 94,
+    "vocab_size": 86,
+    "info": {
+      "n_keycodes_seen": 107,
+      "n_keycodes_kept": 84,
+      "min_count": 20,
+      "unk_keycodes": [
+        13,
+        19,
+        27,
+        60,
+        63,
+        64,
+        92,
+        106,
+        107,
+        111,
+        123,
+        126,
+        145,
+        161,
+        163,
+        170,
+        171,
+        174,
+        175,
+        182,
+        193,
+        223,
+        231
+      ],
+      "max_len_percentile": 99.0,
+      "n_sessions": 173392,
+      "n_keystrokes": 8397739
+    }
+  },
+  "unk_fraction": {
+    "human_train_all": 1.6909313328266097e-05,
+    "human_val": 1.7647611538866956e-05,
+    "human_test": 1.528364048674574e-05,
+    "human_train_20k": 1.7545815219859387e-05,
+    "bot_A1_train": 0.0,
+    "bot_A2_train": 0.0,
+    "bot_A3_train": 0.0,
+    "bot_A4_train": 0.0,
+    "bot_A5a_train": 2.063372355143523e-05,
+    "bot_A5b_train": 0.0,
+    "bot_A1_test": 0.0,
+    "bot_A2_test": 0.0,
+    "bot_A3_test": 0.0,
+    "bot_A4_test": 0.0,
+    "bot_A5a_test": 2.1895065518603665e-05,
+    "bot_A5b_test": 0.0,
+    "bot_A1_val": 0.0,
+    "bot_A2_val": 0.0,
+    "bot_A3_val": 0.0,
+    "bot_A4_val": 0.0,
+    "bot_A5b_val": 0.0
+  },
+  "runtime_seconds": 360.34738516807556
+}

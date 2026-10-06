@@ -1,0 +1,59 @@
+{
+  "n_features": 23,
+  "feature_names": [
+    "hold_mean",
+    "hold_std",
+    "hold_cv",
+    "pp_mean",
+    "pp_std",
+    "pp_cv",
+    "rr_mean",
+    "rr_std",
+    "rr_cv",
+    "flight_mean",
+    "flight_std",
+    "flight_median",
+    "flight_iqr",
+    "pause_count",
+    "pause_rate",
+    "rollover_rate",
+    "corrections_count",
+    "correction_rate",
+    "lev_norm",
+    "shift_overlap_count",
+    "n_keys",
+    "total_duration_ms",
+    "wpm"
+  ],
+  "dropped_nonfinite_total": 0,
+  "dropped_nonfinite_by_split": {},
+  "sessions_per_split": {
+    "train": 20000,
+    "val": 43291,
+    "test": 43248,
+    "attacker_pool": 28854
+  },
+  "users_per_split": {
+    "train": 9923,
+    "val": 3000,
+    "test": 2999,
+    "attacker_pool": 1999
+  },
+  "cv_diagnostics_train": {
+    "hold_cv": {
+      "min": 0.10590850756797061,
+      "median": 0.3608078352525843,
+      "max": 5.705141416864036
+    },
+    "pp_cv": {
+      "min": 0.17160489249257993,
+      "median": 0.6712389028888568,
+      "max": 2.7707198619991416
+    },
+    "rr_cv": {
+      "min": 0.19724538382983628,
+      "median": 0.7334994824914488,
+      "max": 4.64558964932986
+    }
+  }
+}

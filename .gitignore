@@ -1,0 +1,22 @@
+.venv/
+.idea/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/
+# outputs: keep small JSON / MD / CSV / PNG, ignore bulky artifacts
+outputs/**/*.parquet
+outputs/**/*.joblib
+outputs/**/*.log
+# --- added for the public GitHub release (2026-10-06) ---
+# local-only: backups, IDE / assistant settings
+backups/
+.claude/
+# corpus-derived keystroke sequences, model weights and per-session scores are NOT published
+# (the Aalto corpus is non-commercial; regenerate everything from the corpus, see README.md)
+outputs/**/*.npz
+outputs/**/*.pt
+outputs/**/*.out
+outputs/**/*.lock
+outputs/**/.*.lock
+outputs/**/log_archive/

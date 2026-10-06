@@ -1,0 +1,25 @@
+# Phase 2 (attackers + detectors). Kept OUTSIDE config.yaml so the frozen Phase 1 config hash is untouched.
+# Seeds, bootstrap reps, CI level, n_jobs and cleaning limits are read from config.yaml (never duplicated here).
+# `--quick` writes to outputs/quick/phase2/ (same code, smaller Phase 1 data).
+
+pool:
+  holdout_user_fraction: 0.2        # attacker_pool users held out; used ONLY for the realism report (never to fit attackers)
+  min_samples: 30                   # backoff threshold for digraph / second-char / key distributions and for mu tables
+  min_session_pairs: 10             # min non-pause char->char transitions for a session to define a speed offset s
+  min_rate_transitions: 3           # min transitions of a kind for a per-session pause rate to be defined
+  # pause_threshold_ms, max_pp_ms, max_hold_ms come from config.yaml (features.pause_threshold_ms,
+  # cleaning.max_press_gap_ms, cleaning.max_hold_ms)
+
+bots:
+  splits: [train, test]             # one bot per human session in these splits; val bots are never used (thresholds use val HUMANS only)
+  attackers: [A1, A2, A3, A4, A5a, A5b]
+  chunk_size: 2000                  # sessions per parallel task
+
+detectors:
+  d2: {n_estimators: 300, max_samples: 256}                       # Isolation Forest, pre-declared, random_state = global seed
+  d3: {n_estimators: 300, class_weight: balanced}                 # Random Forest, other settings default, random_state = global seed
+
+experiments:
+  train_attackers: [A1, A2, A3, A4, A5b]     # D3 training rows (A5a is a real human recording and is never a training attack)
+  test_attackers: [A1, A2, A3, A4, A5a, A5b]
+  loao_attackers: [A1, A2, A3, A4, A5b]

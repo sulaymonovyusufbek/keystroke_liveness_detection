@@ -1,0 +1,16 @@
+{
+  "mode": "full",
+  "post_hoc": true,
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "min_effect_for_shares": 0.05,
+  "seconds": 247.74737429618835,
+  "letters_keycodes": "space (32) + A-Z (65-90)",
+  "max_len": 94,
+  "note": "Test split re-used post hoc with frozen weights and frozen tau10 (letters-only: tau10 recomputed on val humans)."
+}

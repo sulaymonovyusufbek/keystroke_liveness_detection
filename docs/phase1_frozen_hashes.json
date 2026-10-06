@@ -1,0 +1,21 @@
+{
+  "_note": "Phase 1 freeze record, written at the start of Phase 2 (2026-09-24). Verified by kl.phase2.guard before every Phase 2 evaluation.",
+  "source_files": {
+    "src/kl/features.py": "5be4f320ef24fffb77c560337f83f69a5433432b0463e7e238dea310bf0a63ec",
+    "src/kl/model.py": "87250e30e7471dab5884581d8fc82ee71b46d019e021aa362e41cbba9656fb80",
+    "src/kl/selection.py": "a4eb7ed76351759df60cc1b88ca21335527effd2dce1f9f4309782d7344e56a8",
+    "config.yaml": "1af306b6cea2588c5b31fa260a73e2d10a38170c3d63c7cc51c445cbf42d6a3e"
+  },
+  "modes": {
+    "full": {
+      "config_hash": "8b2fc2193f74312e",
+      "model_joblib_sha256": "45ef6abb427fb7a5dbb5de4e5f0319f17480457a9116f4da6d5e42a6184dbe0d",
+      "thresholds_json_sha256": "0e3a37f5483c944b114f011a96326061b604f8181278a11eb22956e4e1a9eee8"
+    },
+    "quick": {
+      "config_hash": "107e859345c78e77",
+      "model_joblib_sha256": "0800c8e88eabb03b4dd1d6d902ab6207afc93a3d3a9e3f862aac0e4fecc1c1ce",
+      "thresholds_json_sha256": "28d3362cb5509f7040bc355dfd12acfd0d0ed566638d97335e4b0de33d513b04"
+    }
+  }
+}

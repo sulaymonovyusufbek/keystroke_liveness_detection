@@ -1,0 +1,9 @@
+[project]
+name = "keystroke-liveness"
+version = "0.1.0"
+description = "Keystroke-dynamics liveness detection (One-Class SVM trained on human typing only)"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

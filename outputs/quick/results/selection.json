@@ -1,0 +1,78 @@
+{
+  "chosen": {
+    "nu": 0.1,
+    "gamma": "0.3",
+    "fit_time": 4.160072263000075,
+    "val_fnr_native": 0.13187066974595843,
+    "tau5": -1.0866804863951072,
+    "tau10": -0.30323899873389204,
+    "ref_accept_tau5": 0.00558,
+    "ref_accept_tau10": 0.00068,
+    "uniform_accept_tau5": 0.0,
+    "uniform_accept_tau10": 0.0,
+    "n_support_vectors": 2276,
+    "gamma_effective": 0.3,
+    "admissible": true
+  },
+  "n_admissible": 32,
+  "admissibility_rule": "|val_fnr_native - nu| <= max(0.02, 0.5 * nu)",
+  "not_admissible": [
+    {
+      "nu": 0.01,
+      "gamma": "0.3",
+      "val_fnr_native": 0.11454965357967667
+    },
+    {
+      "nu": 0.02,
+      "gamma": "0.3",
+      "val_fnr_native": 0.11431870669745958
+    },
+    {
+      "nu": 0.05,
+      "gamma": "0.3",
+      "val_fnr_native": 0.11454965357967667
+    }
+  ],
+  "min_ref_accept_tau5": 0.00558,
+  "grid_min_ref_accept_tau5": 0.00266,
+  "max_ref_accept_tau5": 0.9915,
+  "ref_accept_spread_tau5": 0.98884,
+  "n_configs_tied_with_best": 1,
+  "uniform_diagnostic": {
+    "min_tau5": 0.0,
+    "max_tau5": 0.0388,
+    "n_configs_zero_tau5": 18
+  },
+  "grid_size": 35,
+  "n_train": 17143,
+  "n_val": 4330,
+  "n_features": 23,
+  "feature_cols": [
+    "hold_mean",
+    "hold_std",
+    "hold_cv",
+    "pp_mean",
+    "pp_std",
+    "pp_cv",
+    "rr_mean",
+    "rr_std",
+    "rr_cv",
+    "flight_mean",
+    "flight_std",
+    "flight_median",
+    "flight_iqr",
+    "pause_count",
+    "pause_rate",
+    "rollover_rate",
+    "corrections_count",
+    "correction_rate",
+    "lev_norm",
+    "shift_overlap_count",
+    "n_keys",
+    "total_duration_ms",
+    "wpm"
+  ],
+  "n_reference": 100000,
+  "n_uniform": 100000,
+  "config_hash": "107e859345c78e77"
+}

@@ -1,0 +1,162 @@
+{
+  "seed": 42,
+  "config_hash": "107e859345c78e77",
+  "n_test_human_sessions": 4344,
+  "n_test_users": 300,
+  "n_train_human_sessions": 17143,
+  "features": [
+    "hold_mean",
+    "hold_std",
+    "hold_cv",
+    "pp_mean",
+    "pp_std",
+    "pp_cv",
+    "rr_mean",
+    "rr_std",
+    "rr_cv",
+    "flight_mean",
+    "flight_std",
+    "flight_median",
+    "flight_iqr",
+    "pause_count",
+    "pause_rate",
+    "rollover_rate",
+    "corrections_count",
+    "correction_rate",
+    "lev_norm",
+    "shift_overlap_count",
+    "n_keys",
+    "total_duration_ms",
+    "wpm"
+  ],
+  "centrality": {
+    "info": {
+      "n_train": 17143,
+      "mcd": {
+        "support_size": 8962,
+        "support_fraction_used": 0.5227789768418597,
+        "n_eigenvalues_below_1e-10": 1,
+        "zero_variance_features_in_support": [
+          "shift_overlap_count"
+        ],
+        "condition_number": 2.2740938929816433e+21
+      }
+    }
+  },
+  "ablation": {
+    "nu": 0.1,
+    "gamma": 0.3,
+    "subsets": {
+      "TIMING_only": {
+        "n_features": 13,
+        "features": [
+          "hold_mean",
+          "hold_std",
+          "hold_cv",
+          "pp_mean",
+          "pp_std",
+          "pp_cv",
+          "rr_mean",
+          "rr_std",
+          "rr_cv",
+          "flight_mean",
+          "flight_std",
+          "flight_median",
+          "flight_iqr"
+        ],
+        "gamma_effective": 0.3,
+        "n_support_vectors": 1793,
+        "thresholds": {
+          "tau5": -4.54545803306003,
+          "tau10": -0.6775885043322798
+        },
+        "val_fnr_native": 0.11270207852193996
+      },
+      "TIMING_RHYTHM": {
+        "n_features": 16,
+        "features": [
+          "hold_mean",
+          "hold_std",
+          "hold_cv",
+          "pp_mean",
+          "pp_std",
+          "pp_cv",
+          "rr_mean",
+          "rr_std",
+          "rr_cv",
+          "flight_mean",
+          "flight_std",
+          "flight_median",
+          "flight_iqr",
+          "pause_count",
+          "pause_rate",
+          "rollover_rate"
+        ],
+        "gamma_effective": 0.3,
+        "n_support_vectors": 1826,
+        "thresholds": {
+          "tau5": -3.4977521826480946,
+          "tau10": -0.5040894678810611
+        },
+        "val_fnr_native": 0.11270207852193996
+      },
+      "all_minus_BEHAVIOUR": {
+        "n_features": 19,
+        "features": [
+          "hold_mean",
+          "hold_std",
+          "hold_cv",
+          "pp_mean",
+          "pp_std",
+          "pp_cv",
+          "rr_mean",
+          "rr_std",
+          "rr_cv",
+          "flight_mean",
+          "flight_std",
+          "flight_median",
+          "flight_iqr",
+          "pause_count",
+          "pause_rate",
+          "rollover_rate",
+          "n_keys",
+          "total_duration_ms",
+          "wpm"
+        ],
+        "gamma_effective": 0.3,
+        "n_support_vectors": 1896,
+        "thresholds": {
+          "tau5": -2.773790326021232,
+          "tau10": -0.5539605831121073
+        },
+        "val_fnr_native": 0.11824480369515011
+      },
+      "BEHAVIOUR_only": {
+        "n_features": 4,
+        "features": [
+          "corrections_count",
+          "correction_rate",
+          "lev_norm",
+          "shift_overlap_count"
+        ],
+        "gamma_effective": 0.3,
+        "n_support_vectors": 1723,
+        "thresholds": {
+          "tau5": -8.5853308413133,
+          "tau10": 0.00022796458466700642
+        },
+        "val_fnr_native": 0.07644341801385682
+      }
+    },
+    "refit_all_matches_frozen_thresholds": true
+  },
+  "importance": {
+    "n_per_class": 5000,
+    "n_repeats": 10,
+    "d3_refit_matches_phase2": true
+  },
+  "consistency": {
+    "min_user_sessions": 10,
+    "pseudo_user_sessions": 15
+  }
+}

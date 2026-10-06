@@ -1,0 +1,72 @@
+# Single source of truth for the Phase 1 pipeline. Every script reads this file.
+# `--quick` (any script) applies `quick_overrides` and writes to outputs/quick/ instead of outputs/full/.
+
+seed: 42                       # one global seed, passed explicitly to every random operation
+n_jobs: 8                      # joblib workers for parsing / feature extraction / the SVM grid
+
+paths:
+  raw_dir: data/raw/files                        # verified: participant files + readme.txt + metadata_participants.txt
+  metadata_file: metadata_participants.txt
+  participant_glob: "*_keystrokes.txt"
+  outputs_dir: outputs                           # -> outputs/<full|quick>/{interim,model,results}
+
+sampling:
+  n_users: 20000
+  # Explicit KEYBOARD_TYPE mapping (exact strings, as observed in metadata_participants.txt).
+  # Any value that is in neither list is excluded and reported as "unmapped".
+  keyboard_types_include: [full, laptop]
+  keyboard_types_exclude: [small, on-screen]
+  parse_chunk_files: 100                         # files per parallel task == parquet row group
+
+cleaning:                                        # a session is dropped if ANY rule fires (each rule counted separately)
+  min_keystrokes: 10
+  min_hold_ms: 0                                 # drop if any hold < min_hold_ms
+  max_hold_ms: 2000                              # drop if any hold > max_hold_ms
+  max_press_gap_ms: 5000                         # drop if any press-to-press gap > this
+
+split:
+  fractions: {train: 0.60, val: 0.15, test: 0.15, attacker_pool: 0.10}
+  max_train_sessions: 20000                      # null = no cap; seeded uniform session sampling
+
+features:
+  pause_threshold_ms: 500
+  correction_keycodes: [8, 46]                   # Backspace, Delete
+  shift_keycode: 16
+  groups: [TIMING, RHYTHM, BEHAVIOUR, GLOBAL]    # groups fed to the model (Phase 3 ablations edit this)
+  cv_warn_threshold: 100                         # step 04 warns if any *_cv feature exceeds this on the train split
+
+model:
+  nu_grid: [0.01, 0.02, 0.05, 0.10, 0.15]
+  gamma_grid: [scale, 0.001, 0.003, 0.01, 0.03, 0.1, 0.3]
+  target_fnrs: [0.05, 0.10]                      # tau5 (primary), tau10 (secondary)
+
+selection:                                       # Revision 1+2 (FINAL): attack-free product-of-marginals criterion over admissible configs
+  n_reference_points: 100000                     # M: each feature resampled independently from its transformed train column
+                                                 #    (Hempstalk, Frank & Witten 2008); criterion = lowest acceptance at tau5
+  tie_tolerance: 0.001                           # 0.1 percentage points -> smaller nu, then smaller gamma
+  min_reference_spread: 0.01                     # degeneracy guard: stop if (max - min) reference acceptance < 1 pp
+  admissibility:                                 # Revision 2 (FINAL): admissible iff |val_fnr_native - nu| <= max(abs_tol, rel_tol * nu)
+    abs_tol: 0.02                                #   (nu-property of the OCSVM, Scholkopf et al. 2001); never relaxed automatically
+    rel_tol: 0.5
+  n_uniform_outliers: 100000                     # Tax & Duin uniform box: DIAGNOSTIC column only, never used to select
+
+evaluation:
+  bootstrap_reps: 1000
+  ci_level: 0.95
+
+a1:                                              # A1 Gaussian generator (reconstruction; see METHODS.md assumptions)
+  hold_mean_ms: 116.24
+  hold_std_ms: 23.88
+  hold_min_ms: 30                                # ASSUMPTION
+  flight_mean_ms: 238.656
+  flight_std_ms: 111.6
+  flight_min_ms: 60
+
+legacy:                                          # step 99 only (response letter)
+  nu_grid: [0.01, 0.05, 0.1, 0.15]
+  gamma_grid: [auto, 0.1, 0.01]
+  n_sessions: 5000                               # seeded subsample of train sessions (same set used to fit and to "test")
+
+quick_overrides:                                 # deep-merged over the settings above when --quick is given
+  sampling:
+    n_users: 2000

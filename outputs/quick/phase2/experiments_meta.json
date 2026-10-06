@@ -1,0 +1,52 @@
+{
+  "seed": 42,
+  "config_hash": "107e859345c78e77",
+  "bootstrap_reps": 1000,
+  "ci_level": 0.95,
+  "n_test_human_sessions": 4344,
+  "n_test_users": 300,
+  "n_train_human_sessions": 17143,
+  "n_val_human_sessions": 4330,
+  "n_bots_test": {
+    "A1": 4344,
+    "A2": 4344,
+    "A3": 4344,
+    "A4": 4344,
+    "A5a": 4344,
+    "A5b": 4344
+  },
+  "n_bots_train": {
+    "A3": 17143,
+    "A4": 17143,
+    "A1": 17143,
+    "A2": 17143,
+    "A5b": 17143
+  },
+  "d1_frozen": true,
+  "runtime_seconds": 77.6017894744873,
+  "features": [
+    "hold_mean",
+    "hold_std",
+    "hold_cv",
+    "pp_mean",
+    "pp_std",
+    "pp_cv",
+    "rr_mean",
+    "rr_std",
+    "rr_cv",
+    "flight_mean",
+    "flight_std",
+    "flight_median",
+    "flight_iqr",
+    "pause_count",
+    "pause_rate",
+    "rollover_rate",
+    "corrections_count",
+    "correction_rate",
+    "lev_norm",
+    "shift_overlap_count",
+    "n_keys",
+    "total_duration_ms",
+    "wpm"
+  ]
+}

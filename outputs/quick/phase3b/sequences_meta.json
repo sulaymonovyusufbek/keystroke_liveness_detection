@@ -1,0 +1,105 @@
+{
+  "seed": 42,
+  "config_hash": "107e859345c78e77",
+  "human_sets": {
+    "train_all": {
+      "n_sessions": 17143,
+      "n_users": 1199,
+      "n_keystrokes": 828638
+    },
+    "val": {
+      "n_sessions": 4330,
+      "n_users": 300,
+      "n_keystrokes": 210274
+    },
+    "test": {
+      "n_sessions": 4344,
+      "n_users": 300,
+      "n_keystrokes": 211476
+    },
+    "train_20k": {
+      "n_sessions": 17143,
+      "n_users": 1199,
+      "n_keystrokes": 828638
+    }
+  },
+  "human_feature_checks": {
+    "train_20k": {
+      "n_keys": 0.0,
+      "hold_mean": 0.0,
+      "pp_mean": 0.0
+    },
+    "val": {
+      "n_keys": 0.0,
+      "hold_mean": 0.0,
+      "pp_mean": 0.0
+    },
+    "test": {
+      "n_keys": 0.0,
+      "hold_mean": 0.0,
+      "pp_mean": 0.0
+    }
+  },
+  "encoder": {
+    "mu_h": 4.659784242217599,
+    "sd_h": 0.4030362872768193,
+    "mu_p": 5.206961478038514,
+    "sd_p": 0.6866242738994722,
+    "max_len": 94,
+    "vocab_size": 71,
+    "info": {
+      "n_keycodes_seen": 89,
+      "n_keycodes_kept": 69,
+      "min_count": 20,
+      "unk_keycodes": [
+        0,
+        33,
+        34,
+        35,
+        36,
+        38,
+        40,
+        91,
+        93,
+        100,
+        102,
+        103,
+        104,
+        107,
+        109,
+        121,
+        122,
+        123,
+        223,
+        226
+      ],
+      "max_len_percentile": 99.0,
+      "n_sessions": 17143,
+      "n_keystrokes": 828638
+    }
+  },
+  "unk_fraction": {
+    "human_train_all": 0.00017377914119313863,
+    "human_val": 0.0002996090814841588,
+    "human_test": 0.00023170477973859918,
+    "human_train_20k": 0.00017377914119313863,
+    "bot_A1_train": 0.0,
+    "bot_A2_train": 0.0,
+    "bot_A3_train": 0.0,
+    "bot_A4_train": 0.0,
+    "bot_A5a_train": 0.00021257065558722644,
+    "bot_A5b_train": 0.0,
+    "bot_A1_test": 0.0,
+    "bot_A2_test": 0.0,
+    "bot_A3_test": 0.0,
+    "bot_A4_test": 0.0,
+    "bot_A5a_test": 0.0002469991972526089,
+    "bot_A5b_test": 0.0,
+    "bot_A1_val": 0.0,
+    "bot_A2_val": 0.0,
+    "bot_A3_val": 0.0,
+    "bot_A4_val": 0.0,
+    "bot_A5b_val": 0.0
+  },
+  "runtime_seconds": 149.26190376281738
+}

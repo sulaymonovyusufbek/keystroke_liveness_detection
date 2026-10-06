@@ -1,0 +1,45 @@
+{
+  "mode": "full",
+  "bootstrap_reps": 1000,
+  "ci_level": 0.95,
+  "seed": 42,
+  "seq_seeds": [
+    42,
+    43,
+    44
+  ],
+  "n_test_users": 2999,
+  "n_test_human_sessions": 43248,
+  "n_val_users": 3000,
+  "n_val_human_sessions": 43291,
+  "match_rule": {
+    "A1": "one bot per test human session (43248 of 43248); bot.session_id = human session_id, bot.user_id = human user_id",
+    "A2": "one bot per test human session (43248 of 43248); bot.session_id = human session_id, bot.user_id = human user_id",
+    "A3": "one bot per test human session (43248 of 43248); bot.session_id = human session_id, bot.user_id = human user_id",
+    "A4": "one bot per test human session (43248 of 43248); bot.session_id = human session_id, bot.user_id = human user_id",
+    "A5a": "one bot per test human session (43248 of 43248); bot.session_id = human session_id, bot.user_id = human user_id",
+    "A5b": "one bot per test human session (43248 of 43248); bot.session_id = human session_id, bot.user_id = human user_id"
+  },
+  "d3_refit_reproduces_phase2": true,
+  "identical_key_pairs": {
+    "A1": 9670,
+    "A2": 9670,
+    "A3": 9670,
+    "A4": 3502,
+    "A5b": 9521
+  },
+  "test_weights": "kl.phase2.evaluation.user_weights(n_test_users, reps, seed) over np.sort(unique test user ids) (= Phase 2 / 3b replicates)",
+  "val_weights": "multinomial, np.random.default_rng(SeedSequence(seed, spawn_key=(4,))) over np.unique(val user ids)",
+  "timings_seconds": {
+    "D1_D2": 65.8627552986145,
+    "D4": 109.4096794128418,
+    "D5": 28.074044227600098,
+    "D3_refit": 55.48021960258484,
+    "identical_keys": 12.745950937271118,
+    "D6": 27.077399969100952,
+    "D5_val_check": 47.178526401519775,
+    "total": 345.87650656700134
+  },
+  "n_checks": 961,
+  "n_failed_checks": 0
+}

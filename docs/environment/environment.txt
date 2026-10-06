@@ -1,0 +1,29 @@
+# Environment snapshot 2026-09-26T13:54:57+02:00
+
+## Python
+Python 3.11.16
+venv: .venv (pip 24.0 inside; use .venv/bin/python -m pip — there is no bare `pip` on PATH)
+
+## torch / CUDA
+torch 2.11.0+cu128
+torch CUDA build 12.8
+cuDNN 91900
+cuda available True
+GPU NVIDIA GeForce RTX 3050 6GB Laptop GPU
+
+## nvidia-smi
+name, driver_version, memory.total [MiB], vbios_version
+NVIDIA GeForce RTX 3050 6GB Laptop GPU, 595.91.07, 6144 MiB, 94.07.8A.00.5F
+| NVIDIA-SMI 595.91.07              Driver Version: 595.91.07      CUDA Version: 13.2     |
+
+## OS
+Linux nitro-Nitro-ANV15-51 7.0.0-34-generic #34-Ubuntu SMP PREEMPT_DYNAMIC Wed Sep  2 14:29:37 UTC 2026 x86_64 GNU/Linux
+Distributor ID:	Ubuntu
+Description:	Ubuntu 26.04.1 LTS
+Release:	26.04
+Codename:	resolute
+
+## CPU / RAM
+cores: 12
+               total        used        free      shared  buff/cache   available
+Mem:            14Gi       7.4Gi       1.7Gi       615Mi       6.3Gi       7.1Gi

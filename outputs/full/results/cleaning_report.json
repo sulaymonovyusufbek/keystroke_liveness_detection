@@ -1,0 +1,56 @@
+{
+  "step1_sampling": {
+    "n_users_requested": 20000,
+    "metadata_rows_raw": 168594,
+    "metadata_rows_bad_id": 0,
+    "metadata_rows_duplicate_id": 0,
+    "metadata_participants": 168594,
+    "keyboard_type_counts": {
+      "laptop": 91250,
+      "full": 73759,
+      "small": 1886,
+      "on-screen": 1699
+    },
+    "keyboard_types_include": [
+      "full",
+      "laptop"
+    ],
+    "keyboard_types_exclude": [
+      "small",
+      "on-screen"
+    ],
+    "unmapped_values": {},
+    "eligible": 165009,
+    "keystroke_files_found": 168593,
+    "eligible_with_file": 165008,
+    "sampled": 20000,
+    "files_failed": 0,
+    "failed_files_examples": [],
+    "rows_read": 14598748,
+    "lines_not_parsed_approx": 16,
+    "rows_dropped_bad_ids": 25,
+    "files_by_encoding": {
+      "utf-8": 19822,
+      "latin-1": 178
+    },
+    "keystrokes_parquet": "/home/nitro/PycharmProjects/keystroke_liveness/outputs/full/interim/keystrokes.parquet"
+  },
+  "step2_cleaning": {
+    "rows_in": 14598723,
+    "sessions_total": 300000,
+    "drop_too_few_keystrokes": 0,
+    "drop_bad_times": 0,
+    "drop_hold_out_of_range": 8201,
+    "drop_gap_too_long": 5267,
+    "drop_empty_text": 0,
+    "dropped_total": 11215,
+    "sessions_kept": 288785,
+    "rows_kept": 13986651,
+    "thresholds": {
+      "min_keystrokes": 10,
+      "min_hold_ms": 0,
+      "max_hold_ms": 2000,
+      "max_press_gap_ms": 5000
+    }
+  }
+}

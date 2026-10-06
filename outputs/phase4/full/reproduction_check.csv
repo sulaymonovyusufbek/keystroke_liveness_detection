@@ -1,0 +1,962 @@
+check,phase4,saved,abs_diff,ok
+D1 test-human scores vs interim/test_scores.parquet (max |diff|),0.0,0.0,0.0,True
+D1 tau5 recomputed on val humans vs frozen thresholds.json,-1.3421915185274018,-1.3421915185274018,0.0,True
+D1 tau10 recomputed on val humans vs frozen thresholds.json,-0.3523635190803258,-0.3523635190803258,0.0,True
+D1 A1 apcer_fpr_tau5 point vs open_set_table.csv,0.32359877913429524,0.3235987791342952,5.551115123125783e-17,True
+D1 A1 apcer_fpr_tau5 CI lo vs open_set_table.csv,0.31929462694791977,0.3192946269479197,5.551115123125783e-17,True
+D1 A1 apcer_fpr_tau5 CI hi vs open_set_table.csv,0.3279755630901318,0.3279755630901318,0.0,True
+D1 A1 apcer_fpr_tau10 point vs open_set_table.csv,0.05771365149833518,0.0577136514983351,8.326672684688674e-17,True
+D1 A1 apcer_fpr_tau10 CI lo vs open_set_table.csv,0.05554999473054721,0.0555499947305472,1.3877787807814457e-17,True
+D1 A1 apcer_fpr_tau10 CI hi vs open_set_table.csv,0.05981955526638786,0.0598195552663878,6.245004513516506e-17,True
+D1 A1 bpcer_fnr_tau5 point vs open_set_table.csv,0.04781724010358861,0.0478172401035886,6.938893903907228e-18,True
+D1 A1 bpcer_fnr_tau5 CI lo vs open_set_table.csv,0.044674295423039904,0.0446742954230399,6.938893903907228e-18,True
+D1 A1 bpcer_fnr_tau5 CI hi vs open_set_table.csv,0.05135912953711776,0.0513591295371177,6.245004513516506e-17,True
+D1 A1 bpcer_fnr_tau10 point vs open_set_table.csv,0.09898723640399557,0.0989872364039955,6.938893903907228e-17,True
+D1 A1 bpcer_fnr_tau10 CI lo vs open_set_table.csv,0.09433834910558593,0.0943383491055859,2.7755575615628914e-17,True
+D1 A1 bpcer_fnr_tau10 CI hi vs open_set_table.csv,0.10414880498630369,0.1041488049863036,8.326672684688674e-17,True
+D1 A1 auc point vs open_set_table.csv,0.9540592027402651,0.9540592027402652,1.1102230246251565e-16,True
+D1 A1 auc CI lo vs open_set_table.csv,0.9509255746182979,0.950925574618298,1.1102230246251565e-16,True
+D1 A1 auc CI hi vs open_set_table.csv,0.9566967450666949,0.9566967450666948,1.1102230246251565e-16,True
+D1 A2 apcer_fpr_tau5 point vs open_set_table.csv,0.9935488346281909,0.9935488346281908,1.1102230246251565e-16,True
+D1 A2 apcer_fpr_tau5 CI lo vs open_set_table.csv,0.9927105265183699,0.99271052651837,1.1102230246251565e-16,True
+D1 A2 apcer_fpr_tau5 CI hi vs open_set_table.csv,0.9942505014917895,0.9942505014917896,1.1102230246251565e-16,True
+D1 A2 apcer_fpr_tau10 point vs open_set_table.csv,0.9796984831668516,0.9796984831668516,0.0,True
+D1 A2 apcer_fpr_tau10 CI lo vs open_set_table.csv,0.9783214996911802,0.9783214996911802,0.0,True
+D1 A2 apcer_fpr_tau10 CI hi vs open_set_table.csv,0.9809726636266234,0.9809726636266234,0.0,True
+D1 A2 bpcer_fnr_tau5 point vs open_set_table.csv,0.04781724010358861,0.0478172401035886,6.938893903907228e-18,True
+D1 A2 bpcer_fnr_tau5 CI lo vs open_set_table.csv,0.044674295423039904,0.0446742954230399,6.938893903907228e-18,True
+D1 A2 bpcer_fnr_tau5 CI hi vs open_set_table.csv,0.05135912953711776,0.0513591295371177,6.245004513516506e-17,True
+D1 A2 bpcer_fnr_tau10 point vs open_set_table.csv,0.09898723640399557,0.0989872364039955,6.938893903907228e-17,True
+D1 A2 bpcer_fnr_tau10 CI lo vs open_set_table.csv,0.09433834910558593,0.0943383491055859,2.7755575615628914e-17,True
+D1 A2 bpcer_fnr_tau10 CI hi vs open_set_table.csv,0.10414880498630369,0.1041488049863036,8.326672684688674e-17,True
+D1 A2 auc point vs open_set_table.csv,0.46185942829157367,0.4618594282915736,5.551115123125783e-17,True
+D1 A2 auc CI lo vs open_set_table.csv,0.45538389011620023,0.4553838901162002,5.551115123125783e-17,True
+D1 A2 auc CI hi vs open_set_table.csv,0.46825279528800445,0.4682527952880044,5.551115123125783e-17,True
+D1 A3 apcer_fpr_tau5 point vs open_set_table.csv,0.9882306696263411,0.9882306696263412,1.1102230246251565e-16,True
+D1 A3 apcer_fpr_tau5 CI lo vs open_set_table.csv,0.9871999771710311,0.9871999771710313,1.1102230246251565e-16,True
+D1 A3 apcer_fpr_tau5 CI hi vs open_set_table.csv,0.9892770272156205,0.9892770272156204,1.1102230246251565e-16,True
+D1 A3 apcer_fpr_tau10 point vs open_set_table.csv,0.9678597854236034,0.9678597854236034,0.0,True
+D1 A3 apcer_fpr_tau10 CI lo vs open_set_table.csv,0.9660809234349295,0.9660809234349296,1.1102230246251565e-16,True
+D1 A3 apcer_fpr_tau10 CI hi vs open_set_table.csv,0.9694260778089456,0.9694260778089456,0.0,True
+D1 A3 bpcer_fnr_tau5 point vs open_set_table.csv,0.04781724010358861,0.0478172401035886,6.938893903907228e-18,True
+D1 A3 bpcer_fnr_tau5 CI lo vs open_set_table.csv,0.044674295423039904,0.0446742954230399,6.938893903907228e-18,True
+D1 A3 bpcer_fnr_tau5 CI hi vs open_set_table.csv,0.05135912953711776,0.0513591295371177,6.245004513516506e-17,True
+D1 A3 bpcer_fnr_tau10 point vs open_set_table.csv,0.09898723640399557,0.0989872364039955,6.938893903907228e-17,True
+D1 A3 bpcer_fnr_tau10 CI lo vs open_set_table.csv,0.09433834910558593,0.0943383491055859,2.7755575615628914e-17,True
+D1 A3 bpcer_fnr_tau10 CI hi vs open_set_table.csv,0.10414880498630369,0.1041488049863036,8.326672684688674e-17,True
+D1 A3 auc point vs open_set_table.csv,0.4278305466795434,0.4278305466795434,0.0,True
+D1 A3 auc CI lo vs open_set_table.csv,0.42180251236418226,0.4218025123641822,5.551115123125783e-17,True
+D1 A3 auc CI hi vs open_set_table.csv,0.43402390578729244,0.4340239057872924,5.551115123125783e-17,True
+D1 A4 apcer_fpr_tau5 point vs open_set_table.csv,0.9261006289308176,0.9261006289308176,0.0,True
+D1 A4 apcer_fpr_tau5 CI lo vs open_set_table.csv,0.9235764337724914,0.9235764337724914,0.0,True
+D1 A4 apcer_fpr_tau5 CI hi vs open_set_table.csv,0.9286547885690237,0.9286547885690236,1.1102230246251565e-16,True
+D1 A4 apcer_fpr_tau10 point vs open_set_table.csv,0.8684794672586016,0.8684794672586016,0.0,True
+D1 A4 apcer_fpr_tau10 CI lo vs open_set_table.csv,0.8652927984719452,0.8652927984719452,0.0,True
+D1 A4 apcer_fpr_tau10 CI hi vs open_set_table.csv,0.8718229243264859,0.8718229243264859,0.0,True
+D1 A4 bpcer_fnr_tau5 point vs open_set_table.csv,0.04781724010358861,0.0478172401035886,6.938893903907228e-18,True
+D1 A4 bpcer_fnr_tau5 CI lo vs open_set_table.csv,0.044674295423039904,0.0446742954230399,6.938893903907228e-18,True
+D1 A4 bpcer_fnr_tau5 CI hi vs open_set_table.csv,0.05135912953711776,0.0513591295371177,6.245004513516506e-17,True
+D1 A4 bpcer_fnr_tau10 point vs open_set_table.csv,0.09898723640399557,0.0989872364039955,6.938893903907228e-17,True
+D1 A4 bpcer_fnr_tau10 CI lo vs open_set_table.csv,0.09433834910558593,0.0943383491055859,2.7755575615628914e-17,True
+D1 A4 bpcer_fnr_tau10 CI hi vs open_set_table.csv,0.10414880498630369,0.1041488049863036,8.326672684688674e-17,True
+D1 A4 auc point vs open_set_table.csv,0.4989015330787485,0.4989015330787485,0.0,True
+D1 A4 auc CI lo vs open_set_table.csv,0.4930408624680246,0.4930408624680246,0.0,True
+D1 A4 auc CI hi vs open_set_table.csv,0.5046196784626491,0.5046196784626491,0.0,True
+D1 A5a apcer_fpr_tau5 point vs open_set_table.csv,0.9496161672216056,0.9496161672216056,0.0,True
+D1 A5a apcer_fpr_tau5 CI lo vs open_set_table.csv,0.9475728781380982,0.9475728781380982,0.0,True
+D1 A5a apcer_fpr_tau5 CI hi vs open_set_table.csv,0.9518400032173293,0.9518400032173292,1.1102230246251565e-16,True
+D1 A5a apcer_fpr_tau10 point vs open_set_table.csv,0.898515538290788,0.898515538290788,0.0,True
+D1 A5a apcer_fpr_tau10 CI lo vs open_set_table.csv,0.8955671203997225,0.8955671203997225,0.0,True
+D1 A5a apcer_fpr_tau10 CI hi vs open_set_table.csv,0.9016193124856472,0.9016193124856472,0.0,True
+D1 A5a bpcer_fnr_tau5 point vs open_set_table.csv,0.04781724010358861,0.0478172401035886,6.938893903907228e-18,True
+D1 A5a bpcer_fnr_tau5 CI lo vs open_set_table.csv,0.044674295423039904,0.0446742954230399,6.938893903907228e-18,True
+D1 A5a bpcer_fnr_tau5 CI hi vs open_set_table.csv,0.05135912953711776,0.0513591295371177,6.245004513516506e-17,True
+D1 A5a bpcer_fnr_tau10 point vs open_set_table.csv,0.09898723640399557,0.0989872364039955,6.938893903907228e-17,True
+D1 A5a bpcer_fnr_tau10 CI lo vs open_set_table.csv,0.09433834910558593,0.0943383491055859,2.7755575615628914e-17,True
+D1 A5a bpcer_fnr_tau10 CI hi vs open_set_table.csv,0.10414880498630369,0.1041488049863036,8.326672684688674e-17,True
+D1 A5a auc point vs open_set_table.csv,0.5059909377036367,0.5059909377036367,0.0,True
+D1 A5a auc CI lo vs open_set_table.csv,0.4998558186359921,0.4998558186359921,0.0,True
+D1 A5a auc CI hi vs open_set_table.csv,0.5118748417781513,0.5118748417781513,0.0,True
+D1 A5b apcer_fpr_tau5 point vs open_set_table.csv,0.9724842767295597,0.9724842767295596,1.1102230246251565e-16,True
+D1 A5b apcer_fpr_tau5 CI lo vs open_set_table.csv,0.9710227592641723,0.9710227592641724,1.1102230246251565e-16,True
+D1 A5b apcer_fpr_tau5 CI hi vs open_set_table.csv,0.9739735057030239,0.973973505703024,1.1102230246251565e-16,True
+D1 A5b apcer_fpr_tau10 point vs open_set_table.csv,0.9336616722160562,0.9336616722160562,0.0,True
+D1 A5b apcer_fpr_tau10 CI lo vs open_set_table.csv,0.9314241928539088,0.9314241928539088,0.0,True
+D1 A5b apcer_fpr_tau10 CI hi vs open_set_table.csv,0.9360023666200046,0.9360023666200046,0.0,True
+D1 A5b bpcer_fnr_tau5 point vs open_set_table.csv,0.04781724010358861,0.0478172401035886,6.938893903907228e-18,True
+D1 A5b bpcer_fnr_tau5 CI lo vs open_set_table.csv,0.044674295423039904,0.0446742954230399,6.938893903907228e-18,True
+D1 A5b bpcer_fnr_tau5 CI hi vs open_set_table.csv,0.05135912953711776,0.0513591295371177,6.245004513516506e-17,True
+D1 A5b bpcer_fnr_tau10 point vs open_set_table.csv,0.09898723640399557,0.0989872364039955,6.938893903907228e-17,True
+D1 A5b bpcer_fnr_tau10 CI lo vs open_set_table.csv,0.09433834910558593,0.0943383491055859,2.7755575615628914e-17,True
+D1 A5b bpcer_fnr_tau10 CI hi vs open_set_table.csv,0.10414880498630369,0.1041488049863036,8.326672684688674e-17,True
+D1 A5b auc point vs open_set_table.csv,0.5279962755821794,0.5279962755821794,0.0,True
+D1 A5b auc CI lo vs open_set_table.csv,0.5217735262332029,0.5217735262332029,0.0,True
+D1 A5b auc CI hi vs open_set_table.csv,0.534411978859167,0.534411978859167,0.0,True
+D4-primary seed42 tau5 recomputed on val humans vs saved,-2.259958863258362,-2.259958863258362,0.0,True
+D4-primary seed42 tau10 recomputed on val humans vs saved,-2.1101067066192627,-2.1101067066192627,0.0,True
+D4-primary seed43 tau5 recomputed on val humans vs saved,-2.2596428394317627,-2.2596428394317627,0.0,True
+D4-primary seed43 tau10 recomputed on val humans vs saved,-2.1099064350128174,-2.1099064350128174,0.0,True
+D4-primary seed44 tau5 recomputed on val humans vs saved,-2.253401279449463,-2.253401279449463,0.0,True
+D4-primary seed44 tau10 recomputed on val humans vs saved,-2.1079676151275635,-2.1079676151275635,0.0,True
+D4-primary A1 apcer_fpr_tau5 mean over seeds vs e4_open_set.csv,0.8520779380934763,0.8520779380934763,0.0,True
+D4-primary A1 apcer_fpr_tau10 mean over seeds vs e4_open_set.csv,0.6396904673819214,0.6396904673819214,0.0,True
+D4-primary A1 bpcer_fnr_tau5 mean over seeds vs e4_open_set.csv,0.055077691453940064,0.05507769145394,6.245004513516506e-17,True
+D4-primary A1 bpcer_fnr_tau10 mean over seeds vs e4_open_set.csv,0.10489117030459982,0.1048911703045998,2.7755575615628914e-17,True
+D4-primary A1 auc mean over seeds vs e4_open_set.csv,0.8338287521563567,0.8338287521563567,0.0,True
+D4-primary A2 apcer_fpr_tau5 mean over seeds vs e4_open_set.csv,0.018721482303613268,0.0187214823036132,6.591949208711867e-17,True
+D4-primary A2 apcer_fpr_tau10 mean over seeds vs e4_open_set.csv,0.005549389567147613,0.0055493895671476,1.3010426069826053e-17,True
+D4-primary A2 bpcer_fnr_tau5 mean over seeds vs e4_open_set.csv,0.055077691453940064,0.05507769145394,6.245004513516506e-17,True
+D4-primary A2 bpcer_fnr_tau10 mean over seeds vs e4_open_set.csv,0.10489117030459982,0.1048911703045998,2.7755575615628914e-17,True
+D4-primary A2 auc mean over seeds vs e4_open_set.csv,0.9907194293151894,0.9907194293151894,0.0,True
+D4-primary A3 apcer_fpr_tau5 mean over seeds vs e4_open_set.csv,0.09111018621284993,0.0911101862128499,2.7755575615628914e-17,True
+D4-primary A3 apcer_fpr_tau10 mean over seeds vs e4_open_set.csv,0.029827968923418425,0.0298279689234184,2.42861286636753e-17,True
+D4-primary A3 bpcer_fnr_tau5 mean over seeds vs e4_open_set.csv,0.055077691453940064,0.05507769145394,6.245004513516506e-17,True
+D4-primary A3 bpcer_fnr_tau10 mean over seeds vs e4_open_set.csv,0.10489117030459982,0.1048911703045998,2.7755575615628914e-17,True
+D4-primary A3 auc mean over seeds vs e4_open_set.csv,0.9768903564876578,0.9768903564876577,1.1102230246251565e-16,True
+D4-primary A4 apcer_fpr_tau5 mean over seeds vs e4_open_set.csv,0.045127327660623995,0.0451273276606239,9.71445146547012e-17,True
+D4-primary A4 apcer_fpr_tau10 mean over seeds vs e4_open_set.csv,0.013341657417684056,0.013341657417684,5.551115123125783e-17,True
+D4-primary A4 bpcer_fnr_tau5 mean over seeds vs e4_open_set.csv,0.055077691453940064,0.05507769145394,6.245004513516506e-17,True
+D4-primary A4 bpcer_fnr_tau10 mean over seeds vs e4_open_set.csv,0.10489117030459982,0.1048911703045998,2.7755575615628914e-17,True
+D4-primary A4 auc mean over seeds vs e4_open_set.csv,0.9852221588386331,0.9852221588386332,1.1102230246251565e-16,True
+D4-primary A5a apcer_fpr_tau5 mean over seeds vs e4_open_set.csv,0.9449685534591193,0.9449685534591192,1.1102230246251565e-16,True
+D4-primary A5a apcer_fpr_tau10 mean over seeds vs e4_open_set.csv,0.8969046738192131,0.8969046738192131,0.0,True
+D4-primary A5a bpcer_fnr_tau5 mean over seeds vs e4_open_set.csv,0.055077691453940064,0.05507769145394,6.245004513516506e-17,True
+D4-primary A5a bpcer_fnr_tau10 mean over seeds vs e4_open_set.csv,0.10489117030459982,0.1048911703045998,2.7755575615628914e-17,True
+D4-primary A5a auc mean over seeds vs e4_open_set.csv,0.4943667553500842,0.4943667553500842,0.0,True
+D4-primary A5b apcer_fpr_tau5 mean over seeds vs e4_open_set.csv,0.1418331483536811,0.1418331483536811,0.0,True
+D4-primary A5b apcer_fpr_tau10 mean over seeds vs e4_open_set.csv,0.07497071155506228,0.0749707115550622,8.326672684688674e-17,True
+D4-primary A5b bpcer_fnr_tau5 mean over seeds vs e4_open_set.csv,0.055077691453940064,0.05507769145394,6.245004513516506e-17,True
+D4-primary A5b bpcer_fnr_tau10 mean over seeds vs e4_open_set.csv,0.10489117030459982,0.1048911703045998,2.7755575615628914e-17,True
+D4-primary A5b auc mean over seeds vs e4_open_set.csv,0.9681281358566336,0.9681281358566336,0.0,True
+D4-20k seed42 tau5 recomputed on val humans vs saved,-2.3298377990722656,-2.3298377990722656,0.0,True
+D4-20k seed42 tau10 recomputed on val humans vs saved,-2.1851389408111572,-2.1851389408111572,0.0,True
+D4-20k seed43 tau5 recomputed on val humans vs saved,-2.326387405395508,-2.326387405395508,0.0,True
+D4-20k seed43 tau10 recomputed on val humans vs saved,-2.1825716495513916,-2.1825716495513916,0.0,True
+D4-20k seed44 tau5 recomputed on val humans vs saved,-2.325740933418274,-2.325740933418274,0.0,True
+D4-20k seed44 tau10 recomputed on val humans vs saved,-2.179326057434082,-2.179326057434082,0.0,True
+D4-20k A1 apcer_fpr_tau5 mean over seeds vs e4_open_set.csv,0.9046969416697497,0.9046969416697496,1.1102230246251565e-16,True
+D4-20k A1 apcer_fpr_tau10 mean over seeds vs e4_open_set.csv,0.7478110741151807,0.7478110741151807,0.0,True
+D4-20k A1 bpcer_fnr_tau5 mean over seeds vs e4_open_set.csv,0.055278086077198176,0.0552780860771981,7.632783294297951e-17,True
+D4-20k A1 bpcer_fnr_tau10 mean over seeds vs e4_open_set.csv,0.10430540140584536,0.1043054014058453,6.938893903907228e-17,True
+D4-20k A1 auc mean over seeds vs e4_open_set.csv,0.795833282131877,0.795833282131877,0.0,True
+D4-20k A2 apcer_fpr_tau5 mean over seeds vs e4_open_set.csv,0.03835244789739795,0.0383524478973979,5.551115123125783e-17,True
+D4-20k A2 apcer_fpr_tau10 mean over seeds vs e4_open_set.csv,0.012278024417314093,0.012278024417314,9.367506770274758e-17,True
+D4-20k A2 bpcer_fnr_tau5 mean over seeds vs e4_open_set.csv,0.055278086077198176,0.0552780860771981,7.632783294297951e-17,True
+D4-20k A2 bpcer_fnr_tau10 mean over seeds vs e4_open_set.csv,0.10430540140584536,0.1043054014058453,6.938893903907228e-17,True
+D4-20k A2 auc mean over seeds vs e4_open_set.csv,0.9861874858446597,0.9861874858446597,0.0,True
+D4-20k A3 apcer_fpr_tau5 mean over seeds vs e4_open_set.csv,0.17842828955481563,0.1784282895548156,2.7755575615628914e-17,True
+D4-20k A3 apcer_fpr_tau10 mean over seeds vs e4_open_set.csv,0.06753298803798248,0.0675329880379824,8.326672684688674e-17,True
+D4-20k A3 bpcer_fnr_tau5 mean over seeds vs e4_open_set.csv,0.055278086077198176,0.0552780860771981,7.632783294297951e-17,True
+D4-20k A3 bpcer_fnr_tau10 mean over seeds vs e4_open_set.csv,0.10430540140584536,0.1043054014058453,6.938893903907228e-17,True
+D4-20k A3 auc mean over seeds vs e4_open_set.csv,0.9643247088245707,0.9643247088245708,1.1102230246251565e-16,True
+D4-20k A4 apcer_fpr_tau5 mean over seeds vs e4_open_set.csv,0.09318349981502035,0.0931834998150203,4.163336342344337e-17,True
+D4-20k A4 apcer_fpr_tau10 mean over seeds vs e4_open_set.csv,0.03190128252558885,0.0319012825255888,5.551115123125783e-17,True
+D4-20k A4 bpcer_fnr_tau5 mean over seeds vs e4_open_set.csv,0.055278086077198176,0.0552780860771981,7.632783294297951e-17,True
+D4-20k A4 bpcer_fnr_tau10 mean over seeds vs e4_open_set.csv,0.10430540140584536,0.1043054014058453,6.938893903907228e-17,True
+D4-20k A4 auc mean over seeds vs e4_open_set.csv,0.9773590986033819,0.977359098603382,1.1102230246251565e-16,True
+D4-20k A5a apcer_fpr_tau5 mean over seeds vs e4_open_set.csv,0.9446679615242323,0.9446679615242324,1.1102230246251565e-16,True
+D4-20k A5a apcer_fpr_tau10 mean over seeds vs e4_open_set.csv,0.8981687014428413,0.8981687014428413,0.0,True
+D4-20k A5a bpcer_fnr_tau5 mean over seeds vs e4_open_set.csv,0.055278086077198176,0.0552780860771981,7.632783294297951e-17,True
+D4-20k A5a bpcer_fnr_tau10 mean over seeds vs e4_open_set.csv,0.10430540140584536,0.1043054014058453,6.938893903907228e-17,True
+D4-20k A5a auc mean over seeds vs e4_open_set.csv,0.49448940422411614,0.4944894042241161,5.551115123125783e-17,True
+D4-20k A5b apcer_fpr_tau5 mean over seeds vs e4_open_set.csv,0.19541558761869526,0.1954155876186952,5.551115123125783e-17,True
+D4-20k A5b apcer_fpr_tau10 mean over seeds vs e4_open_set.csv,0.11135004316191884,0.1113500431619188,4.163336342344337e-17,True
+D4-20k A5b bpcer_fnr_tau5 mean over seeds vs e4_open_set.csv,0.055278086077198176,0.0552780860771981,7.632783294297951e-17,True
+D4-20k A5b bpcer_fnr_tau10 mean over seeds vs e4_open_set.csv,0.10430540140584536,0.1043054014058453,6.938893903907228e-17,True
+D4-20k A5b auc mean over seeds vs e4_open_set.csv,0.9561160416990878,0.9561160416990878,0.0,True
+D4-nokey seed42 tau5 recomputed on val humans vs saved,-2.746529221534729,-2.746529221534729,0.0,True
+D4-nokey seed42 tau10 recomputed on val humans vs saved,-2.606912612915039,-2.606912612915039,0.0,True
+D4-nokey seed43 tau5 recomputed on val humans vs saved,-2.751438617706299,-2.751438617706299,0.0,True
+D4-nokey seed43 tau10 recomputed on val humans vs saved,-2.6127281188964844,-2.6127281188964844,0.0,True
+D4-nokey seed44 tau5 recomputed on val humans vs saved,-2.744611382484436,-2.744611382484436,0.0,True
+D4-nokey seed44 tau10 recomputed on val humans vs saved,-2.6075217723846436,-2.6075217723846436,0.0,True
+D4-nokey A1 apcer_fpr_tau5 mean over seeds vs e4_open_set.csv,0.99893636699963,0.99893636699963,0.0,True
+D4-nokey A1 apcer_fpr_tau10 mean over seeds vs e4_open_set.csv,0.9966549512886916,0.9966549512886916,0.0,True
+D4-nokey A1 bpcer_fnr_tau5 mean over seeds vs e4_open_set.csv,0.05350536440991491,0.0535053644099149,6.938893903907228e-18,True
+D4-nokey A1 bpcer_fnr_tau10 mean over seeds vs e4_open_set.csv,0.10337279565914416,0.1033727956591441,5.551115123125783e-17,True
+D4-nokey A1 auc mean over seeds vs e4_open_set.csv,0.24730404460895292,0.2473040446089529,2.7755575615628914e-17,True
+D4-nokey A2 apcer_fpr_tau5 mean over seeds vs e4_open_set.csv,0.45077229004809466,0.4507722900480946,5.551115123125783e-17,True
+D4-nokey A2 apcer_fpr_tau10 mean over seeds vs e4_open_set.csv,0.24970711555062278,0.2497071155506227,8.326672684688674e-17,True
+D4-nokey A2 bpcer_fnr_tau5 mean over seeds vs e4_open_set.csv,0.05350536440991491,0.0535053644099149,6.938893903907228e-18,True
+D4-nokey A2 bpcer_fnr_tau10 mean over seeds vs e4_open_set.csv,0.10337279565914416,0.1033727956591441,5.551115123125783e-17,True
+D4-nokey A2 auc mean over seeds vs e4_open_set.csv,0.9226779934389538,0.9226779934389536,2.220446049250313e-16,True
+D4-nokey A3 apcer_fpr_tau5 mean over seeds vs e4_open_set.csv,0.7780012948575656,0.7780012948575656,0.0,True
+D4-nokey A3 apcer_fpr_tau10 mean over seeds vs e4_open_set.csv,0.6465501294857566,0.6465501294857566,0.0,True
+D4-nokey A3 bpcer_fnr_tau5 mean over seeds vs e4_open_set.csv,0.05350536440991491,0.0535053644099149,6.938893903907228e-18,True
+D4-nokey A3 bpcer_fnr_tau10 mean over seeds vs e4_open_set.csv,0.10337279565914416,0.1033727956591441,5.551115123125783e-17,True
+D4-nokey A3 auc mean over seeds vs e4_open_set.csv,0.7975103064414973,0.7975103064414973,0.0,True
+D4-nokey A4 apcer_fpr_tau5 mean over seeds vs e4_open_set.csv,0.5621762856085831,0.5621762856085831,0.0,True
+D4-nokey A4 apcer_fpr_tau10 mean over seeds vs e4_open_set.csv,0.3947542853619435,0.3947542853619435,0.0,True
+D4-nokey A4 bpcer_fnr_tau5 mean over seeds vs e4_open_set.csv,0.05350536440991491,0.0535053644099149,6.938893903907228e-18,True
+D4-nokey A4 bpcer_fnr_tau10 mean over seeds vs e4_open_set.csv,0.10337279565914416,0.1033727956591441,5.551115123125783e-17,True
+D4-nokey A4 auc mean over seeds vs e4_open_set.csv,0.8819353468741449,0.881935346874145,1.1102230246251565e-16,True
+D4-nokey A5a apcer_fpr_tau5 mean over seeds vs e4_open_set.csv,0.9465331730176346,0.9465331730176346,0.0,True
+D4-nokey A5a apcer_fpr_tau10 mean over seeds vs e4_open_set.csv,0.8986465655444568,0.8986465655444568,0.0,True
+D4-nokey A5a bpcer_fnr_tau5 mean over seeds vs e4_open_set.csv,0.05350536440991491,0.0535053644099149,6.938893903907228e-18,True
+D4-nokey A5a bpcer_fnr_tau10 mean over seeds vs e4_open_set.csv,0.10337279565914416,0.1033727956591441,5.551115123125783e-17,True
+D4-nokey A5a auc mean over seeds vs e4_open_set.csv,0.49470957013026523,0.4947095701302653,5.551115123125783e-17,True
+D4-nokey A5b apcer_fpr_tau5 mean over seeds vs e4_open_set.csv,0.9207130965593784,0.9207130965593784,0.0,True
+D4-nokey A5b apcer_fpr_tau10 mean over seeds vs e4_open_set.csv,0.8518621284991984,0.8518621284991984,0.0,True
+D4-nokey A5b bpcer_fnr_tau5 mean over seeds vs e4_open_set.csv,0.05350536440991491,0.0535053644099149,6.938893903907228e-18,True
+D4-nokey A5b bpcer_fnr_tau10 mean over seeds vs e4_open_set.csv,0.10337279565914416,0.1033727956591441,5.551115123125783e-17,True
+D4-nokey A5b auc mean over seeds vs e4_open_set.csv,0.554728661836346,0.5547286618363458,1.1102230246251565e-16,True
+D5 LOAO A1 apcer_fpr_tau5 mean over seeds vs e6_loao.csv,0.09767696386730791,0.0976769638673079,1.3877787807814457e-17,True
+D5 LOAO A1 apcer_fpr_tau10 mean over seeds vs e6_loao.csv,0.032764520902700704,0.0327645209027007,6.938893903907228e-18,True
+D5 LOAO A1 bpcer_fnr_tau5 mean over seeds vs e6_loao.csv,0.05493895671476138,0.0549389567147613,7.632783294297951e-17,True
+D5 LOAO A1 bpcer_fnr_tau10 mean over seeds vs e6_loao.csv,0.10667159945739302,0.106671599457393,1.3877787807814457e-17,True
+D5 LOAO A1 auc mean over seeds vs e6_loao.csv,0.9799595234469409,0.9799595234469408,1.1102230246251565e-16,True
+D5 LOAO A2 apcer_fpr_tau5 mean over seeds vs e6_loao.csv,0.03136946602540387,0.0313694660254038,6.938893903907228e-17,True
+D5 LOAO A2 apcer_fpr_tau10 mean over seeds vs e6_loao.csv,0.01234739178690344,0.0123473917869034,3.9898639947466563e-17,True
+D5 LOAO A2 bpcer_fnr_tau5 mean over seeds vs e6_loao.csv,0.0546075348378345,0.0546075348378345,0.0,True
+D5 LOAO A2 bpcer_fnr_tau10 mean over seeds vs e6_loao.csv,0.10654057220372426,0.1065405722037242,5.551115123125783e-17,True
+D5 LOAO A2 auc mean over seeds vs e6_loao.csv,0.9930252951027395,0.9930252951027396,1.1102230246251565e-16,True
+D5 LOAO A3 apcer_fpr_tau5 mean over seeds vs e6_loao.csv,0.026506042668639786,0.0265060426686397,8.673617379884035e-17,True
+D5 LOAO A3 apcer_fpr_tau10 mean over seeds vs e6_loao.csv,0.008108274756443459,0.0081082747564434,5.898059818321144e-17,True
+D5 LOAO A3 bpcer_fnr_tau5 mean over seeds vs e6_loao.csv,0.054044888395609815,0.0540448883956098,1.3877787807814457e-17,True
+D5 LOAO A3 bpcer_fnr_tau10 mean over seeds vs e6_loao.csv,0.10726507584165741,0.1072650758416574,1.3877787807814457e-17,True
+D5 LOAO A3 auc mean over seeds vs e6_loao.csv,0.9934152242227295,0.9934152242227297,1.1102230246251565e-16,True
+D5 LOAO A4 apcer_fpr_tau5 mean over seeds vs e6_loao.csv,0.5408342582315946,0.5408342582315946,0.0,True
+D5 LOAO A4 apcer_fpr_tau10 mean over seeds vs e6_loao.csv,0.5223362930077692,0.5223362930077692,0.0,True
+D5 LOAO A4 bpcer_fnr_tau5 mean over seeds vs e6_loao.csv,0.05367492909113331,0.0536749290911333,1.3877787807814457e-17,True
+D5 LOAO A4 bpcer_fnr_tau10 mean over seeds vs e6_loao.csv,0.10563879639906278,0.1056387963990627,6.938893903907228e-17,True
+D5 LOAO A4 auc mean over seeds vs e6_loao.csv,0.7191858935210677,0.7191858935210677,0.0,True
+D5 LOAO A5b apcer_fpr_tau5 mean over seeds vs e6_loao.csv,0.36091071648785306,0.360910716487853,5.551115123125783e-17,True
+D5 LOAO A5b apcer_fpr_tau10 mean over seeds vs e6_loao.csv,0.2495992107534838,0.2495992107534838,0.0,True
+D5 LOAO A5b bpcer_fnr_tau5 mean over seeds vs e6_loao.csv,0.053728881489702805,0.0537288814897028,6.938893903907228e-18,True
+D5 LOAO A5b bpcer_fnr_tau10 mean over seeds vs e6_loao.csv,0.1057621161672216,0.1057621161672216,0.0,True
+D5 LOAO A5b auc mean over seeds vs e6_loao.csv,0.908939607069851,0.9089396070698508,2.220446049250313e-16,True
+D5 E5 A1->A1 apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.0,0.0,0.0,True
+D5 E5 A1->A1 apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.0,0.0,0.0,True
+D5 E5 A1->A1 bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.054044888395609815,0.0540448883956098,1.3877787807814457e-17,True
+D5 E5 A1->A1 bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10724195338512764,0.1072419533851276,4.163336342344337e-17,True
+D5 E5 A1->A2 apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.9867970773214947,0.9867970773214948,1.1102230246251565e-16,True
+D5 E5 A1->A2 apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.951589283512147,0.951589283512147,0.0,True
+D5 E5 A1->A2 bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.054044888395609815,0.0540448883956098,1.3877787807814457e-17,True
+D5 E5 A1->A2 bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10724195338512764,0.1072419533851276,4.163336342344337e-17,True
+D5 E5 A1->A3 apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.8566407695153533,0.8566407695153533,0.0,True
+D5 E5 A1->A3 apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.7890075841657418,0.7890075841657418,0.0,True
+D5 E5 A1->A3 bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.054044888395609815,0.0540448883956098,1.3877787807814457e-17,True
+D5 E5 A1->A3 bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10724195338512764,0.1072419533851276,4.163336342344337e-17,True
+D5 E5 A1->A4 apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.9218075595017882,0.9218075595017882,0.0,True
+D5 E5 A1->A4 apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.876279442594648,0.876279442594648,0.0,True
+D5 E5 A1->A4 bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.054044888395609815,0.0540448883956098,1.3877787807814457e-17,True
+D5 E5 A1->A4 bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10724195338512764,0.1072419533851276,4.163336342344337e-17,True
+D5 E5 A1->A5a apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.9502713034899495,0.9502713034899496,1.1102230246251565e-16,True
+D5 E5 A1->A5a apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.8943997410284868,0.8943997410284868,0.0,True
+D5 E5 A1->A5a bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.054044888395609815,0.0540448883956098,1.3877787807814457e-17,True
+D5 E5 A1->A5a bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10724195338512764,0.1072419533851276,4.163336342344337e-17,True
+D5 E5 A1->A5b apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.7878745837957825,0.7878745837957825,0.0,True
+D5 E5 A1->A5b apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.6706206067332593,0.6706206067332593,0.0,True
+D5 E5 A1->A5b bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.054044888395609815,0.0540448883956098,1.3877787807814457e-17,True
+D5 E5 A1->A5b bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10724195338512764,0.1072419533851276,4.163336342344337e-17,True
+D5 E5 A2->A1 apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.9826119126896041,0.982611912689604,1.1102230246251565e-16,True
+D5 E5 A2->A1 apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.9155028363546677,0.9155028363546676,1.1102230246251565e-16,True
+D5 E5 A2->A1 bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05366722160562338,0.0536672216056233,7.632783294297951e-17,True
+D5 E5 A2->A1 bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10641725243556543,0.1064172524355654,4.163336342344337e-17,True
+D5 E5 A2->A2 apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.0013950548772968306,0.0013950548772968,3.0574501264091225e-17,True
+D5 E5 A2->A2 apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.00013873473917869035,0.0001387347391786,9.034114602235466e-17,True
+D5 E5 A2->A2 bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05366722160562338,0.0536672216056233,7.632783294297951e-17,True
+D5 E5 A2->A2 bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10641725243556543,0.1064172524355654,4.163336342344337e-17,True
+D5 E5 A2->A3 apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.22010266370699225,0.2201026637069922,5.551115123125783e-17,True
+D5 E5 A2->A3 apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.12818319151559995,0.1281831915155999,5.551115123125783e-17,True
+D5 E5 A2->A3 bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05366722160562338,0.0536672216056233,7.632783294297951e-17,True
+D5 E5 A2->A3 bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10641725243556543,0.1064172524355654,4.163336342344337e-17,True
+D5 E5 A2->A4 apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.6072342458996177,0.6072342458996177,0.0,True
+D5 E5 A2->A4 apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.5472777161178937,0.5472777161178937,0.0,True
+D5 E5 A2->A4 bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05366722160562338,0.0536672216056233,7.632783294297951e-17,True
+D5 E5 A2->A4 bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10641725243556543,0.1064172524355654,4.163336342344337e-17,True
+D5 E5 A2->A5a apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.948413799482057,0.948413799482057,0.0,True
+D5 E5 A2->A5a apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.9011592058206931,0.9011592058206932,1.1102230246251565e-16,True
+D5 E5 A2->A5a bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05366722160562338,0.0536672216056233,7.632783294297951e-17,True
+D5 E5 A2->A5a bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10641725243556543,0.1064172524355654,4.163336342344337e-17,True
+D5 E5 A2->A5b apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.4826504501171538,0.4826504501171538,0.0,True
+D5 E5 A2->A5b apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.3242462079171291,0.3242462079171291,0.0,True
+D5 E5 A2->A5b bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05366722160562338,0.0536672216056233,7.632783294297951e-17,True
+D5 E5 A2->A5b bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10641725243556543,0.1064172524355654,4.163336342344337e-17,True
+D5 E5 A3->A1 apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.03256412627944259,0.0325641262794425,9.020562075079397e-17,True
+D5 E5 A3->A1 apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.009449377235170798,0.0094493772351707,9.71445146547012e-17,True
+D5 E5 A3->A1 bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05182513256875077,0.0518251325687507,6.938893903907228e-17,True
+D5 E5 A3->A1 bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10276390430385991,0.1027639043038599,1.3877787807814457e-17,True
+D5 E5 A3->A2 apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.11592058206930571,0.1159205820693057,1.3877787807814457e-17,True
+D5 E5 A3->A2 apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.04789431495868788,0.0478943149586878,7.632783294297951e-17,True
+D5 E5 A3->A2 bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05182513256875077,0.0518251325687507,6.938893903907228e-17,True
+D5 E5 A3->A2 bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10276390430385991,0.1027639043038599,1.3877787807814457e-17,True
+D5 E5 A3->A3 apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.005302750030829942,0.0053027500308299,4.2500725161431774e-17,True
+D5 E5 A3->A3 apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.0007322111234430879,0.000732211123443,8.782037597132586e-17,True
+D5 E5 A3->A3 bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05182513256875077,0.0518251325687507,6.938893903907228e-17,True
+D5 E5 A3->A3 bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10276390430385991,0.1027639043038599,1.3877787807814457e-17,True
+D5 E5 A3->A4 apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.5726045135035146,0.5726045135035146,0.0,True
+D5 E5 A3->A4 apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.531446540880503,0.531446540880503,0.0,True
+D5 E5 A3->A4 bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05182513256875077,0.0518251325687507,6.938893903907228e-17,True
+D5 E5 A3->A4 bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10276390430385991,0.1027639043038599,1.3877787807814457e-17,True
+D5 E5 A3->A5a apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.9504562831421878,0.9504562831421878,0.0,True
+D5 E5 A3->A5a apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.9016678998643483,0.9016678998643484,1.1102230246251565e-16,True
+D5 E5 A3->A5a bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05182513256875077,0.0518251325687507,6.938893903907228e-17,True
+D5 E5 A3->A5a bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10276390430385991,0.1027639043038599,1.3877787807814457e-17,True
+D5 E5 A3->A5b apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.4410223208780368,0.4410223208780368,0.0,True
+D5 E5 A3->A5b apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.2865257738315452,0.2865257738315452,0.0,True
+D5 E5 A3->A5b bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05182513256875077,0.0518251325687507,6.938893903907228e-17,True
+D5 E5 A3->A5b bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10276390430385991,0.1027639043038599,1.3877787807814457e-17,True
+D5 E5 A4->A1 apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.18207393020101123,0.1820739302010112,2.7755575615628914e-17,True
+D5 E5 A4->A1 apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.07395332346775188,0.0739533234677518,8.326672684688674e-17,True
+D5 E5 A4->A1 bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05322789493155753,0.0532278949315575,2.7755575615628914e-17,True
+D5 E5 A4->A1 bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10591626587742015,0.1059162658774201,4.163336342344337e-17,True
+D5 E5 A4->A2 apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.027978172401035884,0.0279781724010358,8.326672684688674e-17,True
+D5 E5 A4->A2 apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.00969601677148847,0.0096960167714884,7.112366251504909e-17,True
+D5 E5 A4->A2 bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05322789493155753,0.0532278949315575,2.7755575615628914e-17,True
+D5 E5 A4->A2 bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10591626587742015,0.1059162658774201,4.163336342344337e-17,True
+D5 E5 A4->A3 apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.02392403502281416,0.0239240350228141,5.898059818321144e-17,True
+D5 E5 A4->A3 apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.006936736958934517,0.0069367369589345,1.6479873021779667e-17,True
+D5 E5 A4->A3 bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05322789493155753,0.0532278949315575,2.7755575615628914e-17,True
+D5 E5 A4->A3 bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10591626587742015,0.1059162658774201,4.163336342344337e-17,True
+D5 E5 A4->A4 apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.01405074608459736,0.0140507460845973,5.898059818321144e-17,True
+D5 E5 A4->A4 apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.0038306202984338387,0.0038306202984338,3.859759734048396e-17,True
+D5 E5 A4->A4 bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05322789493155753,0.0532278949315575,2.7755575615628914e-17,True
+D5 E5 A4->A4 bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10591626587742015,0.1059162658774201,4.163336342344337e-17,True
+D5 E5 A4->A5a apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.952861018621285,0.952861018621285,0.0,True
+D5 E5 A4->A5a apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.9026698729806388,0.9026698729806388,0.0,True
+D5 E5 A4->A5a bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05322789493155753,0.0532278949315575,2.7755575615628914e-17,True
+D5 E5 A4->A5a bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10591626587742015,0.1059162658774201,4.163336342344337e-17,True
+D5 E5 A4->A5b apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.41795381674682447,0.4179538167468244,5.551115123125783e-17,True
+D5 E5 A4->A5b apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.29797909729929706,0.297979097299297,5.551115123125783e-17,True
+D5 E5 A4->A5b bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05322789493155753,0.0532278949315575,2.7755575615628914e-17,True
+D5 E5 A4->A5b bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10591626587742015,0.1059162658774201,4.163336342344337e-17,True
+D5 E5 A5b->A1 apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.27114163275373043,0.2711416327537304,5.551115123125783e-17,True
+D5 E5 A5b->A1 apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.16188031816500184,0.1618803181650018,2.7755575615628914e-17,True
+D5 E5 A5b->A1 bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05297354790972993,0.0529735479097299,3.469446951953614e-17,True
+D5 E5 A5b->A1 bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10357319028240226,0.1035731902824022,6.938893903907228e-17,True
+D5 E5 A5b->A2 apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.22976014305093106,0.229760143050931,5.551115123125783e-17,True
+D5 E5 A5b->A2 apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.1295011715377975,0.1295011715377975,0.0,True
+D5 E5 A5b->A2 bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05297354790972993,0.0529735479097299,3.469446951953614e-17,True
+D5 E5 A5b->A2 bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10357319028240226,0.1035731902824022,6.938893903907228e-17,True
+D5 E5 A5b->A3 apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.30578678012085336,0.3057867801208533,5.551115123125783e-17,True
+D5 E5 A5b->A3 apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.16405382907880137,0.1640538290788013,5.551115123125783e-17,True
+D5 E5 A5b->A3 bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05297354790972993,0.0529735479097299,3.469446951953614e-17,True
+D5 E5 A5b->A3 bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10357319028240226,0.1035731902824022,6.938893903907228e-17,True
+D5 E5 A5b->A4 apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.6732488592921446,0.6732488592921446,0.0,True
+D5 E5 A5b->A4 apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.6088682328277223,0.6088682328277223,0.0,True
+D5 E5 A5b->A4 bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05297354790972993,0.0529735479097299,3.469446951953614e-17,True
+D5 E5 A5b->A4 bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10357319028240226,0.1035731902824022,6.938893903907228e-17,True
+D5 E5 A5b->A5a apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.9469956221482304,0.9469956221482304,0.0,True
+D5 E5 A5b->A5a apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.8958179183623135,0.8958179183623135,0.0,True
+D5 E5 A5b->A5a bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05297354790972993,0.0529735479097299,3.469446951953614e-17,True
+D5 E5 A5b->A5a bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10357319028240226,0.1035731902824022,6.938893903907228e-17,True
+D5 E5 A5b->A5b apcer_fpr_tau5 mean over seeds vs e5_cross_attack.csv,0.006420335429769393,0.0064203354297693,9.280770596475918e-17,True
+D5 E5 A5b->A5b apcer_fpr_tau10 mean over seeds vs e5_cross_attack.csv,0.0014490072758663215,0.0014490072758663,2.1467203015212988e-17,True
+D5 E5 A5b->A5b bpcer_fnr_tau5 mean over seeds vs e5_cross_attack.csv,0.05297354790972993,0.0529735479097299,3.469446951953614e-17,True
+D5 E5 A5b->A5b bpcer_fnr_tau10 mean over seeds vs e5_cross_attack.csv,0.10357319028240226,0.1035731902824022,6.938893903907228e-17,True
+D3<-A1 refit tau5 vs detectors_summary.json,1.0,1.0,0.0,True
+D3<-A1 refit tau10 vs detectors_summary.json,1.0,1.0,0.0,True
+D3 refit A1->A1 apcer_fpr_tau5 vs attack_matrix.csv,0.0,0.0,0.0,True
+D3 refit A1->A1 apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.0,0.0,0.0,True
+D3 refit A1->A1 apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.0,0.0,0.0,True
+D3 refit A1->A1 apcer_fpr_tau10 vs attack_matrix.csv,0.0,0.0,0.0,True
+D3 refit A1->A1 apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.0,0.0,0.0,True
+D3 refit A1->A1 apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.0,0.0,0.0,True
+D3 refit A1->A1 bpcer_fnr_tau5 vs attack_matrix.csv,0.04927395486496485,0.0492739548649648,4.85722573273506e-17,True
+D3 refit A1->A1 bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04588177823555792,0.0458817782355579,2.0816681711721685e-17,True
+D3 refit A1->A1 bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.05271856117013548,0.0527185611701354,7.632783294297951e-17,True
+D3 refit A1->A1 bpcer_fnr_tau10 vs attack_matrix.csv,0.04927395486496485,0.0492739548649648,4.85722573273506e-17,True
+D3 refit A1->A1 bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.04588177823555792,0.0458817782355579,2.0816681711721685e-17,True
+D3 refit A1->A1 bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.05271856117013548,0.0527185611701354,7.632783294297951e-17,True
+D3 refit A1->A1 auc vs attack_matrix.csv,0.9999733109066891,0.9999733109066892,1.1102230246251565e-16,True
+D3 refit A1->A1 auc CI lo vs attack_matrix.csv,0.9999362230857685,0.9999362230857683,1.1102230246251565e-16,True
+D3 refit A1->A1 auc CI hi vs attack_matrix.csv,0.999998283635556,0.999998283635556,0.0,True
+D3 refit A1->A2 apcer_fpr_tau5 vs attack_matrix.csv,0.9785886052534222,0.9785886052534222,0.0,True
+D3 refit A1->A2 apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.9771411096744762,0.9771411096744762,0.0,True
+D3 refit A1->A2 apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.979978717862437,0.979978717862437,0.0,True
+D3 refit A1->A2 apcer_fpr_tau10 vs attack_matrix.csv,0.9785886052534222,0.9785886052534222,0.0,True
+D3 refit A1->A2 apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.9771411096744762,0.9771411096744762,0.0,True
+D3 refit A1->A2 apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.979978717862437,0.979978717862437,0.0,True
+D3 refit A1->A2 bpcer_fnr_tau5 vs attack_matrix.csv,0.04927395486496485,0.0492739548649648,4.85722573273506e-17,True
+D3 refit A1->A2 bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04588177823555792,0.0458817782355579,2.0816681711721685e-17,True
+D3 refit A1->A2 bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.05271856117013548,0.0527185611701354,7.632783294297951e-17,True
+D3 refit A1->A2 bpcer_fnr_tau10 vs attack_matrix.csv,0.04927395486496485,0.0492739548649648,4.85722573273506e-17,True
+D3 refit A1->A2 bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.04588177823555792,0.0458817782355579,2.0816681711721685e-17,True
+D3 refit A1->A2 bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.05271856117013548,0.0527185611701354,7.632783294297951e-17,True
+D3 refit A1->A2 auc vs attack_matrix.csv,0.48593622721698077,0.4859362272169807,5.551115123125783e-17,True
+D3 refit A1->A2 auc CI lo vs attack_matrix.csv,0.4841305141407955,0.4841305141407955,0.0,True
+D3 refit A1->A2 auc CI hi vs attack_matrix.csv,0.4876689803017413,0.4876689803017413,0.0,True
+D3 refit A1->A3 apcer_fpr_tau5 vs attack_matrix.csv,0.8332870884202738,0.8332870884202738,0.0,True
+D3 refit A1->A3 apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.8298208101593465,0.8298208101593465,0.0,True
+D3 refit A1->A3 apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.8366779966165803,0.8366779966165803,0.0,True
+D3 refit A1->A3 apcer_fpr_tau10 vs attack_matrix.csv,0.8332870884202738,0.8332870884202738,0.0,True
+D3 refit A1->A3 apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.8298208101593465,0.8298208101593465,0.0,True
+D3 refit A1->A3 apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.8366779966165803,0.8366779966165803,0.0,True
+D3 refit A1->A3 bpcer_fnr_tau5 vs attack_matrix.csv,0.04927395486496485,0.0492739548649648,4.85722573273506e-17,True
+D3 refit A1->A3 bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04588177823555792,0.0458817782355579,2.0816681711721685e-17,True
+D3 refit A1->A3 bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.05271856117013548,0.0527185611701354,7.632783294297951e-17,True
+D3 refit A1->A3 bpcer_fnr_tau10 vs attack_matrix.csv,0.04927395486496485,0.0492739548649648,4.85722573273506e-17,True
+D3 refit A1->A3 bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.04588177823555792,0.0458817782355579,2.0816681711721685e-17,True
+D3 refit A1->A3 bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.05271856117013548,0.0527185611701354,7.632783294297951e-17,True
+D3 refit A1->A3 auc vs attack_matrix.csv,0.5603568271520839,0.5603568271520839,0.0,True
+D3 refit A1->A3 auc CI lo vs attack_matrix.csv,0.5580189455944136,0.5580189455944136,0.0,True
+D3 refit A1->A3 auc CI hi vs attack_matrix.csv,0.5627628293749062,0.5627628293749062,0.0,True
+D3 refit A1->A4 apcer_fpr_tau5 vs attack_matrix.csv,0.8998103958564558,0.8998103958564558,0.0,True
+D3 refit A1->A4 apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.8967556973583195,0.8967556973583195,0.0,True
+D3 refit A1->A4 apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.9023697806617001,0.9023697806617,1.1102230246251565e-16,True
+D3 refit A1->A4 apcer_fpr_tau10 vs attack_matrix.csv,0.8998103958564558,0.8998103958564558,0.0,True
+D3 refit A1->A4 apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.8967556973583195,0.8967556973583195,0.0,True
+D3 refit A1->A4 apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.9023697806617001,0.9023697806617,1.1102230246251565e-16,True
+D3 refit A1->A4 bpcer_fnr_tau5 vs attack_matrix.csv,0.04927395486496485,0.0492739548649648,4.85722573273506e-17,True
+D3 refit A1->A4 bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04588177823555792,0.0458817782355579,2.0816681711721685e-17,True
+D3 refit A1->A4 bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.05271856117013548,0.0527185611701354,7.632783294297951e-17,True
+D3 refit A1->A4 bpcer_fnr_tau10 vs attack_matrix.csv,0.04927395486496485,0.0492739548649648,4.85722573273506e-17,True
+D3 refit A1->A4 bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.04588177823555792,0.0458817782355579,2.0816681711721685e-17,True
+D3 refit A1->A4 bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.05271856117013548,0.0527185611701354,7.632783294297951e-17,True
+D3 refit A1->A4 auc vs attack_matrix.csv,0.5261265112937674,0.5261265112937674,0.0,True
+D3 refit A1->A4 auc CI lo vs attack_matrix.csv,0.5240519847470548,0.5240519847470548,0.0,True
+D3 refit A1->A4 auc CI hi vs attack_matrix.csv,0.5283338282215868,0.5283338282215868,0.0,True
+D3 refit A1->A5a apcer_fpr_tau5 vs attack_matrix.csv,0.9469108398076211,0.9469108398076213,1.1102230246251565e-16,True
+D3 refit A1->A5a apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.9447999397868918,0.9447999397868918,0.0,True
+D3 refit A1->A5a apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.9489859413400049,0.9489859413400048,1.1102230246251565e-16,True
+D3 refit A1->A5a apcer_fpr_tau10 vs attack_matrix.csv,0.9469108398076211,0.9469108398076213,1.1102230246251565e-16,True
+D3 refit A1->A5a apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.9447999397868918,0.9447999397868918,0.0,True
+D3 refit A1->A5a apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.9489859413400049,0.9489859413400048,1.1102230246251565e-16,True
+D3 refit A1->A5a bpcer_fnr_tau5 vs attack_matrix.csv,0.04927395486496485,0.0492739548649648,4.85722573273506e-17,True
+D3 refit A1->A5a bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04588177823555792,0.0458817782355579,2.0816681711721685e-17,True
+D3 refit A1->A5a bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.05271856117013548,0.0527185611701354,7.632783294297951e-17,True
+D3 refit A1->A5a bpcer_fnr_tau10 vs attack_matrix.csv,0.04927395486496485,0.0492739548649648,4.85722573273506e-17,True
+D3 refit A1->A5a bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.04588177823555792,0.0458817782355579,2.0816681711721685e-17,True
+D3 refit A1->A5a bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.05271856117013548,0.0527185611701354,7.632783294297951e-17,True
+D3 refit A1->A5a auc vs attack_matrix.csv,0.5018863830193949,0.5018863830193949,0.0,True
+D3 refit A1->A5a auc CI lo vs attack_matrix.csv,0.4998932404163916,0.4998932404163916,0.0,True
+D3 refit A1->A5a auc CI hi vs attack_matrix.csv,0.5038322714261915,0.5038322714261915,0.0,True
+D3 refit A1->A5b apcer_fpr_tau5 vs attack_matrix.csv,0.9305632630410655,0.9305632630410656,1.1102230246251565e-16,True
+D3 refit A1->A5b apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.9280875848940496,0.9280875848940496,0.0,True
+D3 refit A1->A5b apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.9329396329785611,0.9329396329785612,1.1102230246251565e-16,True
+D3 refit A1->A5b apcer_fpr_tau10 vs attack_matrix.csv,0.9305632630410655,0.9305632630410656,1.1102230246251565e-16,True
+D3 refit A1->A5b apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.9280875848940496,0.9280875848940496,0.0,True
+D3 refit A1->A5b apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.9329396329785611,0.9329396329785612,1.1102230246251565e-16,True
+D3 refit A1->A5b bpcer_fnr_tau5 vs attack_matrix.csv,0.04927395486496485,0.0492739548649648,4.85722573273506e-17,True
+D3 refit A1->A5b bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04588177823555792,0.0458817782355579,2.0816681711721685e-17,True
+D3 refit A1->A5b bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.05271856117013548,0.0527185611701354,7.632783294297951e-17,True
+D3 refit A1->A5b bpcer_fnr_tau10 vs attack_matrix.csv,0.04927395486496485,0.0492739548649648,4.85722573273506e-17,True
+D3 refit A1->A5b bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.04588177823555792,0.0458817782355579,2.0816681711721685e-17,True
+D3 refit A1->A5b bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.05271856117013548,0.0527185611701354,7.632783294297951e-17,True
+D3 refit A1->A5b auc vs attack_matrix.csv,0.5100722485662538,0.5100722485662538,0.0,True
+D3 refit A1->A5b auc CI lo vs attack_matrix.csv,0.5081398090013602,0.5081398090013602,0.0,True
+D3 refit A1->A5b auc CI hi vs attack_matrix.csv,0.5120821946202675,0.5120821946202675,0.0,True
+D3<-A2 refit tau5 vs detectors_summary.json,0.6233333333333333,0.6233333333333333,0.0,True
+D3<-A2 refit tau10 vs detectors_summary.json,0.8566666666666667,0.8566666666666667,0.0,True
+D3 refit A2->A1 apcer_fpr_tau5 vs attack_matrix.csv,1.0,1.0,0.0,True
+D3 refit A2->A1 apcer_fpr_tau5 CI lo vs attack_matrix.csv,1.0,1.0,0.0,True
+D3 refit A2->A1 apcer_fpr_tau5 CI hi vs attack_matrix.csv,1.0,1.0,0.0,True
+D3 refit A2->A1 apcer_fpr_tau10 vs attack_matrix.csv,0.9988207547169812,0.9988207547169812,0.0,True
+D3 refit A2->A1 apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.998495516619454,0.998495516619454,0.0,True
+D3 refit A2->A1 apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.9991446940666988,0.9991446940666988,0.0,True
+D3 refit A2->A1 bpcer_fnr_tau5 vs attack_matrix.csv,0.05165556788753237,0.0516555678875323,7.632783294297951e-17,True
+D3 refit A2->A1 bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.048613307859528665,0.0486133078595286,6.245004513516506e-17,True
+D3 refit A2->A1 bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.05474536861096221,0.0547453686109622,6.938893903907228e-18,True
+D3 refit A2->A1 bpcer_fnr_tau10 vs attack_matrix.csv,0.10409729929707733,0.1040972992970773,2.7755575615628914e-17,True
+D3 refit A2->A1 bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.09985046980389478,0.0998504698038947,8.326672684688674e-17,True
+D3 refit A2->A1 bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.10893946385872498,0.1089394638587249,8.326672684688674e-17,True
+D3 refit A2->A1 auc vs attack_matrix.csv,0.7569317863858158,0.7569317863858158,0.0,True
+D3 refit A2->A1 auc CI lo vs attack_matrix.csv,0.7509213055592077,0.7509213055592077,0.0,True
+D3 refit A2->A1 auc CI hi vs attack_matrix.csv,0.7628428595457257,0.7628428595457257,0.0,True
+D3 refit A2->A2 apcer_fpr_tau5 vs attack_matrix.csv,0.011260636330003699,0.0112606363300036,9.8879238130678e-17,True
+D3 refit A2->A2 apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.01031371851376491,0.0103137185137649,1.0408340855860843e-17,True
+D3 refit A2->A2 apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.012222843107018754,0.0122228431070187,5.377642775528102e-17,True
+D3 refit A2->A2 apcer_fpr_tau10 vs attack_matrix.csv,0.001757306696263411,0.0017573066962634,1.1058862159352145e-17,True
+D3 refit A2->A2 apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.0013623317580837547,0.0013623317580837,5.4643789493269423e-17,True
+D3 refit A2->A2 apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.0021702017069954223,0.0021702017069954,2.2551405187698492e-17,True
+D3 refit A2->A2 bpcer_fnr_tau5 vs attack_matrix.csv,0.05165556788753237,0.0516555678875323,7.632783294297951e-17,True
+D3 refit A2->A2 bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.048613307859528665,0.0486133078595286,6.245004513516506e-17,True
+D3 refit A2->A2 bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.05474536861096221,0.0547453686109622,6.938893903907228e-18,True
+D3 refit A2->A2 bpcer_fnr_tau10 vs attack_matrix.csv,0.10409729929707733,0.1040972992970773,2.7755575615628914e-17,True
+D3 refit A2->A2 bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.09985046980389478,0.0998504698038947,8.326672684688674e-17,True
+D3 refit A2->A2 bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.10893946385872498,0.1089394638587249,8.326672684688674e-17,True
+D3 refit A2->A2 auc vs attack_matrix.csv,0.9939416060260355,0.9939416060260357,1.1102230246251565e-16,True
+D3 refit A2->A2 auc CI lo vs attack_matrix.csv,0.9933303345282465,0.9933303345282464,1.1102230246251565e-16,True
+D3 refit A2->A2 auc CI hi vs attack_matrix.csv,0.9945105030532653,0.9945105030532652,1.1102230246251565e-16,True
+D3 refit A2->A3 apcer_fpr_tau5 vs attack_matrix.csv,0.591310580836108,0.591310580836108,0.0,True
+D3 refit A2->A3 apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.5862758128470065,0.5862758128470065,0.0,True
+D3 refit A2->A3 apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.5958512929633689,0.5958512929633689,0.0,True
+D3 refit A2->A3 apcer_fpr_tau10 vs attack_matrix.csv,0.4007815390307066,0.4007815390307066,0.0,True
+D3 refit A2->A3 apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.39604227601876313,0.3960422760187631,5.551115123125783e-17,True
+D3 refit A2->A3 apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.40547639202239644,0.4054763920223964,5.551115123125783e-17,True
+D3 refit A2->A3 bpcer_fnr_tau5 vs attack_matrix.csv,0.05165556788753237,0.0516555678875323,7.632783294297951e-17,True
+D3 refit A2->A3 bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.048613307859528665,0.0486133078595286,6.245004513516506e-17,True
+D3 refit A2->A3 bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.05474536861096221,0.0547453686109622,6.938893903907228e-18,True
+D3 refit A2->A3 bpcer_fnr_tau10 vs attack_matrix.csv,0.10409729929707733,0.1040972992970773,2.7755575615628914e-17,True
+D3 refit A2->A3 bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.09985046980389478,0.0998504698038947,8.326672684688674e-17,True
+D3 refit A2->A3 bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.10893946385872498,0.1089394638587249,8.326672684688674e-17,True
+D3 refit A2->A3 auc vs attack_matrix.csv,0.8510071277110846,0.8510071277110846,0.0,True
+D3 refit A2->A3 auc CI lo vs attack_matrix.csv,0.8474572862343931,0.8474572862343931,0.0,True
+D3 refit A2->A3 auc CI hi vs attack_matrix.csv,0.8544863816918518,0.8544863816918518,0.0,True
+D3 refit A2->A4 apcer_fpr_tau5 vs attack_matrix.csv,0.8276914539400666,0.8276914539400666,0.0,True
+D3 refit A2->A4 apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.8242654643857337,0.8242654643857337,0.0,True
+D3 refit A2->A4 apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.8312885615138607,0.8312885615138607,0.0,True
+D3 refit A2->A4 apcer_fpr_tau10 vs attack_matrix.csv,0.7599195338512763,0.7599195338512763,0.0,True
+D3 refit A2->A4 apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.7559461874024302,0.7559461874024302,0.0,True
+D3 refit A2->A4 apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.7637452467043342,0.7637452467043342,0.0,True
+D3 refit A2->A4 bpcer_fnr_tau5 vs attack_matrix.csv,0.05165556788753237,0.0516555678875323,7.632783294297951e-17,True
+D3 refit A2->A4 bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.048613307859528665,0.0486133078595286,6.245004513516506e-17,True
+D3 refit A2->A4 bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.05474536861096221,0.0547453686109622,6.938893903907228e-18,True
+D3 refit A2->A4 bpcer_fnr_tau10 vs attack_matrix.csv,0.10409729929707733,0.1040972992970773,2.7755575615628914e-17,True
+D3 refit A2->A4 bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.09985046980389478,0.0998504698038947,8.326672684688674e-17,True
+D3 refit A2->A4 bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.10893946385872498,0.1089394638587249,8.326672684688674e-17,True
+D3 refit A2->A4 auc vs attack_matrix.csv,0.5966679170907067,0.5966679170907067,0.0,True
+D3 refit A2->A4 auc CI lo vs attack_matrix.csv,0.5919984512187987,0.5919984512187987,0.0,True
+D3 refit A2->A4 auc CI hi vs attack_matrix.csv,0.601225870772748,0.601225870772748,0.0,True
+D3 refit A2->A5a apcer_fpr_tau5 vs attack_matrix.csv,0.9500554938956715,0.9500554938956716,1.1102230246251565e-16,True
+D3 refit A2->A5a apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.9479239569102584,0.9479239569102584,0.0,True
+D3 refit A2->A5a apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.9520283965340226,0.9520283965340226,0.0,True
+D3 refit A2->A5a apcer_fpr_tau10 vs attack_matrix.csv,0.9009665186829449,0.9009665186829448,1.1102230246251565e-16,True
+D3 refit A2->A5a apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.8982688543488306,0.8982688543488306,0.0,True
+D3 refit A2->A5a apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.9037123305379017,0.9037123305379016,1.1102230246251565e-16,True
+D3 refit A2->A5a bpcer_fnr_tau5 vs attack_matrix.csv,0.05165556788753237,0.0516555678875323,7.632783294297951e-17,True
+D3 refit A2->A5a bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.048613307859528665,0.0486133078595286,6.245004513516506e-17,True
+D3 refit A2->A5a bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.05474536861096221,0.0547453686109622,6.938893903907228e-18,True
+D3 refit A2->A5a bpcer_fnr_tau10 vs attack_matrix.csv,0.10409729929707733,0.1040972992970773,2.7755575615628914e-17,True
+D3 refit A2->A5a bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.09985046980389478,0.0998504698038947,8.326672684688674e-17,True
+D3 refit A2->A5a bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.10893946385872498,0.1089394638587249,8.326672684688674e-17,True
+D3 refit A2->A5a auc vs attack_matrix.csv,0.49407627396523285,0.4940762739652328,5.551115123125783e-17,True
+D3 refit A2->A5a auc CI lo vs attack_matrix.csv,0.48941714292117017,0.4894171429211701,5.551115123125783e-17,True
+D3 refit A2->A5a auc CI hi vs attack_matrix.csv,0.49854612485903504,0.498546124859035,5.551115123125783e-17,True
+D3 refit A2->A5b apcer_fpr_tau5 vs attack_matrix.csv,0.6715917499075101,0.6715917499075101,0.0,True
+D3 refit A2->A5b apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.6671601827498784,0.6671601827498784,0.0,True
+D3 refit A2->A5b apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.6757970393412801,0.6757970393412801,0.0,True
+D3 refit A2->A5b apcer_fpr_tau10 vs attack_matrix.csv,0.48534036256011837,0.4853403625601183,5.551115123125783e-17,True
+D3 refit A2->A5b apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.48066852170114716,0.4806685217011471,5.551115123125783e-17,True
+D3 refit A2->A5b apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.48993375078610313,0.4899337507861031,5.551115123125783e-17,True
+D3 refit A2->A5b bpcer_fnr_tau5 vs attack_matrix.csv,0.05165556788753237,0.0516555678875323,7.632783294297951e-17,True
+D3 refit A2->A5b bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.048613307859528665,0.0486133078595286,6.245004513516506e-17,True
+D3 refit A2->A5b bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.05474536861096221,0.0547453686109622,6.938893903907228e-18,True
+D3 refit A2->A5b bpcer_fnr_tau10 vs attack_matrix.csv,0.10409729929707733,0.1040972992970773,2.7755575615628914e-17,True
+D3 refit A2->A5b bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.09985046980389478,0.0998504698038947,8.326672684688674e-17,True
+D3 refit A2->A5b bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.10893946385872498,0.1089394638587249,8.326672684688674e-17,True
+D3 refit A2->A5b auc vs attack_matrix.csv,0.8356641876771354,0.8356641876771354,0.0,True
+D3 refit A2->A5b auc CI lo vs attack_matrix.csv,0.8318434472127476,0.8318434472127476,0.0,True
+D3 refit A2->A5b auc CI hi vs attack_matrix.csv,0.8392900742022757,0.8392900742022757,0.0,True
+D3<-A3 refit tau5 vs detectors_summary.json,0.35333333333333333,0.35333333333333333,0.0,True
+D3<-A3 refit tau10 vs detectors_summary.json,0.6966666666666667,0.6966666666666667,0.0,True
+D3 refit A3->A1 apcer_fpr_tau5 vs attack_matrix.csv,0.03623288938216796,0.0362328893821679,6.245004513516506e-17,True
+D3 refit A3->A1 apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.03453532677655979,0.0345353267765597,9.020562075079397e-17,True
+D3 refit A3->A1 apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.03803314342165773,0.0380331434216577,2.7755575615628914e-17,True
+D3 refit A3->A1 apcer_fpr_tau10 vs attack_matrix.csv,9.24898261191269e-05,9.24898261191269e-05,0.0,True
+D3 refit A3->A1 apcer_fpr_tau10 CI lo vs attack_matrix.csv,2.309559502039951e-05,2.309559502039951e-05,0.0,True
+D3 refit A3->A1 apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.00018529724289551618,0.0001852972428955,1.6181717424346154e-17,True
+D3 refit A3->A1 bpcer_fnr_tau5 vs attack_matrix.csv,0.04848779134295227,0.0484877913429522,7.632783294297951e-17,True
+D3 refit A3->A1 bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04530077948562526,0.0453007794856252,6.245004513516506e-17,True
+D3 refit A3->A1 bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.051409296098966134,0.0514092960989661,3.469446951953614e-17,True
+D3 refit A3->A1 bpcer_fnr_tau10 vs attack_matrix.csv,0.09762301146873843,0.0976230114687384,2.7755575615628914e-17,True
+D3 refit A3->A1 bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.0929799706119552,0.0929799706119552,0.0,True
+D3 refit A3->A1 bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.10205728150654146,0.1020572815065414,5.551115123125783e-17,True
+D3 refit A3->A1 auc vs attack_matrix.csv,0.9861082844271564,0.9861082844271564,0.0,True
+D3 refit A3->A1 auc CI lo vs attack_matrix.csv,0.9850297095704573,0.9850297095704572,1.1102230246251565e-16,True
+D3 refit A3->A1 auc CI hi vs attack_matrix.csv,0.9871781093712627,0.9871781093712628,1.1102230246251565e-16,True
+D3 refit A3->A2 apcer_fpr_tau5 vs attack_matrix.csv,0.8398538660747318,0.8398538660747318,0.0,True
+D3 refit A3->A2 apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.8366396312212961,0.8366396312212961,0.0,True
+D3 refit A3->A2 apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.8436264054655703,0.8436264054655703,0.0,True
+D3 refit A3->A2 apcer_fpr_tau10 vs attack_matrix.csv,0.6874306326304107,0.6874306326304107,0.0,True
+D3 refit A3->A2 apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.6829810477750295,0.6829810477750295,0.0,True
+D3 refit A3->A2 apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.691781281641418,0.691781281641418,0.0,True
+D3 refit A3->A2 bpcer_fnr_tau5 vs attack_matrix.csv,0.04848779134295227,0.0484877913429522,7.632783294297951e-17,True
+D3 refit A3->A2 bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04530077948562526,0.0453007794856252,6.245004513516506e-17,True
+D3 refit A3->A2 bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.051409296098966134,0.0514092960989661,3.469446951953614e-17,True
+D3 refit A3->A2 bpcer_fnr_tau10 vs attack_matrix.csv,0.09762301146873843,0.0976230114687384,2.7755575615628914e-17,True
+D3 refit A3->A2 bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.0929799706119552,0.0929799706119552,0.0,True
+D3 refit A3->A2 bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.10205728150654146,0.1020572815065414,5.551115123125783e-17,True
+D3 refit A3->A2 auc vs attack_matrix.csv,0.792663235828338,0.792663235828338,0.0,True
+D3 refit A3->A2 auc CI lo vs attack_matrix.csv,0.788341543105593,0.788341543105593,0.0,True
+D3 refit A3->A2 auc CI hi vs attack_matrix.csv,0.7974563364520133,0.7974563364520133,0.0,True
+D3 refit A3->A3 apcer_fpr_tau5 vs attack_matrix.csv,0.052580466148723644,0.0525804661487236,4.163336342344337e-17,True
+D3 refit A3->A3 apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.05052211054424929,0.0505221105442492,8.326672684688674e-17,True
+D3 refit A3->A3 apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.05461677267814371,0.0546167726781437,6.938893903907228e-18,True
+D3 refit A3->A3 apcer_fpr_tau10 vs attack_matrix.csv,0.010081391046984831,0.0100813910469848,3.122502256758253e-17,True
+D3 refit A3->A3 apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.009171418982277496,0.0091714189822774,9.540979117872439e-17,True
+D3 refit A3->A3 apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.011094069204776152,0.0110940692047761,5.204170427930421e-17,True
+D3 refit A3->A3 bpcer_fnr_tau5 vs attack_matrix.csv,0.04848779134295227,0.0484877913429522,7.632783294297951e-17,True
+D3 refit A3->A3 bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04530077948562526,0.0453007794856252,6.245004513516506e-17,True
+D3 refit A3->A3 bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.051409296098966134,0.0514092960989661,3.469446951953614e-17,True
+D3 refit A3->A3 bpcer_fnr_tau10 vs attack_matrix.csv,0.09762301146873843,0.0976230114687384,2.7755575615628914e-17,True
+D3 refit A3->A3 bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.0929799706119552,0.0929799706119552,0.0,True
+D3 refit A3->A3 bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.10205728150654146,0.1020572815065414,5.551115123125783e-17,True
+D3 refit A3->A3 auc vs attack_matrix.csv,0.9878303110387856,0.9878303110387856,0.0,True
+D3 refit A3->A3 auc CI lo vs attack_matrix.csv,0.9870057213704082,0.9870057213704082,0.0,True
+D3 refit A3->A3 auc CI hi vs attack_matrix.csv,0.9886658947766936,0.9886658947766936,0.0,True
+D3 refit A3->A4 apcer_fpr_tau5 vs attack_matrix.csv,0.8065806511283758,0.8065806511283758,0.0,True
+D3 refit A3->A4 apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.8028216662258453,0.8028216662258453,0.0,True
+D3 refit A3->A4 apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.8102590047659762,0.8102590047659762,0.0,True
+D3 refit A3->A4 apcer_fpr_tau10 vs attack_matrix.csv,0.7792267850536441,0.7792267850536441,0.0,True
+D3 refit A3->A4 apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.775340924275644,0.775340924275644,0.0,True
+D3 refit A3->A4 apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.7830065664254942,0.7830065664254942,0.0,True
+D3 refit A3->A4 bpcer_fnr_tau5 vs attack_matrix.csv,0.04848779134295227,0.0484877913429522,7.632783294297951e-17,True
+D3 refit A3->A4 bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04530077948562526,0.0453007794856252,6.245004513516506e-17,True
+D3 refit A3->A4 bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.051409296098966134,0.0514092960989661,3.469446951953614e-17,True
+D3 refit A3->A4 bpcer_fnr_tau10 vs attack_matrix.csv,0.09762301146873843,0.0976230114687384,2.7755575615628914e-17,True
+D3 refit A3->A4 bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.0929799706119552,0.0929799706119552,0.0,True
+D3 refit A3->A4 bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.10205728150654146,0.1020572815065414,5.551115123125783e-17,True
+D3 refit A3->A4 auc vs attack_matrix.csv,0.5492437362929086,0.5492437362929086,0.0,True
+D3 refit A3->A4 auc CI lo vs attack_matrix.csv,0.5449605291734808,0.5449605291734808,0.0,True
+D3 refit A3->A4 auc CI hi vs attack_matrix.csv,0.5537422437102288,0.5537422437102288,0.0,True
+D3 refit A3->A5a apcer_fpr_tau5 vs attack_matrix.csv,0.9545181280059194,0.9545181280059194,0.0,True
+D3 refit A3->A5a apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.9525585086494902,0.9525585086494902,0.0,True
+D3 refit A3->A5a apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.9563712113239391,0.9563712113239392,1.1102230246251565e-16,True
+D3 refit A3->A5a apcer_fpr_tau10 vs attack_matrix.csv,0.904758601553829,0.904758601553829,0.0,True
+D3 refit A3->A5a apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.9019428794139267,0.9019428794139268,1.1102230246251565e-16,True
+D3 refit A3->A5a apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.9073812306507474,0.9073812306507474,0.0,True
+D3 refit A3->A5a bpcer_fnr_tau5 vs attack_matrix.csv,0.04848779134295227,0.0484877913429522,7.632783294297951e-17,True
+D3 refit A3->A5a bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04530077948562526,0.0453007794856252,6.245004513516506e-17,True
+D3 refit A3->A5a bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.051409296098966134,0.0514092960989661,3.469446951953614e-17,True
+D3 refit A3->A5a bpcer_fnr_tau10 vs attack_matrix.csv,0.09762301146873843,0.0976230114687384,2.7755575615628914e-17,True
+D3 refit A3->A5a bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.0929799706119552,0.0929799706119552,0.0,True
+D3 refit A3->A5a bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.10205728150654146,0.1020572815065414,5.551115123125783e-17,True
+D3 refit A3->A5a auc vs attack_matrix.csv,0.5010896342690341,0.5010896342690341,0.0,True
+D3 refit A3->A5a auc CI lo vs attack_matrix.csv,0.4960998415168358,0.4960998415168358,0.0,True
+D3 refit A3->A5a auc CI hi vs attack_matrix.csv,0.506109897558382,0.506109897558382,0.0,True
+D3 refit A3->A5b apcer_fpr_tau5 vs attack_matrix.csv,0.8431603773584906,0.8431603773584906,0.0,True
+D3 refit A3->A5b apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.8398249489369928,0.8398249489369928,0.0,True
+D3 refit A3->A5b apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.846776535547641,0.846776535547641,0.0,True
+D3 refit A3->A5b apcer_fpr_tau10 vs attack_matrix.csv,0.6805632630410655,0.6805632630410655,0.0,True
+D3 refit A3->A5b apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.6762125046945343,0.6762125046945343,0.0,True
+D3 refit A3->A5b apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.6845832036579728,0.6845832036579728,0.0,True
+D3 refit A3->A5b bpcer_fnr_tau5 vs attack_matrix.csv,0.04848779134295227,0.0484877913429522,7.632783294297951e-17,True
+D3 refit A3->A5b bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04530077948562526,0.0453007794856252,6.245004513516506e-17,True
+D3 refit A3->A5b bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.051409296098966134,0.0514092960989661,3.469446951953614e-17,True
+D3 refit A3->A5b bpcer_fnr_tau10 vs attack_matrix.csv,0.09762301146873843,0.0976230114687384,2.7755575615628914e-17,True
+D3 refit A3->A5b bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.0929799706119552,0.0929799706119552,0.0,True
+D3 refit A3->A5b bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.10205728150654146,0.1020572815065414,5.551115123125783e-17,True
+D3 refit A3->A5b auc vs attack_matrix.csv,0.809843188416438,0.809843188416438,0.0,True
+D3 refit A3->A5b auc CI lo vs attack_matrix.csv,0.8056205599945804,0.8056205599945804,0.0,True
+D3 refit A3->A5b auc CI hi vs attack_matrix.csv,0.814364420369778,0.814364420369778,0.0,True
+D3<-A4 refit tau5 vs detectors_summary.json,0.25,0.25,0.0,True
+D3<-A4 refit tau10 vs detectors_summary.json,0.36,0.36,0.0,True
+D3 refit A4->A1 apcer_fpr_tau5 vs attack_matrix.csv,0.20979004809470958,0.2097900480947095,8.326672684688674e-17,True
+D3 refit A4->A1 apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.2057161897009904,0.2057161897009904,0.0,True
+D3 refit A4->A1 apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.21360265046116295,0.2136026504611629,5.551115123125783e-17,True
+D3 refit A4->A1 apcer_fpr_tau10 vs attack_matrix.csv,0.11799389567147614,0.1179938956714761,4.163336342344337e-17,True
+D3 refit A4->A1 apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.11506044907099906,0.115060449070999,6.938893903907228e-17,True
+D3 refit A4->A1 apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.12115423317943588,0.1211542331794358,8.326672684688674e-17,True
+D3 refit A4->A1 bpcer_fnr_tau5 vs attack_matrix.csv,0.04511191268960414,0.0451119126896041,4.163336342344337e-17,True
+D3 refit A4->A1 bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04192850303633139,0.0419285030363313,9.020562075079397e-17,True
+D3 refit A4->A1 bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.048083367027905465,0.0480833670279054,6.245004513516506e-17,True
+D3 refit A4->A1 bpcer_fnr_tau10 vs attack_matrix.csv,0.09297539770625231,0.0929753977062523,1.3877787807814457e-17,True
+D3 refit A4->A1 bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.08767209835118586,0.0876720983511858,5.551115123125783e-17,True
+D3 refit A4->A1 bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.09767708859828697,0.0976770885982869,6.938893903907228e-17,True
+D3 refit A4->A1 auc vs attack_matrix.csv,0.9589057777347322,0.9589057777347322,0.0,True
+D3 refit A4->A1 auc CI lo vs attack_matrix.csv,0.9569187358413144,0.9569187358413144,0.0,True
+D3 refit A4->A1 auc CI hi vs attack_matrix.csv,0.9611304469736495,0.9611304469736496,1.1102230246251565e-16,True
+D3 refit A4->A2 apcer_fpr_tau5 vs attack_matrix.csv,0.4998381428042915,0.4998381428042915,0.0,True
+D3 refit A4->A2 apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.4953206773376092,0.4953206773376092,0.0,True
+D3 refit A4->A2 apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.5041721296818849,0.5041721296818849,0.0,True
+D3 refit A4->A2 apcer_fpr_tau10 vs attack_matrix.csv,0.26956159822419534,0.2695615982241953,5.551115123125783e-17,True
+D3 refit A4->A2 apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.26554847789240976,0.2655484778924097,5.551115123125783e-17,True
+D3 refit A4->A2 apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.2735380364747054,0.2735380364747054,0.0,True
+D3 refit A4->A2 bpcer_fnr_tau5 vs attack_matrix.csv,0.04511191268960414,0.0451119126896041,4.163336342344337e-17,True
+D3 refit A4->A2 bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04192850303633139,0.0419285030363313,9.020562075079397e-17,True
+D3 refit A4->A2 bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.048083367027905465,0.0480833670279054,6.245004513516506e-17,True
+D3 refit A4->A2 bpcer_fnr_tau10 vs attack_matrix.csv,0.09297539770625231,0.0929753977062523,1.3877787807814457e-17,True
+D3 refit A4->A2 bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.08767209835118586,0.0876720983511858,5.551115123125783e-17,True
+D3 refit A4->A2 bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.09767708859828697,0.0976770885982869,6.938893903907228e-17,True
+D3 refit A4->A2 auc vs attack_matrix.csv,0.9247171213809378,0.9247171213809378,0.0,True
+D3 refit A4->A2 auc CI lo vs attack_matrix.csv,0.921541652579513,0.921541652579513,0.0,True
+D3 refit A4->A2 auc CI hi vs attack_matrix.csv,0.9282536107855013,0.9282536107855012,1.1102230246251565e-16,True
+D3 refit A4->A3 apcer_fpr_tau5 vs attack_matrix.csv,0.31522844987051424,0.3152284498705142,5.551115123125783e-17,True
+D3 refit A4->A3 apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.3107000738910024,0.3107000738910024,0.0,True
+D3 refit A4->A3 apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.3199328935183078,0.3199328935183078,0.0,True
+D3 refit A4->A3 apcer_fpr_tau10 vs attack_matrix.csv,0.1805401405845357,0.1805401405845357,0.0,True
+D3 refit A4->A3 apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.1765044344577661,0.1765044344577661,0.0,True
+D3 refit A4->A3 apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.18433234110789395,0.1843323411078939,5.551115123125783e-17,True
+D3 refit A4->A3 bpcer_fnr_tau5 vs attack_matrix.csv,0.04511191268960414,0.0451119126896041,4.163336342344337e-17,True
+D3 refit A4->A3 bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04192850303633139,0.0419285030363313,9.020562075079397e-17,True
+D3 refit A4->A3 bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.048083367027905465,0.0480833670279054,6.245004513516506e-17,True
+D3 refit A4->A3 bpcer_fnr_tau10 vs attack_matrix.csv,0.09297539770625231,0.0929753977062523,1.3877787807814457e-17,True
+D3 refit A4->A3 bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.08767209835118586,0.0876720983511858,5.551115123125783e-17,True
+D3 refit A4->A3 bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.09767708859828697,0.0976770885982869,6.938893903907228e-17,True
+D3 refit A4->A3 auc vs attack_matrix.csv,0.9447151126656451,0.9447151126656452,1.1102230246251565e-16,True
+D3 refit A4->A3 auc CI lo vs attack_matrix.csv,0.9423858697954024,0.9423858697954024,0.0,True
+D3 refit A4->A3 auc CI hi vs attack_matrix.csv,0.9472892204571104,0.9472892204571104,0.0,True
+D3 refit A4->A4 apcer_fpr_tau5 vs attack_matrix.csv,0.4070014798372179,0.4070014798372179,0.0,True
+D3 refit A4->A4 apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.40215125817408787,0.4021512581740878,5.551115123125783e-17,True
+D3 refit A4->A4 apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.41159384369919455,0.4115938436991945,5.551115123125783e-17,True
+D3 refit A4->A4 apcer_fpr_tau10 vs attack_matrix.csv,0.23746762856085832,0.2374676285608583,2.7755575615628914e-17,True
+D3 refit A4->A4 apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.2334029653495805,0.2334029653495805,0.0,True
+D3 refit A4->A4 apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.24169448013912662,0.2416944801391266,2.7755575615628914e-17,True
+D3 refit A4->A4 bpcer_fnr_tau5 vs attack_matrix.csv,0.04511191268960414,0.0451119126896041,4.163336342344337e-17,True
+D3 refit A4->A4 bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04192850303633139,0.0419285030363313,9.020562075079397e-17,True
+D3 refit A4->A4 bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.048083367027905465,0.0480833670279054,6.245004513516506e-17,True
+D3 refit A4->A4 bpcer_fnr_tau10 vs attack_matrix.csv,0.09297539770625231,0.0929753977062523,1.3877787807814457e-17,True
+D3 refit A4->A4 bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.08767209835118586,0.0876720983511858,5.551115123125783e-17,True
+D3 refit A4->A4 bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.09767708859828697,0.0976770885982869,6.938893903907228e-17,True
+D3 refit A4->A4 auc vs attack_matrix.csv,0.9332446061459506,0.9332446061459506,0.0,True
+D3 refit A4->A4 auc CI lo vs attack_matrix.csv,0.930367383598434,0.930367383598434,0.0,True
+D3 refit A4->A4 auc CI hi vs attack_matrix.csv,0.9362079236791165,0.9362079236791164,1.1102230246251565e-16,True
+D3 refit A4->A5a apcer_fpr_tau5 vs attack_matrix.csv,0.9568072512023678,0.9568072512023678,0.0,True
+D3 refit A4->A5a apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.954820142503988,0.954820142503988,0.0,True
+D3 refit A4->A5a apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.9586715910521537,0.9586715910521536,1.1102230246251565e-16,True
+D3 refit A4->A5a apcer_fpr_tau10 vs attack_matrix.csv,0.9077876433592305,0.9077876433592303,1.1102230246251565e-16,True
+D3 refit A4->A5a apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.9048973643845879,0.904897364384588,1.1102230246251565e-16,True
+D3 refit A4->A5a apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.9103790813573044,0.9103790813573044,0.0,True
+D3 refit A4->A5a bpcer_fnr_tau5 vs attack_matrix.csv,0.04511191268960414,0.0451119126896041,4.163336342344337e-17,True
+D3 refit A4->A5a bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04192850303633139,0.0419285030363313,9.020562075079397e-17,True
+D3 refit A4->A5a bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.048083367027905465,0.0480833670279054,6.245004513516506e-17,True
+D3 refit A4->A5a bpcer_fnr_tau10 vs attack_matrix.csv,0.09297539770625231,0.0929753977062523,1.3877787807814457e-17,True
+D3 refit A4->A5a bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.08767209835118586,0.0876720983511858,5.551115123125783e-17,True
+D3 refit A4->A5a bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.09767708859828697,0.0976770885982869,6.938893903907228e-17,True
+D3 refit A4->A5a auc vs attack_matrix.csv,0.4969625599438779,0.4969625599438779,0.0,True
+D3 refit A4->A5a auc CI lo vs attack_matrix.csv,0.48919977565294664,0.4891997756529466,5.551115123125783e-17,True
+D3 refit A4->A5a auc CI hi vs attack_matrix.csv,0.5051320738439009,0.5051320738439009,0.0,True
+D3 refit A4->A5b apcer_fpr_tau5 vs attack_matrix.csv,0.9060534591194969,0.9060534591194968,1.1102230246251565e-16,True
+D3 refit A4->A5b apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.9032421039578947,0.9032421039578948,1.1102230246251565e-16,True
+D3 refit A4->A5b apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.9088491305550174,0.9088491305550174,0.0,True
+D3 refit A4->A5b apcer_fpr_tau10 vs attack_matrix.csv,0.8255410654827969,0.8255410654827969,0.0,True
+D3 refit A4->A5b apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.8218437016201716,0.8218437016201716,0.0,True
+D3 refit A4->A5b apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.8290436435453128,0.8290436435453128,0.0,True
+D3 refit A4->A5b bpcer_fnr_tau5 vs attack_matrix.csv,0.04511191268960414,0.0451119126896041,4.163336342344337e-17,True
+D3 refit A4->A5b bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04192850303633139,0.0419285030363313,9.020562075079397e-17,True
+D3 refit A4->A5b bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.048083367027905465,0.0480833670279054,6.245004513516506e-17,True
+D3 refit A4->A5b bpcer_fnr_tau10 vs attack_matrix.csv,0.09297539770625231,0.0929753977062523,1.3877787807814457e-17,True
+D3 refit A4->A5b bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.08767209835118586,0.0876720983511858,5.551115123125783e-17,True
+D3 refit A4->A5b bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.09767708859828697,0.0976770885982869,6.938893903907228e-17,True
+D3 refit A4->A5b auc vs attack_matrix.csv,0.5865081827362522,0.5865081827362522,0.0,True
+D3 refit A4->A5b auc CI lo vs attack_matrix.csv,0.5793457345755024,0.5793457345755024,0.0,True
+D3 refit A4->A5b auc CI hi vs attack_matrix.csv,0.5940448446140372,0.5940448446140372,0.0,True
+D3<-A5b refit tau5 vs detectors_summary.json,0.17666666666666667,0.17666666666666667,0.0,True
+D3<-A5b refit tau10 vs detectors_summary.json,0.25,0.25,0.0,True
+D3 refit A5b->A1 apcer_fpr_tau5 vs attack_matrix.csv,0.993965038845727,0.993965038845727,0.0,True
+D3 refit A5b->A1 apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.9932305818386951,0.9932305818386952,1.1102230246251565e-16,True
+D3 refit A5b->A1 apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.9946968854020416,0.9946968854020416,0.0,True
+D3 refit A5b->A1 apcer_fpr_tau10 vs attack_matrix.csv,0.9117878283388827,0.9117878283388828,1.1102230246251565e-16,True
+D3 refit A5b->A1 apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.909206479086647,0.909206479086647,0.0,True
+D3 refit A5b->A1 apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.9145337590142971,0.9145337590142972,1.1102230246251565e-16,True
+D3 refit A5b->A1 bpcer_fnr_tau5 vs attack_matrix.csv,0.05070754716981132,0.0507075471698113,2.0816681711721685e-17,True
+D3 refit A5b->A1 bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04801144091188787,0.0480114409118878,7.632783294297951e-17,True
+D3 refit A5b->A1 bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.05338973534979897,0.0533897353497989,6.938893903907228e-17,True
+D3 refit A5b->A1 bpcer_fnr_tau10 vs attack_matrix.csv,0.10236311505734369,0.1023631150573436,8.326672684688674e-17,True
+D3 refit A5b->A1 bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.09828720290728474,0.0982872029072847,4.163336342344337e-17,True
+D3 refit A5b->A1 bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.10604748427903085,0.1060474842790308,5.551115123125783e-17,True
+D3 refit A5b->A1 auc vs attack_matrix.csv,0.8077180273248582,0.8077180273248582,0.0,True
+D3 refit A5b->A1 auc CI lo vs attack_matrix.csv,0.8028788866911298,0.8028788866911298,0.0,True
+D3 refit A5b->A1 auc CI hi vs attack_matrix.csv,0.8128978088707969,0.8128978088707969,0.0,True
+D3 refit A5b->A2 apcer_fpr_tau5 vs attack_matrix.csv,0.3127774694783574,0.3127774694783574,0.0,True
+D3 refit A5b->A2 apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.3084368622393892,0.3084368622393892,0.0,True
+D3 refit A5b->A2 apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.31718948327955626,0.3171894832795562,5.551115123125783e-17,True
+D3 refit A5b->A2 apcer_fpr_tau10 vs attack_matrix.csv,0.14960229374768774,0.1496022937476877,5.551115123125783e-17,True
+D3 refit A5b->A2 apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.14629200640073414,0.1462920064007341,5.551115123125783e-17,True
+D3 refit A5b->A2 apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.1531696813572009,0.1531696813572009,0.0,True
+D3 refit A5b->A2 bpcer_fnr_tau5 vs attack_matrix.csv,0.05070754716981132,0.0507075471698113,2.0816681711721685e-17,True
+D3 refit A5b->A2 bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04801144091188787,0.0480114409118878,7.632783294297951e-17,True
+D3 refit A5b->A2 bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.05338973534979897,0.0533897353497989,6.938893903907228e-17,True
+D3 refit A5b->A2 bpcer_fnr_tau10 vs attack_matrix.csv,0.10236311505734369,0.1023631150573436,8.326672684688674e-17,True
+D3 refit A5b->A2 bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.09828720290728474,0.0982872029072847,4.163336342344337e-17,True
+D3 refit A5b->A2 bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.10604748427903085,0.1060474842790308,5.551115123125783e-17,True
+D3 refit A5b->A2 auc vs attack_matrix.csv,0.9562750748840815,0.9562750748840816,1.1102230246251565e-16,True
+D3 refit A5b->A2 auc CI lo vs attack_matrix.csv,0.9546402118459285,0.9546402118459284,1.1102230246251565e-16,True
+D3 refit A5b->A2 auc CI hi vs attack_matrix.csv,0.9579675982410916,0.9579675982410916,0.0,True
+D3 refit A5b->A3 apcer_fpr_tau5 vs attack_matrix.csv,0.819390492045875,0.819390492045875,0.0,True
+D3 refit A5b->A3 apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.8156623755868859,0.8156623755868859,0.0,True
+D3 refit A5b->A3 apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.8233540241274004,0.8233540241274004,0.0,True
+D3 refit A5b->A3 apcer_fpr_tau10 vs attack_matrix.csv,0.5740149833518313,0.5740149833518313,0.0,True
+D3 refit A5b->A3 apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.5693425752420124,0.5693425752420124,0.0,True
+D3 refit A5b->A3 apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.5786286814106829,0.5786286814106829,0.0,True
+D3 refit A5b->A3 bpcer_fnr_tau5 vs attack_matrix.csv,0.05070754716981132,0.0507075471698113,2.0816681711721685e-17,True
+D3 refit A5b->A3 bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04801144091188787,0.0480114409118878,7.632783294297951e-17,True
+D3 refit A5b->A3 bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.05338973534979897,0.0533897353497989,6.938893903907228e-17,True
+D3 refit A5b->A3 bpcer_fnr_tau10 vs attack_matrix.csv,0.10236311505734369,0.1023631150573436,8.326672684688674e-17,True
+D3 refit A5b->A3 bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.09828720290728474,0.0982872029072847,4.163336342344337e-17,True
+D3 refit A5b->A3 bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.10604748427903085,0.1060474842790308,5.551115123125783e-17,True
+D3 refit A5b->A3 auc vs attack_matrix.csv,0.8736020665778929,0.8736020665778929,0.0,True
+D3 refit A5b->A3 auc CI lo vs attack_matrix.csv,0.8698898353418795,0.8698898353418795,0.0,True
+D3 refit A5b->A3 auc CI hi vs attack_matrix.csv,0.8773785813029646,0.8773785813029646,0.0,True
+D3 refit A5b->A4 apcer_fpr_tau5 vs attack_matrix.csv,0.8943997410284868,0.8943997410284868,0.0,True
+D3 refit A5b->A4 apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.8914548127981896,0.8914548127981896,0.0,True
+D3 refit A5b->A4 apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.8973667066850389,0.8973667066850389,0.0,True
+D3 refit A5b->A4 apcer_fpr_tau10 vs attack_matrix.csv,0.8172169811320755,0.8172169811320755,0.0,True
+D3 refit A5b->A4 apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.8136371302434937,0.8136371302434937,0.0,True
+D3 refit A5b->A4 apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.8208278824888643,0.8208278824888643,0.0,True
+D3 refit A5b->A4 bpcer_fnr_tau5 vs attack_matrix.csv,0.05070754716981132,0.0507075471698113,2.0816681711721685e-17,True
+D3 refit A5b->A4 bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04801144091188787,0.0480114409118878,7.632783294297951e-17,True
+D3 refit A5b->A4 bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.05338973534979897,0.0533897353497989,6.938893903907228e-17,True
+D3 refit A5b->A4 bpcer_fnr_tau10 vs attack_matrix.csv,0.10236311505734369,0.1023631150573436,8.326672684688674e-17,True
+D3 refit A5b->A4 bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.09828720290728474,0.0982872029072847,4.163336342344337e-17,True
+D3 refit A5b->A4 bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.10604748427903085,0.1060474842790308,5.551115123125783e-17,True
+D3 refit A5b->A4 auc vs attack_matrix.csv,0.5571527661866092,0.5571527661866092,0.0,True
+D3 refit A5b->A4 auc CI lo vs attack_matrix.csv,0.5527242783414414,0.5527242783414414,0.0,True
+D3 refit A5b->A4 auc CI hi vs attack_matrix.csv,0.5619065419639859,0.5619065419639859,0.0,True
+D3 refit A5b->A5a apcer_fpr_tau5 vs attack_matrix.csv,0.9461709211986682,0.9461709211986682,0.0,True
+D3 refit A5b->A5a apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.9440765509957458,0.9440765509957458,0.0,True
+D3 refit A5b->A5a apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.948186689533536,0.948186689533536,0.0,True
+D3 refit A5b->A5a apcer_fpr_tau10 vs attack_matrix.csv,0.8899602293747688,0.8899602293747688,0.0,True
+D3 refit A5b->A5a apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.88706033029371,0.88706033029371,0.0,True
+D3 refit A5b->A5a apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.892899347843718,0.892899347843718,0.0,True
+D3 refit A5b->A5a bpcer_fnr_tau5 vs attack_matrix.csv,0.05070754716981132,0.0507075471698113,2.0816681711721685e-17,True
+D3 refit A5b->A5a bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04801144091188787,0.0480114409118878,7.632783294297951e-17,True
+D3 refit A5b->A5a bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.05338973534979897,0.0533897353497989,6.938893903907228e-17,True
+D3 refit A5b->A5a bpcer_fnr_tau10 vs attack_matrix.csv,0.10236311505734369,0.1023631150573436,8.326672684688674e-17,True
+D3 refit A5b->A5a bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.09828720290728474,0.0982872029072847,4.163336342344337e-17,True
+D3 refit A5b->A5a bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.10604748427903085,0.1060474842790308,5.551115123125783e-17,True
+D3 refit A5b->A5a auc vs attack_matrix.csv,0.500674626593713,0.500674626593713,0.0,True
+D3 refit A5b->A5a auc CI lo vs attack_matrix.csv,0.495983770329792,0.495983770329792,0.0,True
+D3 refit A5b->A5a auc CI hi vs attack_matrix.csv,0.5055333228095912,0.5055333228095912,0.0,True
+D3 refit A5b->A5b apcer_fpr_tau5 vs attack_matrix.csv,0.543215871254162,0.543215871254162,0.0,True
+D3 refit A5b->A5b apcer_fpr_tau5 CI lo vs attack_matrix.csv,0.5384468034397398,0.5384468034397398,0.0,True
+D3 refit A5b->A5b apcer_fpr_tau5 CI hi vs attack_matrix.csv,0.5480938966311818,0.5480938966311818,0.0,True
+D3 refit A5b->A5b apcer_fpr_tau10 vs attack_matrix.csv,0.3275758416574177,0.3275758416574177,0.0,True
+D3 refit A5b->A5b apcer_fpr_tau10 CI lo vs attack_matrix.csv,0.323034127502253,0.323034127502253,0.0,True
+D3 refit A5b->A5b apcer_fpr_tau10 CI hi vs attack_matrix.csv,0.33207557002924315,0.3320755700292431,5.551115123125783e-17,True
+D3 refit A5b->A5b bpcer_fnr_tau5 vs attack_matrix.csv,0.05070754716981132,0.0507075471698113,2.0816681711721685e-17,True
+D3 refit A5b->A5b bpcer_fnr_tau5 CI lo vs attack_matrix.csv,0.04801144091188787,0.0480114409118878,7.632783294297951e-17,True
+D3 refit A5b->A5b bpcer_fnr_tau5 CI hi vs attack_matrix.csv,0.05338973534979897,0.0533897353497989,6.938893903907228e-17,True
+D3 refit A5b->A5b bpcer_fnr_tau10 vs attack_matrix.csv,0.10236311505734369,0.1023631150573436,8.326672684688674e-17,True
+D3 refit A5b->A5b bpcer_fnr_tau10 CI lo vs attack_matrix.csv,0.09828720290728474,0.0982872029072847,4.163336342344337e-17,True
+D3 refit A5b->A5b bpcer_fnr_tau10 CI hi vs attack_matrix.csv,0.10604748427903085,0.1060474842790308,5.551115123125783e-17,True
+D3 refit A5b->A5b auc vs attack_matrix.csv,0.9198280691378388,0.9198280691378388,0.0,True
+D3 refit A5b->A5b auc CI lo vs attack_matrix.csv,0.9172601460307249,0.9172601460307248,1.1102230246251565e-16,True
+D3 refit A5b->A5b auc CI hi vs attack_matrix.csv,0.9226304464388532,0.9226304464388532,0.0,True
+identical-key pairs A1: count vs phase3c identical_keys_per_seed.csv,9670.0,9670.0,0.0,True
+identical-key pairs A2: count vs phase3c identical_keys_per_seed.csv,9670.0,9670.0,0.0,True
+identical-key pairs A3: count vs phase3c identical_keys_per_seed.csv,9670.0,9670.0,0.0,True
+identical-key pairs A4: count vs phase3c identical_keys_per_seed.csv,3502.0,3502.0,0.0,True
+identical-key pairs A5b: count vs phase3c identical_keys_per_seed.csv,9521.0,9521.0,0.0,True
+identical keys D4-primary A1 seed42 BPCER@tau10 vs phase3c,0.06670113753877974,0.0667011375387797,4.163336342344337e-17,True
+identical keys D4-primary A1 seed43 BPCER@tau10 vs phase3c,0.06856256463288521,0.0685625646328852,1.3877787807814457e-17,True
+identical keys D4-primary A1 seed44 BPCER@tau10 vs phase3c,0.06866597724922441,0.0686659772492244,1.3877787807814457e-17,True
+identical keys D4-primary A1 seed42 APCER@tau10 vs phase3c,0.6035160289555326,0.6035160289555326,0.0,True
+identical keys D4-primary A1 seed43 APCER@tau10 vs phase3c,0.5929679420889349,0.5929679420889349,0.0,True
+identical keys D4-primary A1 seed44 APCER@tau10 vs phase3c,0.5761116856256463,0.5761116856256463,0.0,True
+identical keys D4-primary A1 seed42 AUC vs phase3c,0.893896201324152,0.893896201324152,0.0,True
+identical keys D4-primary A1 seed43 AUC vs phase3c,0.8943130653873589,0.8943130653873589,0.0,True
+identical keys D4-primary A1 seed44 AUC vs phase3c,0.8963544486139822,0.8963544486139822,0.0,True
+"identical keys D5 (E5, own attacker) A1 seed42 BPCER@tau10 vs phase3c",0.2449844881075491,0.2449844881075491,0.0,True
+"identical keys D5 (E5, own attacker) A1 seed43 BPCER@tau10 vs phase3c",0.2504653567735264,0.2504653567735264,0.0,True
+"identical keys D5 (E5, own attacker) A1 seed44 BPCER@tau10 vs phase3c",0.23650465356773526,0.2365046535677352,5.551115123125783e-17,True
+"identical keys D5 (E5, own attacker) A1 seed42 APCER@tau10 vs phase3c",0.0,0.0,0.0,True
+"identical keys D5 (E5, own attacker) A1 seed43 APCER@tau10 vs phase3c",0.0,0.0,0.0,True
+"identical keys D5 (E5, own attacker) A1 seed44 APCER@tau10 vs phase3c",0.0,0.0,0.0,True
+"identical keys D5 (E5, own attacker) A1 seed42 AUC vs phase3c",0.9998255460175448,0.9998255460175448,0.0,True
+"identical keys D5 (E5, own attacker) A1 seed43 AUC vs phase3c",0.9998288291274948,0.9998288291274948,0.0,True
+"identical keys D5 (E5, own attacker) A1 seed44 AUC vs phase3c",0.9998721725953359,0.999872172595336,1.1102230246251565e-16,True
+identical keys D4-primary A2 seed42 BPCER@tau10 vs phase3c,0.06670113753877974,0.0667011375387797,4.163336342344337e-17,True
+identical keys D4-primary A2 seed43 BPCER@tau10 vs phase3c,0.06856256463288521,0.0685625646328852,1.3877787807814457e-17,True
+identical keys D4-primary A2 seed44 BPCER@tau10 vs phase3c,0.06866597724922441,0.0686659772492244,1.3877787807814457e-17,True
+identical keys D4-primary A2 seed42 APCER@tau10 vs phase3c,0.008479834539813857,0.0084798345398138,5.724587470723463e-17,True
+identical keys D4-primary A2 seed43 APCER@tau10 vs phase3c,0.009617373319544984,0.0096173733195449,8.500145032286355e-17,True
+identical keys D4-primary A2 seed44 APCER@tau10 vs phase3c,0.009410548086866598,0.0094105480868665,9.8879238130678e-17,True
+identical keys D4-primary A2 seed42 AUC vs phase3c,0.9932931303865193,0.9932931303865192,1.1102230246251565e-16,True
+identical keys D4-primary A2 seed43 AUC vs phase3c,0.9930298934112154,0.9930298934112154,0.0,True
+identical keys D4-primary A2 seed44 AUC vs phase3c,0.9929945919586264,0.9929945919586264,0.0,True
+"identical keys D5 (E5, own attacker) A2 seed42 BPCER@tau10 vs phase3c",0.3177869700103413,0.3177869700103413,0.0,True
+"identical keys D5 (E5, own attacker) A2 seed43 BPCER@tau10 vs phase3c",0.3126163391933816,0.3126163391933816,0.0,True
+"identical keys D5 (E5, own attacker) A2 seed44 BPCER@tau10 vs phase3c",0.3133402275077559,0.3133402275077559,0.0,True
+"identical keys D5 (E5, own attacker) A2 seed42 APCER@tau10 vs phase3c",0.00010341261633919338,0.0001034126163391,9.337691210531407e-17,True
+"identical keys D5 (E5, own attacker) A2 seed43 APCER@tau10 vs phase3c",0.0,0.0,0.0,True
+"identical keys D5 (E5, own attacker) A2 seed44 APCER@tau10 vs phase3c",0.00010341261633919338,0.0001034126163391,9.337691210531407e-17,True
+"identical keys D5 (E5, own attacker) A2 seed42 AUC vs phase3c",0.99465608086503,0.99465608086503,0.0,True
+"identical keys D5 (E5, own attacker) A2 seed43 AUC vs phase3c",0.9937231322366107,0.9937231322366108,1.1102230246251565e-16,True
+"identical keys D5 (E5, own attacker) A2 seed44 AUC vs phase3c",0.9943886250399695,0.9943886250399692,3.3306690738754696e-16,True
+identical keys D4-primary A3 seed42 BPCER@tau10 vs phase3c,0.06670113753877974,0.0667011375387797,4.163336342344337e-17,True
+identical keys D4-primary A3 seed43 BPCER@tau10 vs phase3c,0.06856256463288521,0.0685625646328852,1.3877787807814457e-17,True
+identical keys D4-primary A3 seed44 BPCER@tau10 vs phase3c,0.06866597724922441,0.0686659772492244,1.3877787807814457e-17,True
+identical keys D4-primary A3 seed42 APCER@tau10 vs phase3c,0.04239917269906929,0.0423991726990692,9.020562075079397e-17,True
+identical keys D4-primary A3 seed43 APCER@tau10 vs phase3c,0.04250258531540848,0.0425025853154084,7.632783294297951e-17,True
+identical keys D4-primary A3 seed44 APCER@tau10 vs phase3c,0.043536711478800415,0.0435367114788004,1.3877787807814457e-17,True
+identical keys D4-primary A3 seed42 AUC vs phase3c,0.9827489201562633,0.9827489201562633,0.0,True
+identical keys D4-primary A3 seed43 AUC vs phase3c,0.9825598472444869,0.9825598472444872,3.3306690738754696e-16,True
+identical keys D4-primary A3 seed44 AUC vs phase3c,0.9823482631065065,0.9823482631065066,1.1102230246251565e-16,True
+"identical keys D5 (E5, own attacker) A3 seed42 BPCER@tau10 vs phase3c",0.33702171664943126,0.3370217166494312,5.551115123125783e-17,True
+"identical keys D5 (E5, own attacker) A3 seed43 BPCER@tau10 vs phase3c",0.3307135470527404,0.3307135470527404,0.0,True
+"identical keys D5 (E5, own attacker) A3 seed44 BPCER@tau10 vs phase3c",0.32109617373319543,0.3210961737331954,5.551115123125783e-17,True
+"identical keys D5 (E5, own attacker) A3 seed42 APCER@tau10 vs phase3c",0.0009307135470527405,0.0009307135470527,4.0440741033709315e-17,True
+"identical keys D5 (E5, own attacker) A3 seed43 APCER@tau10 vs phase3c",0.0015511892450879006,0.0015511892450879,6.505213034913027e-19,True
+"identical keys D5 (E5, own attacker) A3 seed44 APCER@tau10 vs phase3c",0.001137538779731127,0.0011375387797311,2.710505431213761e-17,True
+"identical keys D5 (E5, own attacker) A3 seed42 AUC vs phase3c",0.9900008555335374,0.9900008555335372,2.220446049250313e-16,True
+"identical keys D5 (E5, own attacker) A3 seed43 AUC vs phase3c",0.986936837028347,0.9869368370283468,2.220446049250313e-16,True
+"identical keys D5 (E5, own attacker) A3 seed44 AUC vs phase3c",0.9888461098355343,0.9888461098355342,1.1102230246251565e-16,True
+identical keys D4-primary A4 seed42 BPCER@tau10 vs phase3c,0.07424328954882924,0.0742432895488292,4.163336342344337e-17,True
+identical keys D4-primary A4 seed43 BPCER@tau10 vs phase3c,0.0779554540262707,0.0779554540262707,0.0,True
+identical keys D4-primary A4 seed44 BPCER@tau10 vs phase3c,0.07624214734437464,0.0762421473443746,4.163336342344337e-17,True
+identical keys D4-primary A4 seed42 APCER@tau10 vs phase3c,0.027984009137635636,0.0279840091376356,3.469446951953614e-17,True
+identical keys D4-primary A4 seed43 APCER@tau10 vs phase3c,0.024557395773843516,0.0245573957738435,1.734723475976807e-17,True
+identical keys D4-primary A4 seed44 APCER@tau10 vs phase3c,0.028840662478583665,0.0288406624785836,6.591949208711867e-17,True
+identical keys D4-primary A4 seed42 AUC vs phase3c,0.9859689380401376,0.9859689380401376,0.0,True
+identical keys D4-primary A4 seed43 AUC vs phase3c,0.9859028095555089,0.9859028095555088,1.1102230246251565e-16,True
+identical keys D4-primary A4 seed44 AUC vs phase3c,0.9856294078181971,0.9856294078181972,1.1102230246251565e-16,True
+"identical keys D5 (E5, own attacker) A4 seed42 BPCER@tau10 vs phase3c",0.1947458595088521,0.1947458595088521,0.0,True
+"identical keys D5 (E5, own attacker) A4 seed43 BPCER@tau10 vs phase3c",0.1876070816676185,0.1876070816676185,0.0,True
+"identical keys D5 (E5, own attacker) A4 seed44 BPCER@tau10 vs phase3c",0.18846373500856653,0.1884637350085665,2.7755575615628914e-17,True
+"identical keys D5 (E5, own attacker) A4 seed42 APCER@tau10 vs phase3c",0.006282124500285551,0.0062821245002855,5.117434254131581e-17,True
+"identical keys D5 (E5, own attacker) A4 seed43 APCER@tau10 vs phase3c",0.0065676756139348945,0.0065676756139348,9.454242944073599e-17,True
+"identical keys D5 (E5, own attacker) A4 seed44 APCER@tau10 vs phase3c",0.0065676756139348945,0.0065676756139348,9.454242944073599e-17,True
+"identical keys D5 (E5, own attacker) A4 seed42 AUC vs phase3c",0.9874412141418089,0.9874412141418089,0.0,True
+"identical keys D5 (E5, own attacker) A4 seed43 AUC vs phase3c",0.9886209267381192,0.9886209267381192,0.0,True
+"identical keys D5 (E5, own attacker) A4 seed44 AUC vs phase3c",0.9889346089580532,0.9889346089580532,0.0,True
+identical keys D4-primary A5b seed42 BPCER@tau10 vs phase3c,0.06700976788152505,0.067009767881525,4.163336342344337e-17,True
+identical keys D4-primary A5b seed43 BPCER@tau10 vs phase3c,0.06879529461191052,0.0687952946119105,1.3877787807814457e-17,True
+identical keys D4-primary A5b seed44 BPCER@tau10 vs phase3c,0.0692154185484718,0.0692154185484718,0.0,True
+identical keys D4-primary A5b seed42 APCER@tau10 vs phase3c,0.08864615061443126,0.0886461506144312,6.938893903907228e-17,True
+identical keys D4-primary A5b seed43 APCER@tau10 vs phase3c,0.09211217309106186,0.0921121730910618,5.551115123125783e-17,True
+identical keys D4-primary A5b seed44 APCER@tau10 vs phase3c,0.09011658439239575,0.0901165843923957,5.551115123125783e-17,True
+identical keys D4-primary A5b seed42 AUC vs phase3c,0.976212721488266,0.976212721488266,0.0,True
+identical keys D4-primary A5b seed43 AUC vs phase3c,0.9748885324069456,0.9748885324069456,0.0,True
+identical keys D4-primary A5b seed44 AUC vs phase3c,0.975101992079576,0.9751019920795762,1.1102230246251565e-16,True
+"identical keys D5 (E5, own attacker) A5b seed42 BPCER@tau10 vs phase3c",0.3396702027097994,0.3396702027097994,0.0,True
+"identical keys D5 (E5, own attacker) A5b seed43 BPCER@tau10 vs phase3c",0.3334733746455204,0.3334733746455204,0.0,True
+"identical keys D5 (E5, own attacker) A5b seed44 BPCER@tau10 vs phase3c",0.3128873017540174,0.3128873017540174,0.0,True
+"identical keys D5 (E5, own attacker) A5b seed42 APCER@tau10 vs phase3c",0.0014704337779644996,0.0014704337779644,9.952975943416931e-17,True
+"identical keys D5 (E5, own attacker) A5b seed43 APCER@tau10 vs phase3c",0.0017855267303854637,0.0017855267303854,6.375108774214766e-17,True
+"identical keys D5 (E5, own attacker) A5b seed44 APCER@tau10 vs phase3c",0.0015754647621048208,0.0015754647621048,2.0816681711721685e-17,True
+"identical keys D5 (E5, own attacker) A5b seed42 AUC vs phase3c",0.9924203503913499,0.99242035039135,1.1102230246251565e-16,True
+"identical keys D5 (E5, own attacker) A5b seed43 AUC vs phase3c",0.9908347476737336,0.9908347476737336,0.0,True
+"identical keys D5 (E5, own attacker) A5b seed44 AUC vs phase3c",0.9924456346068367,0.9924456346068368,1.1102230246251565e-16,True
+D5<-A1 seed42 tau5 recomputed on val humans vs saved,12.679333209991455,12.679333209991455,0.0,True
+D5<-A1 seed42 tau10 recomputed on val humans vs saved,14.14276123046875,14.14276123046875,0.0,True
+D5<-A1 seed43 tau5 recomputed on val humans vs saved,12.083198547363281,12.083198547363281,0.0,True
+D5<-A1 seed43 tau10 recomputed on val humans vs saved,13.898820877075195,13.898820877075195,0.0,True
+D5<-A1 seed44 tau5 recomputed on val humans vs saved,12.510447025299072,12.510447025299072,0.0,True
+D5<-A1 seed44 tau10 recomputed on val humans vs saved,14.059417724609375,14.059417724609375,0.0,True
+D5<-A2 seed42 tau5 recomputed on val humans vs saved,3.500600218772888,3.500600218772888,0.0,True
+D5<-A2 seed42 tau10 recomputed on val humans vs saved,5.978985786437988,5.978985786437988,0.0,True
+D5<-A2 seed43 tau5 recomputed on val humans vs saved,2.630216121673584,2.630216121673584,0.0,True
+D5<-A2 seed43 tau10 recomputed on val humans vs saved,5.0527262687683105,5.0527262687683105,0.0,True
+D5<-A2 seed44 tau5 recomputed on val humans vs saved,3.3129314184188843,3.3129314184188843,0.0,True
+D5<-A2 seed44 tau10 recomputed on val humans vs saved,6.083624839782715,6.083624839782715,0.0,True
+D5<-A3 seed42 tau5 recomputed on val humans vs saved,2.478053569793701,2.478053569793701,0.0,True
+D5<-A3 seed42 tau10 recomputed on val humans vs saved,5.324853897094727,5.324853897094727,0.0,True
+D5<-A3 seed43 tau5 recomputed on val humans vs saved,1.5738590955734253,1.5738590955734253,0.0,True
+D5<-A3 seed43 tau10 recomputed on val humans vs saved,3.7947962284088135,3.7947962284088135,0.0,True
+D5<-A3 seed44 tau5 recomputed on val humans vs saved,2.0778303146362305,2.0778303146362305,0.0,True
+D5<-A3 seed44 tau10 recomputed on val humans vs saved,4.43859338760376,4.43859338760376,0.0,True
+D5<-A4 seed42 tau5 recomputed on val humans vs saved,1.1815096139907837,1.1815096139907837,0.0,True
+D5<-A4 seed42 tau10 recomputed on val humans vs saved,3.351318836212158,3.351318836212158,0.0,True
+D5<-A4 seed43 tau5 recomputed on val humans vs saved,1.7758933901786804,1.7758933901786804,0.0,True
+D5<-A4 seed43 tau10 recomputed on val humans vs saved,4.183575630187988,4.183575630187988,0.0,True
+D5<-A4 seed44 tau5 recomputed on val humans vs saved,0.7768409252166748,0.7768409252166748,0.0,True
+D5<-A4 seed44 tau10 recomputed on val humans vs saved,2.9718880653381348,2.9718880653381348,0.0,True
+D5<-A5b seed42 tau5 recomputed on val humans vs saved,1.5772679448127747,1.5772679448127747,0.0,True
+D5<-A5b seed42 tau10 recomputed on val humans vs saved,3.443725824356079,3.443725824356079,0.0,True
+D5<-A5b seed43 tau5 recomputed on val humans vs saved,1.6189297437667847,1.6189297437667847,0.0,True
+D5<-A5b seed43 tau10 recomputed on val humans vs saved,3.5732262134552,3.5732262134552,0.0,True
+D5<-A5b seed44 tau5 recomputed on val humans vs saved,1.9775025248527527,1.9775025248527527,0.0,True
+D5<-A5b seed44 tau10 recomputed on val humans vs saved,4.029964447021484,4.029964447021484,0.0,True
+D5<-all-but-A1 seed42 tau5 recomputed on val humans vs saved,0.7167477607727051,0.7167477607727051,0.0,True
+D5<-all-but-A1 seed42 tau10 recomputed on val humans vs saved,2.50580096244812,2.50580096244812,0.0,True
+D5<-all-but-A1 seed43 tau5 recomputed on val humans vs saved,1.0244726538658142,1.0244726538658142,0.0,True
+D5<-all-but-A1 seed43 tau10 recomputed on val humans vs saved,2.92734432220459,2.92734432220459,0.0,True
+D5<-all-but-A1 seed44 tau5 recomputed on val humans vs saved,1.1520939469337463,1.1520939469337463,0.0,True
+D5<-all-but-A1 seed44 tau10 recomputed on val humans vs saved,3.090132474899292,3.090132474899292,0.0,True
+D5<-all-but-A2 seed42 tau5 recomputed on val humans vs saved,1.339216411113739,1.339216411113739,0.0,True
+D5<-all-but-A2 seed42 tau10 recomputed on val humans vs saved,3.3394181728363037,3.3394181728363037,0.0,True
+D5<-all-but-A2 seed43 tau5 recomputed on val humans vs saved,0.2762364447116852,0.2762364447116852,0.0,True
+D5<-all-but-A2 seed43 tau10 recomputed on val humans vs saved,2.0368049144744873,2.0368049144744873,0.0,True
+D5<-all-but-A2 seed44 tau5 recomputed on val humans vs saved,0.9631734788417816,0.9631734788417816,0.0,True
+D5<-all-but-A2 seed44 tau10 recomputed on val humans vs saved,3.0921711921691895,3.0921711921691895,0.0,True
+D5<-all-but-A3 seed42 tau5 recomputed on val humans vs saved,0.928291529417038,0.928291529417038,0.0,True
+D5<-all-but-A3 seed42 tau10 recomputed on val humans vs saved,2.904710054397583,2.904710054397583,0.0,True
+D5<-all-but-A3 seed43 tau5 recomputed on val humans vs saved,1.0799307227134705,1.0799307227134705,0.0,True
+D5<-all-but-A3 seed43 tau10 recomputed on val humans vs saved,3.049949884414673,3.049949884414673,0.0,True
+D5<-all-but-A3 seed44 tau5 recomputed on val humans vs saved,1.3093819618225098,1.3093819618225098,0.0,True
+D5<-all-but-A3 seed44 tau10 recomputed on val humans vs saved,3.3677051067352295,3.3677051067352295,0.0,True
+D5<-all-but-A4 seed42 tau5 recomputed on val humans vs saved,1.4777197241783142,1.4777197241783142,0.0,True
+D5<-all-but-A4 seed42 tau10 recomputed on val humans vs saved,3.754718542098999,3.754718542098999,0.0,True
+D5<-all-but-A4 seed43 tau5 recomputed on val humans vs saved,1.7068241238594055,1.7068241238594055,0.0,True
+D5<-all-but-A4 seed43 tau10 recomputed on val humans vs saved,3.5120460987091064,3.5120460987091064,0.0,True
+D5<-all-but-A4 seed44 tau5 recomputed on val humans vs saved,2.097904920578003,2.097904920578003,0.0,True
+D5<-all-but-A4 seed44 tau10 recomputed on val humans vs saved,3.873080015182495,3.873080015182495,0.0,True
+D5<-all-but-A5b seed42 tau5 recomputed on val humans vs saved,1.9257644414901733,1.9257644414901733,0.0,True
+D5<-all-but-A5b seed42 tau10 recomputed on val humans vs saved,4.308706283569336,4.308706283569336,0.0,True
+D5<-all-but-A5b seed43 tau5 recomputed on val humans vs saved,0.8048413395881653,0.8048413395881653,0.0,True
+D5<-all-but-A5b seed43 tau10 recomputed on val humans vs saved,2.4171864986419678,2.4171864986419678,0.0,True
+D5<-all-but-A5b seed44 tau5 recomputed on val humans vs saved,1.926026463508606,1.926026463508606,0.0,True
+D5<-all-but-A5b seed44 tau10 recomputed on val humans vs saved,3.9796786308288574,3.9796786308288574,0.0,True

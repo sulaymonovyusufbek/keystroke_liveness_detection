@@ -1,0 +1,6 @@
+# Phase 3b pre-registration record (verified by kl.phase3b.guard at the start and end of every step)
+prereg_file: docs/PHASE3B_PREREGISTRATION.md
+prereg_sha256: d3e8ecc64303a2e5fdd572b8efe7d3f9a89d810fa542eefd503eb2e126c968ca
+config_file: config_phase3b.yaml
+config_sha256: 3229e2dc1a03813743ae37a51be5296530937cba8fdcaf9cc591e57e131172f9
+recorded_at: 2026-09-25T13:55:34+02:00

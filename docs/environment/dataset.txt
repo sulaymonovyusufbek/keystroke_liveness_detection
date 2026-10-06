@@ -1,0 +1,8 @@
+# Dataset snapshot 2026-09-26T13:54:47+02:00
+location: /home/nitro/PycharmProjects/keystroke_liveness/data/raw/files
+participant files (*_keystrokes.txt): 168593
+all files in directory: 168595
+total size: 18G
+sha256 metadata_participants.txt: 3ba22e2c23dbcbb5645197b9dd68c17e9ef68a1be7170e1bc1f0cd869a68ac6d
+sha256 readme.txt: c81fcbee7e98e53a5bc789074207ec338e66edd204bbf9a160c8edfaf098a08c
+source: Aalto University 136M Keystrokes (Dhakal et al., CHI 2018); non-commercial use, cite the paper
