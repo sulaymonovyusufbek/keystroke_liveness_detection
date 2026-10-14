@@ -11,9 +11,8 @@ press and release times? This repository contains the complete, leak-free evalua
 The human data is the Aalto **136M Keystrokes** corpus (Dhakal et al., CHI 2018). The corpus is **not** included here,
 see [Data](#data).
 
-Everything is deterministic (one global seed, 42). Every design decision is written down in a spec under `docs/`
-**before** it was run. Phases 3b and 4 were pre-registered by SHA-256 hash. The single best overview of the project,
-its decisions and all results is **[`docs/PROJECT_STATE.md`](docs/PROJECT_STATE.md)**.
+Everything is deterministic (one global seed, 42). Every design decision was written down
+**before** it was run. Phases 3b and 4 were pre-registered by SHA-256 hash.
 
 ---
 
@@ -28,9 +27,6 @@ its decisions and all results is **[`docs/PROJECT_STATE.md`](docs/PROJECT_STATE.
 | 3c | Post-hoc artefact check of D4/D5 (keycode realism, key/timing swap, identical-key pairs, letters-only score) | `scripts/40…41` |
 | 4 | User-cluster bootstrap CIs for all headline numbers, identical-key subset with CIs, new detector **D6** (key-pair timing lookup) | `scripts/phase4_run.py`, `phase4_report.py` |
 
-Answers to specific implementation questions (attacker details, D4 masking, reference set, bootstrap rules,
-pre-registration timeline) are in [`docs/PHASE4B_ANSWERS.md`](docs/PHASE4B_ANSWERS.md).
-
 **Attackers:**
 - A1: independent Gaussian timings.
 - A2: per-digraph empirical timings.
@@ -39,8 +35,6 @@ pre-registration timeline) are in [`docs/PHASE4B_ANSWERS.md`](docs/PHASE4B_ANSWE
 - A5a: verbatim replay of a real recording.
 - A5b: a real session's timing transplanted onto the target sentence.
 
-All of them are described in `outputs/full/phase2/ATTACKS.md`.
-
 ---
 
 ## What is in this repository and what is not
@@ -48,9 +42,10 @@ All of them are described in `outputs/full/phase2/ATTACKS.md`.
 | included | not included (regenerate with the pipeline) |
 |---|---|
 | all source code (`src/kl/`), scripts, tests, configs | the Aalto corpus (`data/`, 18 GB; licence, see below) |
-| every spec, pre-registration, freeze record and report (`docs/`) | keystroke / session / feature parquet files (derived from the corpus) |
-| all result reports, tables, figures and small JSON files under `outputs/` | encoded keystroke sequences (`outputs/*/phase3b/interim/*.npz`, raw corpus timings) |
+| freeze records and hash files (`docs/`) | keystroke / session / feature parquet files (derived from the corpus) |
+| result tables, figures and small JSON files under `outputs/` | encoded keystroke sequences (`outputs/*/phase3b/interim/*.npz`, raw corpus timings) |
 | | model weights (`*.pt`, `*.joblib`), per-session score files (`*.npz`), logs |
+| | Markdown specs, notes and reports (`*.md`, kept private) |
 
 Because the bulky files are not published, the **freeze guards** (which hash every output file) fail on a fresh clone
 until you have rerun the pipeline. On a fresh clone `pytest` gives 135 passed, 6 skipped: the 6 tests that read
@@ -135,9 +130,8 @@ Notes:
     guards tell you where it is not (e.g. a different GPU or library version).
   - If you change code or configs on purpose, the guards will stop you. That is their job: record new hashes for your
     own variant.
-- **Expected numbers** for comparison are in the reports listed in the table above, all of which are committed. For
-  example, D4-primary accepts 0.6% [0.5, 0.6] of A2 bots at τ10, and D1 accepts 5.8% [5.6, 6.0] of A1 bots
-  (`docs/PHASE4_RESULTS.md`).
+- **Expected numbers** for comparison: for example, D4-primary accepts 0.6% [0.5, 0.6] of A2 bots at τ10, and D1
+  accepts 5.8% [5.6, 6.0] of A1 bots.
 
 ## Repository layout
 
@@ -149,13 +143,11 @@ src/kl/phase2/ phase3a/ phase3b/ phase3c/   per-phase logic, evaluation, reports
 src/kl/phase4_{guard,bootstrap,d6}.py       Phase 4
 scripts/           thin command-line wrappers, numbered in run order
 tests/             pytest suite (synthetic data; tests needing saved outputs skip when they are absent)
-docs/              specs, pre-registrations, freeze records, PROJECT_STATE.md, results and answers
-outputs/full/      result reports, tables and figures of the full run (bulky files not published)
+docs/              freeze records and hash files
+outputs/full/      result tables and figures of the full run (bulky files not published)
 outputs/quick/     the same for the 2,000-user smoke run
-outputs/phase4/    Phase 4 tables and reports
+outputs/phase4/    Phase 4 tables
 ```
-
-`docs/README_PHASE1.md` is the original, more detailed Phase 1 guide: per-step outputs and protocol hygiene.
 
 ## Protocol in brief
 
@@ -177,8 +169,6 @@ outputs/phase4/    Phase 4 tables and reports
     known.
   - Phase 3c is post hoc.
   - D6 was pre-registered but designed after the main evaluation.
-
-  See `docs/PHASE4B_ANSWERS.md` (B6) and `outputs/full/METHODS.md`.
 
 ## Citation and licence
 
