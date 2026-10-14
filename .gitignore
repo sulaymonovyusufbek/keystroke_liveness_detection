@@ -20,3 +20,6 @@ outputs/**/*.out
 outputs/**/*.lock
 outputs/**/.*.lock
 outputs/**/log_archive/
+# Markdown docs/reports are kept locally only; README.md is the only published .md (2026-10-14)
+*.md
+!README.md
