@@ -19,14 +19,14 @@ its decisions and all results is **[`docs/PROJECT_STATE.md`](docs/PROJECT_STATE.
 
 ## Contents
 
-| phase | what it does | spec | scripts | report |
-|---|---|---|---|---|
-| 1 | Data sampling and cleaning, user-disjoint split, 23 session features, **D1** One-Class SVM trained on humans only, attack-free hyper-parameter selection, single test-split evaluation, sanity check vs. Gaussian bot A1, replica of the leaky "legacy" protocol | [`PHASE1_SPEC.md`](docs/PHASE1_SPEC.md) (incl. Revisions 1–2) | `scripts/01…07`, `99` | `outputs/full/METHODS.md` |
-| 2 | Attackers **A1–A5b** fitted on a disjoint attacker pool; detectors **D2** (Isolation Forest) and **D3** (Random Forest); experiments E1 open set, E2 cross-attack, E3 leave-one-attacker-out | [`PHASE2_SPEC.md`](docs/PHASE2_SPEC.md) | `scripts/10…13` | `outputs/full/phase2/RESULTS_PHASE2.md`, `ATTACKS.md` |
-| 3a | Diagnostics: centrality, feature-group ablation, permutation importance, per-user consistency (ICC) | [`PHASE3A_SPEC.md`](docs/PHASE3A_SPEC.md) | `scripts/20…21` | `outputs/full/phase3a/DIAGNOSTICS.md` |
-| 3b | Sequence detectors **D4** (autoregressive GRU mixture density, humans only) and **D5** (supervised BiGRU), 3 seeds; E4–E6 | [`PHASE3B_PREREGISTRATION.md`](docs/PHASE3B_PREREGISTRATION.md) | `scripts/30…33`, `run_phase3b.py` | `outputs/full/phase3b/RESULTS_PHASE3B.md` |
-| 3c | Post-hoc artefact check of D4/D5 (keycode realism, key/timing swap, identical-key pairs, letters-only score) | [`PHASE3C_SPEC.md`](docs/PHASE3C_SPEC.md) | `scripts/40…41` | `outputs/full/phase3c/DIAGNOSTICS_PHASE3C.md` |
-| 4 | User-cluster bootstrap CIs for all headline numbers, identical-key subset with CIs, new detector **D6** (key-pair timing lookup) | [`PHASE4_SPEC.md`](docs/PHASE4_SPEC.md) | `scripts/phase4_run.py`, `phase4_report.py` | [`docs/PHASE4_RESULTS.md`](docs/PHASE4_RESULTS.md) |
+| phase | what it does | scripts |
+|---|---|---|
+| 1 | Data sampling and cleaning, user-disjoint split, 23 session features, **D1** One-Class SVM trained on humans only, attack-free hyper-parameter selection, single test-split evaluation, sanity check vs. Gaussian bot A1, replica of the leaky "legacy" protocol | `scripts/01…07`, `99` |
+| 2 | Attackers **A1–A5b** fitted on a disjoint attacker pool; detectors **D2** (Isolation Forest) and **D3** (Random Forest); experiments E1 open set, E2 cross-attack, E3 leave-one-attacker-out | `scripts/10…13` |
+| 3a | Diagnostics: centrality, feature-group ablation, permutation importance, per-user consistency (ICC) | `scripts/20…21` |
+| 3b | Sequence detectors **D4** (autoregressive GRU mixture density, humans only) and **D5** (supervised BiGRU), 3 seeds; E4–E6 | `scripts/30…33`, `run_phase3b.py` |
+| 3c | Post-hoc artefact check of D4/D5 (keycode realism, key/timing swap, identical-key pairs, letters-only score) | `scripts/40…41` |
+| 4 | User-cluster bootstrap CIs for all headline numbers, identical-key subset with CIs, new detector **D6** (key-pair timing lookup) | `scripts/phase4_run.py`, `phase4_report.py` |
 
 Answers to specific implementation questions (attacker details, D4 masking, reference set, bootstrap rules,
 pre-registration timeline) are in [`docs/PHASE4B_ANSWERS.md`](docs/PHASE4B_ANSWERS.md).
